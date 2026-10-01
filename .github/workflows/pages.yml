@@ -1,0 +1,53 @@
+name: Publish teaching site
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: teaching-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      artifact_id: ${{ steps.upload.outputs.artifact_id }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+      - name: Configure Pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - name: Install system document tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-lxml poppler-utils pandoc p7zip-full
+      - name: Restore verified release assets and build the site
+        run: python3 tools/build_site.py
+      - name: Upload site
+        id: upload
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: _site
+          retention-days: 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Remove the temporary deployment artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TASK_SITE_REPOSITORY: ${{ github.repository }}
+          TASK_SITE_ARTIFACT: ${{ needs.build.outputs.artifact_id }}
+        run: gh api --method DELETE "repos/$TASK_SITE_REPOSITORY/actions/artifacts/$TASK_SITE_ARTIFACT"
