@@ -1,0 +1,54 @@
+[
+  {
+    "url": "http://olymp.apkpro.ru/mm/od/files/p1091.pdf",
+    "source_page": "https://olympiads.mccme.ru/vmo/",
+    "competition": "vsosh",
+    "stage": "regional",
+    "year": 2018,
+    "academic_year": "2017/2018",
+    "region": "Москва",
+    "region_slug": "moscow",
+    "role": "regulations",
+    "label": "31 января и 1 февраля",
+    "grade_scope": [
+      9,
+      10,
+      11
+    ],
+    "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>"
+  },
+  {
+    "competition": "vsosh",
+    "stage": "municipal",
+    "year": 2011,
+    "academic_year": "2010/2011",
+    "region": "Москва",
+    "region_slug": "moscow",
+    "grade_scope": [
+      10
+    ],
+    "role": "combined",
+    "source_page": "https://olympiads.mccme.ru/mmo/okrug/okr10.htm",
+    "url": "http://iostatgrad.mioo.ru/rgetfile.pl?file=10olimpOkrMat56usl.pdf",
+    "label": "4 декабря 2010 года",
+    "error": "URLError: <urlopen error [Errno -5] No address associated with hostname>"
+  },
+  {
+    "source_page": "https://vserosolimp.edsoo.ru/region_way",
+    "competition": "vsosh",
+    "stage": "regional",
+    "year": 2023,
+    "academic_year": "2022/2023",
+    "region": "Федеральный комплект",
+    "region_slug": "federal",
+    "role": "bundle",
+    "grade_scope": [
+      9,
+      10,
+      11
+    ],
+    "url": "https://vso.edsoo.ru/index.php/s/o7Sx9R8a7w8fZbP/download/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%A0%D0%AD%20%D0%92%D1%81%D0%9E%D0%A8%202022-23.zip",
+    "label": "Математика",
+    "error": "URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>"
+  }
+]
