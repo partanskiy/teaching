@@ -38,11 +38,11 @@ DOCX и PDF являются результатом сборки. После р�
 Использовать новый тег для содержательного обновления. Сначала завершить проверку документов, выбрать тег, затем подготовить вложения и контрольные суммы:
 
 ```sh
-python scripts/package_release.py --tag 2026.10.01
+python scripts/package_release.py --tag olympiad-math-10-2026.10.01
 git add .
 git commit -m "feat(course): update curriculum and materials"
 git push
-gh release create 2026.10.01 --repo partanskiy/olympiad-math --target main --title "Олимпиадная математика 10 класса, 2026/2027" --notes-file dist/release-notes.md dist/olympiad-math-materials.zip dist/olympiad-math-offline.zip dist/submission-plan.docx dist/submission-plan.pdf dist/working-plan.docx dist/working-plan.pdf dist/SHA256SUMS.txt
+gh release create olympiad-math-10-2026.10.01 --repo partanskiy/teaching --target main --title "Олимпиадная математика 10 класса, 2026/2027" --notes-file dist/release-notes.md dist/olympiad-math-materials.zip dist/olympiad-math-offline.zip dist/submission-plan.docx dist/submission-plan.pdf dist/working-plan.docx dist/working-plan.pdf dist/SHA256SUMS.txt
 ```
 
 В примере тег первой версии; для следующего обновления выбрать новый. Полная замена вложения того же релиза допускается при исправлении ошибочного файла, но tag и commit остаются согласованными с data/release.json. Обычное обновление исходников не требует нового релиза, пока пользователям не нужна новая готовая сборка.

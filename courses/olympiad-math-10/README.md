@@ -6,14 +6,14 @@
 
 ## Два согласованных плана
 
-- План для сдачи повторяет структуру исходного документа: титульный лист, пояснительная записка, цели, учебный план, тематическая таблица, результаты и методическое обеспечение. В нем нет ссылок на проект или номеров из внутреннего каталога. [Текст программы](course/submission.md), [Word](https://github.com/partanskiy/olympiad-math/releases/latest/download/submission-plan.docx), [PDF](https://github.com/partanskiy/olympiad-math/releases/latest/download/submission-plan.pdf).
-- Рабочий план содержит конкретные задачи, домашнюю работу и контрольный резерв. [План занятий](course/plan.md), [Word](https://github.com/partanskiy/olympiad-math/releases/latest/download/working-plan.docx), [PDF](https://github.com/partanskiy/olympiad-math/releases/latest/download/working-plan.pdf), [пояснения преподавателю](course/teacher.md).
+- План для сдачи повторяет структуру исходного документа: титульный лист, пояснительная записка, цели, учебный план, тематическая таблица, результаты и методическое обеспечение. В нем нет ссылок на проект или номеров из внутреннего каталога. [Текст программы](course/submission.md), [Word](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/submission-plan.docx), [PDF](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/submission-plan.pdf).
+- Рабочий план содержит конкретные задачи, домашнюю работу и контрольный резерв. [План занятий](course/plan.md), [Word](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/working-plan.docx), [PDF](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/working-plan.pdf), [пояснения преподавателю](course/teacher.md).
 
 Оба документа строятся из data/lessons.json и data/program.json. Общими являются автор, учебный год, номера и порядок занятий, темы, учебные цели и часы. Проверка scripts/check_plans.py выявляет расхождения. Изменения вносятся в исходные данные и скрипт make_course.py, затем оба документа пересобираются.
 
 ## Получение готовых материалов
 
-[Полный комплект для работы без интернета](https://github.com/partanskiy/olympiad-math/releases/latest/download/olympiad-math-offline.zip) содержит каталог, оригинальные олимпиады и оба плана. Распаковать ZIP и открыть index.html. Git-клон содержит тексты и скрипты; оригинальные PDF загружаются отдельно:
+[Полный комплект для работы без интернета](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/olympiad-math-offline.zip) содержит каталог, оригинальные олимпиады и оба плана. Распаковать ZIP и открыть index.html. Git-клон содержит тексты и скрипты; оригинальные PDF загружаются отдельно:
 
 ```sh
 python scripts/restore_materials.py
@@ -37,7 +37,7 @@ python scripts/restore_materials.py
 
 ## Где искать
 
-- Архив оригиналов разделён по олимпиаде, этапу, учебному году и региону публикации; он доступен в полном комплекте или [отдельном ZIP](https://github.com/partanskiy/olympiad-math/releases/latest/download/olympiad-math-materials.zip).
+- Архив оригиналов разделён по олимпиаде, этапу, учебному году и региону публикации; он доступен в полном комплекте или [отдельном ZIP](https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/olympiad-math-materials.zip).
 - [Исследование задач](research/analysis.md) объясняет тематическую разметку и выбор программы.
 - [Состав и происхождение коллекции](research/collection.md) содержит покрытие по годам и регионам.
 - [Календарь 2026/2027](research/calendar.md) отделяет опубликованное от планировочных предположений.

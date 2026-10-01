@@ -40,8 +40,8 @@ def main():
         'working-plan.pdf':'course/План_34_занятия_2026-2027.pdf'
     }
     for name,source in files.items():shutil.copyfile(ROOT/source,DIST/name)
-    base='https://github.com/partanskiy/olympiad-math/releases/download/'+args.tag+'/'
-    release={'repository':'partanskiy/olympiad-math','tag':args.tag,
+    base='https://github.com/partanskiy/teaching/releases/download/'+args.tag+'/'
+    release={'repository':'partanskiy/teaching','tag':args.tag,
              'materials':{'asset':materials.name,'url':base+materials.name,'sha256':digest(materials),'bytes':materials.stat().st_size},
              'plans':{name:{'url':base+name,'sha256':digest(DIST/name)}for name in files}}
     (ROOT/'data/release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')
