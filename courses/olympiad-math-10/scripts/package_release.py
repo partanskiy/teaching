@@ -43,8 +43,9 @@ def main():
     base='https://github.com/partanskiy/teaching/releases/download/'+args.tag+'/'
     release={'repository':'partanskiy/teaching','tag':args.tag,
              'materials':{'asset':materials.name,'url':base+materials.name,'sha256':digest(materials),'bytes':materials.stat().st_size},
-             'plans':{name:{'url':base+name,'sha256':digest(DIST/name)}for name in files}}
+             'plans':{name:{'url':base+name,'path':source,'sha256':digest(DIST/name),'bytes':(DIST/name).stat().st_size}for name,source in files.items()}}
     (ROOT/'data/release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')
+    subprocess.run([sys.executable,str(ROOT/'scripts/publish.py')],check=True)
     selected=[]
     for directory in ['archive','data','course','research','scripts','site','.github','extracted/full']:
         for file in (ROOT/directory).rglob('*'):

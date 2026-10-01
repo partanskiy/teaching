@@ -10,19 +10,27 @@
   "plans": {
     "submission-plan.docx": {
       "url": "https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/submission-plan.docx",
-      "sha256": "8b2ca852e6ae20b3aeb7fbeea03d517cf361d8a74a0b6a648020d05949a6a342"
+      "path": "course/План_для_сдачи_2026-2027.docx",
+      "sha256": "8b2ca852e6ae20b3aeb7fbeea03d517cf361d8a74a0b6a648020d05949a6a342",
+      "bytes": 14538
     },
     "submission-plan.pdf": {
       "url": "https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/submission-plan.pdf",
-      "sha256": "2df538b0bb889c572d42f9e3f1a148bac46ce9b600e10ae7f6d51b63717ceda5"
+      "path": "course/План_для_сдачи_2026-2027.pdf",
+      "sha256": "2df538b0bb889c572d42f9e3f1a148bac46ce9b600e10ae7f6d51b63717ceda5",
+      "bytes": 201286
     },
     "working-plan.docx": {
       "url": "https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/working-plan.docx",
-      "sha256": "eae5aac37488ae4003a0ceb2120448e59d81000fd54dcbac2e438d692cc5485f"
+      "path": "course/План_34_занятия_2026-2027.docx",
+      "sha256": "eae5aac37488ae4003a0ceb2120448e59d81000fd54dcbac2e438d692cc5485f",
+      "bytes": 16504
     },
     "working-plan.pdf": {
       "url": "https://github.com/partanskiy/teaching/releases/download/olympiad-math-10-2026.10.01/working-plan.pdf",
-      "sha256": "a10b2a37778a286e9fa0ade6cbbea7264a2edf8abe57bd47c0933fcbe95fe5c3"
+      "path": "course/План_34_занятия_2026-2027.pdf",
+      "sha256": "a10b2a37778a286e9fa0ade6cbbea7264a2edf8abe57bd47c0933fcbe95fe5c3",
+      "bytes": 142871
     }
   }
 }
