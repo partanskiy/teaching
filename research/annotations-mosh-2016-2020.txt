@@ -1,0 +1,30 @@
+MOSH-2016-10.1|number_theory,algebra|construction,factorization|Представление 1/10 произведением десяти правильных дробей.|1
+MOSH-2016-10.2|geometry|symmetry,similarity|Отражения точки с двумя равносторонними треугольниками.|2
+MOSH-2016-10.3|algebra,number_theory|vieta,bounds|Минимум коэффициента четвёртой степени с четырьмя положительными корнями.|2
+MOSH-2016-10.4|number_theory,combinatorics|extremal,descent|Целые числа на белых клетках и разности произведений, равные единице.|3
+MOSH-2016-10.5|geometry|construction,bounds|Восемь шаров в единичном кубе и сумма диаметров.|3
+MOSH-2016-10.6|combinatorics,number_theory|modular,double_counting,bounds|Число хоккейных матчей с дополнительным временем по итоговым очкам.|3
+MOSH-2017-10.1|algebra|vieta|Прибавление единицы ко всем коэффициентам и обоим корням.|1
+MOSH-2017-10.2|number_theory,combinatorics|modular,construction|Два цвета натуральных чисел с замкнутостью суммы и произведения.|2
+MOSH-2017-10.3|geometry|angles,areas|Окружность AOC и прямая, делящая площадь треугольника пополам.|2
+MOSH-2017-10.4|geometry,combinatorics|invariant|Можно ли из двух частей многогранника сложить куб.|3
+MOSH-2017-10.5|number_theory|modular,gcd,construction|Числа с любой достаточно большой суммой цифр, кратные n.|3
+MOSH-2017-10.6|combinatorics|graphs,induction,bounds|Максимум различных наборов невраждующих банд.|3
+MOSH-2018-10.1|number_theory|construction,bounds|Квадрат числа с последовательностью цифр 2018.|1
+MOSH-2018-10.2|combinatorics|bounds,construction|Промежуточный квадрат 10x10 между белым и чёрным.|2
+MOSH-2018-10.3|geometry|angles,coordinates|Прямая через основания двух перпендикуляров и середину стороны.|2
+MOSH-2018-10.4|number_theory,combinatorics|invariant,gcd,construction|Обмен соседних 0 и 1 равносилен повороту круговой последовательности.|3
+MOSH-2018-10.5|geometry|bounds,monovariant|Последовательное поедание частей торта после разреза по биссектрисе.|3
+MOSH-2018-10.6|combinatorics|symmetry,bijection,modular|Число разрезаний квадрата на трёхклеточные уголки кратно 27.|3
+MOSH-2019-10.1|number_theory|construction,modular|Девятизначное число с делимостью после вычёркивания каждой цифры.|1
+MOSH-2019-10.2|geometry|areas,coordinates|Равные расстояния от оснований высот до прямых через центр окружности.|2
+MOSH-2019-10.3|combinatorics|symmetry,construction|Прыжки кузнечиков вправо и влево с одинаковой достижимостью расстояния.|2
+MOSH-2019-10.4|geometry,combinatorics|construction,pigeonhole|Одноцветный треугольник площади 1 в трёхцветной плоскости.|3
+MOSH-2019-10.5|algebra,combinatorics|strategy,bijection,bounds|Игра выбора произведений пяти из десяти упорядоченных переменных.|3
+MOSH-2019-10.6|combinatorics,number_theory|bijection,gcd,recurrence|Доминошечные червяки и числа, взаимно простые с n.|3
+MOSH-2020-10.1|algebra|polynomials,construction|Трёхчлен с суммой одиннадцати сдвигов, равной x^2.|1
+MOSH-2020-10.2|combinatorics|double_counting,bounds|Доля фильмов с не менее чем двумя зрителями-мужчинами.|2
+MOSH-2020-10.3|geometry|angles,construction,bounds|Вписанный 19-угольник с разными сторонами и целыми углами.|2
+MOSH-2020-10.4|geometry|power,angles|Общая хорда двух окружностей и новая касательная.|3
+MOSH-2020-10.5|number_theory,combinatorics|invariant,parity,modular|Замена пар целых чисел на сумму и разность.|2
+MOSH-2020-10.6|combinatorics|extremal,construction,bounds|Ровно k чёрных клеток на каждой непустой вертикали, горизонтали и диагонали.|3

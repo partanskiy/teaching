@@ -1,0 +1,40 @@
+R-2018-10.1|combinatorics|construction|Разбиение квадрата с одинаковым числом квадратиков каждого размера.|1
+R-2018-10.2|combinatorics,number_theory|strategy|Игра на числах до 2018 с целью получить арифметическую прогрессию.|2
+R-2018-10.3|algebra|contradiction,bounds|Из x^5-y^3>=2x вывести x^3>=2y.|2
+R-2018-10.4|geometry|angles|Центр окружности BXP на окружности ABO.|2
+R-2018-10.5|number_theory,combinatorics|extremal,recurrence|Расстановки на круге с делимостью суммы соседей.|3
+R-2018-10.6|number_theory,algebra|construction|Нужное целое значение среди дробей k/(n-k).|1
+R-2018-10.7|geometry|construction|Четырёхугольник из четырёх равных треугольников.|2
+R-2018-10.8|combinatorics|bounds,construction|Максимум небьющих друг друга гепардов на доске.|3
+R-2018-10.9|number_theory|gcd,extremal|Сумма простых чисел меньше n взаимно проста с n.|3
+R-2018-10.10|geometry|projection,bounds|Сравнение периметров в треугольнике с углами 30 градусов.|3
+R-2019-10.1|combinatorics|bounds,construction|Максимум рыцарей при двух сериях числовых утверждений.|1
+R-2019-10.2|number_theory,geometry|extremal,valuations,bounds|Целочисленные стороны и делимость периметра на каждую сторону.|2
+R-2019-10.3|algebra,combinatorics|parity,graphs|Максимум иррациональных чисел в переставленных строках с рациональными суммами.|2
+R-2019-10.4|algebra|polynomials,recurrence,bounds|Наименьшие корни чётных многочленов и убывание последовательности.|3
+R-2019-10.5|geometry|angles,power|Биссектриса, продолженная медиана и касательная.|3
+R-2019-10.6|number_theory|modular,construction,factorization|Сумма трёх из четырёх последовательных чисел с тремя различными множителями.|1
+R-2019-10.7|algebra|factorization,bounds|Убывание последовательности разностей корней степени 2^n.|2
+R-2019-10.8|geometry|angles,coordinates|Диаметр окружности через середины двух отрезков основания.|2
+R-2019-10.9|combinatorics|recurrence,construction|Двухцветные раскраски с триангуляцией разноцветными диагоналями.|3
+R-2019-10.10|number_theory|modular,recurrence|Член рекуррентной последовательности, кратный произвольному k.|3
+R-2020-10.1|number_theory|construction,factorization|Четырёхзначное число с произведением суммы и произведения цифр 3990.|1|Разложить 3990=19*1*5*6*7 и заметить 1+5+6+7=19. Достаточно предъявить 1567, искать все ответы не требуется.
+R-2020-10.2|combinatorics,number_theory|bounds,contradiction|Два n-элементных множества с суммой n^2 обязаны пересекаться.|1|При непересечении сумма 2n различных натуральных чисел не меньше 1+...+2n=n*(2n+1)>2n^2.
+R-2020-10.3|combinatorics|strategy,parity|Крестики против доминошек на доске 8x8.|2
+R-2020-10.4|number_theory|factorization,extremal|Число py+1 без разложения на два множителя больше y.|3
+R-2020-10.5|geometry|projection,bounds|Диаметр вписанной окружности и расстояние между серединами сторон.|3
+R-2020-10.6|algebra|construction|Сложениями и произведениями cos(x) получить нуль при заданном x.|1
+R-2020-10.7|geometry|angles,coordinates|Прямоугольники с внешними вершинами на одной окружности.|2
+R-2020-10.8|algebra,number_theory|vieta,bounds,modular|Последовательные натуральные коэффициенты трёхчленов с целыми корнями.|3
+R-2020-10.9|geometry,combinatorics|parity,angles|Разбиение правильного многоугольника на многоугольники с нечётным числом сторон.|3
+R-2020-10.10|algebra,combinatorics|information,polynomials,strategy|Определение одного из двух скрытых многочленов по ответам.|3
+R-2021-10.1|geometry,combinatorics|order,bounds,construction|Треугольники из трёх длинных и трёх коротких палочек.|1
+R-2021-10.2|algebra|bounds,contradiction|Знак произведения при двух неравенствах с четвёртыми степенями.|2
+R-2021-10.3|number_theory|valuations,extremal|Бесконечность множества с соотношением a=b*(3c-5)/15.|2
+R-2021-10.4|geometry|angles,power|Точки касания, средняя линия и касание второй окружности.|3
+R-2021-10.5|combinatorics|strategy,symmetry|Игра диагональных и вертикальных отрезков клеток.|3
+R-2021-10.6|number_theory|parity,construction,bounds|Максимум нечётных цифр в двух слагаемых и их сумме.|2
+R-2021-10.7|combinatorics,number_theory|parity,graphs,modular|Расстановка 1..81 с соседством чисел, отличающихся на три.|2
+R-2021-10.8|geometry|angles,similarity|Касание двух окружностей в равнобедренном треугольнике.|3
+R-2021-10.9|combinatorics|information,strategy,construction|Карточный фокус с поиском карт 1 и 2 по двум вскрытиям.|3
+R-2021-10.10|number_theory|valuations,modular|Попарные НОК как непостоянная арифметическая прогрессия.|3

@@ -1,0 +1,3446 @@
+{
+  "R-2010-10.1": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "contradiction"
+    ],
+    "summary": "Девять лыжников и ровно четыре обгона для каждого.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Первый и последний стартовавшие должны оба финишировать пятыми. Разобрать, почему постоянство скоростей исключает повторные обгоны."
+  },
+  "R-2010-10.2": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "contradiction"
+    ],
+    "summary": "Разбиение чисел от 1 до k с одинаковыми конкатенациями.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Биссектрисы и серединный перпендикуляр дают четыре точки на окружности.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "valuations",
+      "bounds"
+    ],
+    "summary": "Числа b с импликацией b^2 делит a^5 -> b делит a^2.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.5": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds",
+      "polynomials"
+    ],
+    "summary": "Положительность одного квадратного трёхчлена влечет другую.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.6": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "similarity",
+      "angles"
+    ],
+    "summary": "Касательные и параллельная хорде прямая делят две ломаные пропорционально.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.7": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "construction",
+      "factorization"
+    ],
+    "summary": "Три целых с нулевой суммой и квадратом суммы тринадцатых степеней.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2010-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction",
+      "recurrence"
+    ],
+    "summary": "Разбиение клетчатой лестницы на прямоугольники разных площадей.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds"
+    ],
+    "summary": "Два обгона при трёх кругах и отношение скоростей.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Первый обгон не мог произойти на первом круге быстрого бегуна. За два следующих круга он выигрывает хотя бы круг."
+  },
+  "R-2011-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Четыре центра окружностей при равенстве двух углов.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.3": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "modular",
+      "double_counting"
+    ],
+    "summary": "Могут ли суммы 14 чисел покрыть все двузначные окончания.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.4": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials"
+    ],
+    "summary": "Попарно общий корень у трёх разреженных многочленов.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.5": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "gcd",
+      "modular"
+    ],
+    "summary": "Параметр a и целочисленность a*n*(n+2)*(n+3)*(n+4).",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.6": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "order",
+      "extremal",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Конечный набор, замкнутый относительно суммы трёх чисел.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Упорядочить числа, сравнить суммы трёх наименьших и трёх наибольших с крайними. Все средние 2009 чисел равны нулю. Набор из 2009 нулей и чисел 1,-1 достигает оценки."
+  },
+  "R-2011-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "coordinates"
+    ],
+    "summary": "Ромб из центра окружности и ортоцентра.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2011-10.8": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "pigeonhole",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Из целочисленных частей двухметровой палки сложить прямоугольник.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2012-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "order",
+      "bounds"
+    ],
+    "summary": "Сравнение произведений выбранных положительных чисел.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2012-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Два вписанных четырёхугольника в шестиугольнике.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ввести K=AE пересечение BF. Через вписанность получить равенство углов AKB и AEC, из которого следует BF параллельно CE."
+  },
+  "R-2012-10.3": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "recurrence"
+    ],
+    "summary": "Целочисленность рекуррентной последовательности через среднее.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ввести частичные суммы S_n, получить S_(n+1)=(n+5)*S_n/n и явную формулу произведения пяти последовательных чисел, деленного на 5."
+  },
+  "R-2012-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "matching",
+      "bijection",
+      "induction"
+    ],
+    "summary": "Разность числа чётных и нечётных паросочетаний на окружности.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ 1. Выделить пары с хордой между двумя соседними точками и применить индукцию. Остальные попарно сопоставить обменом партнеров этих соседних точек, меняющим чётность пересечений."
+  },
+  "R-2012-10.5": {
+    "topics": [
+      "geometry",
+      "algebra"
+    ],
+    "methods": [
+      "angles",
+      "construction"
+    ],
+    "summary": "Совпадения синусов и косинусов углов пятиугольника.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2012-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "gcd",
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Максимум попарно взаимно простых чисел 1+a^j.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2012-10.7": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "modular",
+      "construction"
+    ],
+    "summary": "Перекрашивание квадратов 2x2 в цикле из трёх цветов.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Суммарные числа перекрашиваний двух исходных шахматных цветов равны, что по модулю 3 требует n кратного 3. Для достаточности разбить на 3x3 и перекрашивать четыре угловых блока 2x2."
+  },
+  "R-2012-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Окружность в прямоугольной трапеции и равенство углов.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction"
+    ],
+    "summary": "Последняя цифра N при M=3N и заданных изменениях цифр.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "symmetry"
+    ],
+    "summary": "Хорда через основания высот и две касательные.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.3": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "vieta",
+      "polynomials"
+    ],
+    "summary": "Равенство сумм корней трёх квадратных трёхчленов.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.4": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Разбиение натуральных чисел на конечные блоки с заданными суммами.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.5": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "double_counting"
+    ],
+    "summary": "Правдивые ответы соседок в двухцветном хороводе.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "gcd",
+      "contradiction"
+    ],
+    "summary": "Из 1/a+1/b=1/c следует составность a+c или b+c.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Из c*(a+b)=a*b следует, что a и b не могут оба быть взаимно просты с c>1. Общий делитель дает составность соответствующей суммы."
+  },
+  "R-2013-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "similarity",
+      "power",
+      "projection"
+    ],
+    "summary": "Площади треугольников из точек общих касательных двух окружностей.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2013-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Перестановка фишек по окружности с увеличением малых расстояний.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.1": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "contradiction",
+      "bounds",
+      "modular"
+    ],
+    "summary": "17 школьных оценок и целое среднее арифметическое.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Если каждого вида оценок хотя бы три, сумма всех оценок лежит от 52 до 67. В этом интервале нет кратных 17."
+  },
+  "R-2014-10.2": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction",
+      "factorization"
+    ],
+    "summary": "Стозначные числа с заданными окончаниями квадрата и куба.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Подходят 10^100-1 и 10^100/2-1. Проверить делимость n^3-n на 10^100 и неделимость n^2-n хотя бы на 5."
+  },
+  "R-2014-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction",
+      "bijection"
+    ],
+    "summary": "Максимум слов длины до 13 без слова-конкатенации.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "similarity"
+    ],
+    "summary": "Три равных конкурентных отрезка под углами 60 градусов.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.5": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "vieta"
+    ],
+    "summary": "Игра с коэффициентами кубического уравнения и разностью корней.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.6": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "power",
+      "angles"
+    ],
+    "summary": "Касательные и окружность на диаметре AO.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.7": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "valuations",
+      "extremal"
+    ],
+    "summary": "Могут ли НОК соседей на круге стать последовательными числами.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2014-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "graphs",
+      "induction"
+    ],
+    "summary": "Дополнение фишек до чётности каждой строки и столбца.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Построить двудольный граф свободных клеток. Удаление циклов сохраняет чётности, а в оставшемся лесе удалить листья с нужными рёбрами. На 100 вершинах нужно не более 99 рёбер."
+  },
+  "R-2015-10.1": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "parity",
+      "extremal"
+    ],
+    "summary": "Равенство произведений (1+x_i) и (1-x_i) для 13 целых.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2015-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "information",
+      "parity",
+      "construction"
+    ],
+    "summary": "Восстановление чисел в вершинах по неупорядоченным тройкам.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2015-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "angles"
+    ],
+    "summary": "Биссектриса, серединный перпендикуляр и касание окружности.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Треугольники PLQ и PAQ зеркальны относительно PQ. Доказать, что касательная в A и BC тоже зеркальны, используя биссектрису и угол между касательной и хордой."
+  },
+  "R-2015-10.4": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds"
+    ],
+    "summary": "Неравенство с радикалами при ab+bc+ca=1.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2015-10.5": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Целый рейтинг фильма, убывающий на единицу с каждым голосом.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2015-10.6": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "symmetry"
+    ],
+    "summary": "Биссектриса прямоугольного треугольника и сумма двух отрезков.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Продлить BC на CN=CL и доказать AB=BN через равенство углов. Альтернатива - перпендикуляр из K на AB и две пары равных прямоугольных треугольников."
+  },
+  "R-2015-10.7": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "construction",
+      "bounds",
+      "polynomials"
+    ],
+    "summary": "Изменение целых коэффициентов трёхчлена с ограниченной стоимостью.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2015-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction",
+      "graphs"
+    ],
+    "summary": "Четыре разных цвета в пересечении двух строк и столбцов.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials"
+    ],
+    "summary": "Циклическая сумма значений трёхчленов на чужих корнях.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Каждое слагаемое равно разности соседних свободных членов. Циклическая сумма телескопируется в нуль."
+  },
+  "R-2016-10.2": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "valuations"
+    ],
+    "summary": "Сумма НОК двух цветов среди десяти последовательных чисел.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Перенос свойства вписанности при равных отрезках.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "При непараллельных AB,CD ввести их пересечение P. Подобие PBC и PNK дает параллельности BN,LD и CK,MA, затем равенство нужных углов."
+  },
+  "R-2016-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction",
+      "double_counting"
+    ],
+    "summary": "Максимум разноцветных соседств при ограничениях на строки и столбцы.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.5": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "extremal",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Классификация множеств с условием a+b в A -> ab в A.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.6": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Окружность в равнобокой трапеции и новая касательная.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.7": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bijection",
+      "graphs"
+    ],
+    "summary": "Хорошие пары мальчик-девочка на круге.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2016-10.8": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Система разностей степеней 100 и 200.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Пять натуральных сомножителей уменьшают на три.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Четыре сомножителя 1, пятый 48. Новое произведение 16*45=15*48; отрицательные множители допустимы после изменения."
+  },
+  "R-2017-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Две точки пересечения сторон описанного четырёхугольника.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.3": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "modular",
+      "construction"
+    ],
+    "summary": "Уравнивание 2017 коробок за минимальное число ходов.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.4": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "polynomials",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Определение целого унитарного многочлена по произведению значений.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.5": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Рациональные произведения в таблице из рациональных и иррациональных чисел.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "recurrence",
+      "gcd",
+      "induction"
+    ],
+    "summary": "Суммы квадратов и рост числа различных простых делителей.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Дописываемые числа удовлетворяют S_(i+1)=S_i*(S_i+1). Соседние множители взаимно просты, поэтому на каждом шаге появляется новый простой делитель."
+  },
+  "R-2017-10.7": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "extremal"
+    ],
+    "summary": "Разбиение многоугольника на равнобедренные треугольники.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2017-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Две параллельности в конфигурации с описанной окружностью.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.1": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Разбиение квадрата с одинаковым числом квадратиков каждого размера.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.2": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "strategy",
+      "parity"
+    ],
+    "summary": "Игра на числах до 2018 с целью получить арифметическую прогрессию.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Вася выбирает далёкое от первого числа число противоположной чётности, исключая победу Пети третьим ходом. Среди трёх чисел есть пара одной чётности, ее среднее дает победу Васе."
+  },
+  "R-2018-10.3": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "contradiction",
+      "bounds"
+    ],
+    "summary": "Из x^5-y^3>=2x вывести x^3>=2y.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Центр окружности BXP на окружности ABO.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Пусть G - искомый центр. Из GB=GP и OB=OP линия GO делит угол BGP пополам. Угол BGO равен BAO, что доказывает вписанность."
+  },
+  "R-2018-10.5": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "recurrence"
+    ],
+    "summary": "Расстановки на круге с делимостью суммы соседей.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.6": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Нужное целое значение среди дробей k/(n-k).",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Четырёхугольник из четырёх равных треугольников.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Максимум небьющих друг друга гепардов на доске.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.9": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "gcd",
+      "extremal"
+    ],
+    "summary": "Сумма простых чисел меньше n взаимно проста с n.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2018-10.10": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "similarity",
+      "bounds"
+    ],
+    "summary": "Сравнение периметров в треугольнике с углами 30 градусов.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Подобие BDF и EBF дает BF^2=DF*EF. Отсюда DF+EF>=2BF, а теорема косинусов дает DE>=sqrt(3)*BF. Сравнить BF с высотой BM и выразить большой периметр через BM."
+  },
+  "R-2019-10.1": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Максимум рыцарей при двух сериях числовых утверждений.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.2": {
+    "topics": [
+      "number_theory",
+      "geometry"
+    ],
+    "methods": [
+      "extremal",
+      "valuations",
+      "bounds"
+    ],
+    "summary": "Целочисленные стороны и делимость периметра на каждую сторону.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.3": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "graphs"
+    ],
+    "summary": "Максимум иррациональных чисел в переставленных строках с рациональными суммами.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.4": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "recurrence",
+      "bounds"
+    ],
+    "summary": "Наименьшие корни чётных многочленов и убывание последовательности.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Биссектриса, продолженная медиана и касательная.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction",
+      "factorization"
+    ],
+    "summary": "Сумма трёх из четырёх последовательных чисел с тремя различными множителями.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.7": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Убывание последовательности разностей корней степени 2^n.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "projection",
+      "symmetry"
+    ],
+    "summary": "Диаметр окружности через середины двух отрезков основания.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Проекции центра и концов диаметра показывают симметрию оснований перпендикуляров относительно середины MN. Отсюда проекция B0 оказывается серединой AC."
+  },
+  "R-2019-10.9": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "recurrence",
+      "construction"
+    ],
+    "summary": "Двухцветные раскраски с триангуляцией разноцветными диагоналями.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2019-10.10": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "recurrence"
+    ],
+    "summary": "Член рекуррентной последовательности, кратный произвольному k.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2020-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "construction",
+      "factorization"
+    ],
+    "summary": "Четырёхзначное число с произведением суммы и произведения цифр 3990.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Разложить 3990=19*1*5*6*7 и заметить 1+5+6+7=19. Достаточно предъявить 1567, искать все ответы не требуется."
+  },
+  "R-2020-10.2": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "bounds",
+      "contradiction"
+    ],
+    "summary": "Два n-элементных множества с суммой n^2 обязаны пересекаться.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "При непересечении сумма 2n различных натуральных чисел не меньше 1+...+2n=n*(2n+1)>2n^2."
+  },
+  "R-2020-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "construction"
+    ],
+    "summary": "Крестики против доминошек на доске 8x8.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "За Диму разбить доску на квадраты 2x2. На первый крестик покрыть две пустые клетки того же квадрата, на второй - накрыть оба крестика. Ответ существует на каждый ход."
+  },
+  "R-2020-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "factorization",
+      "extremal"
+    ],
+    "summary": "Число py+1 без разложения на два множителя больше y.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2020-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "bounds"
+    ],
+    "summary": "Диаметр вписанной окружности и расстояние между серединами сторон.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "С одной стороны, площадь равна (BC+AD)*r. С другой, разбиение через середины и оценка площадей дает S<=MN*(AD+BC)/2. Сравнить и получить MN>=2r."
+  },
+  "R-2020-10.6": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Сложениями и произведениями cos(x) получить нуль при x=pi.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Сначала получить cos(x)^2, затем сложить с cos(x). При x=pi результат равен 1-1=0."
+  },
+  "R-2020-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "coordinates"
+    ],
+    "summary": "Прямоугольники с внешними вершинами на одной окружности.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2020-10.8": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "vieta",
+      "extremal",
+      "parity",
+      "bounds"
+    ],
+    "summary": "Последовательные натуральные коэффициенты трёхчленов с целыми корнями.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "По Виета a делит b и c. Наибольший старший коэффициент вынуждает интервал начинаться с 1, а старшие коэффициенты - быть 1..n. Затем нижняя оценка числа чётных коэффициентов 2n-1 противоречит наличию только около 3n/2 чётных."
+  },
+  "R-2020-10.9": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "angles"
+    ],
+    "summary": "Разбиение правильного многоугольника на многоугольники с нечётным числом сторон.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2020-10.10": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "information",
+      "polynomials",
+      "strategy"
+    ],
+    "summary": "Определение одного из двух скрытых многочленов по ответам.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ 8. После семи разных аргументов рассмотреть конечное множество парабол через тройки точек и выбрать восьмой аргумент вне абсцисс их пересечений. Нижняя оценка строит две разные совместимые пары графиков после семи ответов."
+  },
+  "R-2021-10.1": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "order",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Треугольники из трёх длинных и трёх коротких палочек.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.2": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds",
+      "contradiction"
+    ],
+    "summary": "Знак произведения при двух неравенствах с четвёртыми степенями.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.3": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "valuations",
+      "extremal"
+    ],
+    "summary": "Бесконечность множества с соотношением a=b*(3c-5)/15.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Выбрать элемент с максимальным показателем тройки. В равенстве 15a=b*(3c-5) множитель 3c-5 не делится на 3, поэтому у b показатель тройки больше."
+  },
+  "R-2021-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Точки касания, средняя линия и касание второй окружности.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.5": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "symmetry"
+    ],
+    "summary": "Игра диагональных и вертикальных отрезков клеток.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "parity",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Максимум нечётных цифр в двух слагаемых и их сумме.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.7": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "pigeonhole",
+      "parity",
+      "modular"
+    ],
+    "summary": "Расстановка 1..81 с соседством чисел, отличающихся на три.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Среди четырёх углов совпадают два остатка по модулю 3. Их цепочка с шагом 3 идет по шахматным клеткам и имеет чётную длину, поэтому разность кратна 6."
+  },
+  "R-2021-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Касание двух окружностей в равнобедренном треугольнике.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2021-10.9": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "information",
+      "strategy",
+      "construction"
+    ],
+    "summary": "Карточный фокус с поиском карт 1 и 2 по двум вскрытиям.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ - все n>=3. Выделить одно место, а остальные упорядочить по циклу. Карта на выделенном месте кодирует расстояние от 1 до 2; остальные карты помощник кладет циклически по возрастанию."
+  },
+  "R-2021-10.10": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "valuations",
+      "modular"
+    ],
+    "summary": "Попарные НОК как непостоянная арифметическая прогрессия.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2022-10.1": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Десять различных чисел с тремя кратными 5 и четырьмя кратными 4.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Подходит набор 1,2,3,4,5,6,8,10,12,20 с суммой 71. Не требуется доказывать минимальность суммы."
+  },
+  "R-2022-10.2": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "symmetry",
+      "polynomials",
+      "construction"
+    ],
+    "summary": "Три различных аргумента с P(b+c)=P(a) и циклическими равенствами.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2022-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Группы конфет с обязательным сортом ровно из десяти штук.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2022-10.4": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "factorization",
+      "polynomials",
+      "symmetry"
+    ],
+    "summary": "Симметричные целые коэффициенты и квадратный делитель P(2022).",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Доказывать делимость P(x) на (x-1)^2. В замене x=t+1 свободный член нулевой, а коэффициент при t равен половине n*суммы исходных коэффициентов и тоже нулевой."
+  },
+  "R-2022-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Два треугольника с общей вписанной окружностью в шестиугольнике.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2022-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular"
+    ],
+    "summary": "Простая сумма остатков трёх последовательных нечётных чисел.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Сумма остатков кратна 3 и больше 3. Обязательно разобрать случаи перехода через 2022, когда появляются остатки 1 и 3."
+  },
+  "R-2022-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "symmetry"
+    ],
+    "summary": "Биссектриса во вписанном четырёхугольнике с углом A=2B.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Продлить AB до F с AF=AD. Углы показывают, что F,D,C коллинеарны, а FCB равнобедренный; биссектриса CE является медианой."
+  },
+  "R-2022-10.8": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "angles",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Максимум точек с целыми углами всех треугольников.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2022-10.9": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "construction"
+    ],
+    "summary": "Соседние обмены с ограничением разности номеров фишек.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ 50. Конструкция передвигает фишку 50 через все остальные. Нижняя оценка отслеживает число полных оборотов фишек при обменах с ограниченной разностью."
+  },
+  "R-2022-10.10": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "bounds",
+      "modular"
+    ],
+    "summary": "Сумма цифр факториала неограниченно возрастает.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.1": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Восемь изменений в таблице 6x6 и двенадцать разных положительных сумм.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Достаточно предъявить работающую таблицу. Верную конструкцию сверять с рисунком 5 в официальном решении, не выводить невозможность из количества клеток."
+  },
+  "R-2023-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "bounds"
+    ],
+    "summary": "Разрезание треугольника 5-12-13 на фигуры с площадью, равной периметру.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "contradiction"
+    ],
+    "summary": "Общий участник любых 30 олимпиад должен участвовать во всех 50.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Если у двух составов пересечение до 28 человек, для каждого выбрать состав без него и получить пустое пересечение до 30 составов. Иначе все попарные пересечения имеют 29 элементов, что ограничивает число разных составов 31."
+  },
+  "R-2023-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "bounds"
+    ],
+    "summary": "Из делимости abc+1 на ab-b+1 вывести a делит b.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Ортоцентр и серединный перпендикуляр к HD.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.6": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "valuations",
+      "gcd"
+    ],
+    "summary": "Может ли НОК чисел до m увеличиться ровно в четыре раза.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Если в НОК до m+1 есть 2^s, то число с таким делителем не превосходит m+1; его половина уже не превосходит m. Отношение НОК не может делиться на 4."
+  },
+  "R-2023-10.7": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "construction",
+      "polynomials",
+      "bounds"
+    ],
+    "summary": "Выбор 30-значного значения многочлена с трёхзначными коэффициентами.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "symmetry"
+    ],
+    "summary": "Биссектриса параллелограмма и вписанный четырёхугольник.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Из вписанности LM=MN. Ввести X на BK с LX параллельно AK; симметрия ABK и средняя линия дают CM=LM. Значит, MN - радиус окружности через C,L,N."
+  },
+  "R-2023-10.9": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "double_counting",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Разные расстояния между соседними одноцветными столбами.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2023-10.10": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "order",
+      "bounds"
+    ],
+    "summary": "Циклическое неравенство с тремя радикалами.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.1": {
+    "topics": [
+      "combinatorics",
+      "geometry"
+    ],
+    "methods": [
+      "extremal",
+      "areas",
+      "bounds"
+    ],
+    "summary": "Можно ли сложить квадрат из различных полосок 1xj.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Пусть наибольшая выбранная полоска имеет длину n>1. Площадь квадрата хотя бы n^2, а суммарная площадь всех доступных полосок до n равна n*(n+1)/2<n^2."
+  },
+  "R-2024-10.2": {
+    "topics": [
+      "algebra",
+      "geometry"
+    ],
+    "methods": [
+      "coordinates"
+    ],
+    "summary": "Общая точка боковых сторон трапеций на параболе.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Игра на круге с максимизацией разноцветных соседств.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.4": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "extremal",
+      "bounds"
+    ],
+    "summary": "Подряд идущий блок перестановки 1..1000 с суммой в заданном интервале.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Начать от числа 500 в сторону с суммой больше 100000. При первом превышении порога либо блок подходит, либо заменить последнюю величину на 500."
+  },
+  "R-2024-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "projection",
+      "bounds"
+    ],
+    "summary": "Периметр четырёх центров вписанных окружностей и сумма радиусов.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Выразить сумму малых радиусов через диагонали и стороны. Каждую сторону четырёхугольника центров оценить длиной проекции на соответствующую сторону ABCD; сложить четыре оценки."
+  },
+  "R-2024-10.6": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds"
+    ],
+    "summary": "Сумма трёх величин 1/(x^2+x+1) для различных x.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.7": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "bounds"
+    ],
+    "summary": "Десять последовательных чисел с одинаковой частотой всех цифр.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.8": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Середины сторон и взаимный перенос вписанности.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Через углы свести оба утверждения о вписанности к одному равенству AB*CD=AD*BC/2, используя подобие прямоугольных треугольников."
+  },
+  "R-2024-10.9": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Тройки натуральных чисел с простыми делителями произведения квадратов плюс один.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2024-10.10": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Рыцари и лжецы с различными заявленными степенями дружбы.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2025-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "vieta",
+      "symmetry"
+    ],
+    "summary": "Свободный член трёхчлена по значению на сумме корней.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "По Виета x1+x2=-b/a, и f(-b/a)=c. Следовательно, c=2025."
+  },
+  "R-2025-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "construction"
+    ],
+    "summary": "Добавить десять авиалиний к циклу из тридцати городов.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Соединить город 0 с городами 3,6,...,27. Из любого города за один шаг попасть в такой узел, затем не более двух шагов через 0, затем один шаг к цели."
+  },
+  "R-2025-10.3": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Разность двух циклических сумм и разность двух переменных.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2025-10.4": {
+    "topics": [
+      "number_theory",
+      "geometry"
+    ],
+    "methods": [
+      "parity",
+      "descent"
+    ],
+    "summary": "Конечные узлы сетки с равноудалённой точкой для каждой пары.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Все точки имеют один шахматный цвет: иначе квадраты двух равных расстояний имели бы разную чётность. Перейти к более крупной сетке и повторить, противореча фиксированному расстоянию двух точек."
+  },
+  "R-2025-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "coordinates",
+      "bounds"
+    ],
+    "summary": "Ортоцентры двух треугольников и геометрическое неравенство.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2025-10.6": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "parity",
+      "graphs"
+    ],
+    "summary": "Табло с изменениями на 50 или 51 и ограничением 0..99.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ход меняет принадлежность числу классу 0..49 или 50..99. После нечётного числа ходов нельзя оказаться в 25, которое лежит в первом классе."
+  },
+  "R-2025-10.7": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "symmetry"
+    ],
+    "summary": "Биссектрисы прямоугольной трапеции и касание окружностей.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Центр окружности ABE лежит на средней линии MN. Угол CED прямой, центр CDE - N; равенство углов дает E на MN. Общая точка на линии центров означает касание."
+  },
+  "R-2025-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "matching",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Единственное доминошечное разбиение двухцветного прямоугольника.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2025-10.9": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction"
+    ],
+    "summary": "Арифметическая прогрессия из чисел с одной последней цифрой простых делителей.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2025-10.10": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "pigeonhole",
+      "coordinates",
+      "areas"
+    ],
+    "summary": "Два треугольника равной площади среди целых точек параболы.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2026-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "symmetry",
+      "construction"
+    ],
+    "summary": "Перестановка шести последовательных чисел для целой суммы дробей.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Разбить шесть чисел на три пары, симметричные относительно середины; взять одинаковые знаменатели и равную им сумму числителей."
+  },
+  "R-2026-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "double_counting",
+      "bijection"
+    ],
+    "summary": "Сравнение доминошечных покрытий и наборов окрашенных границ.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Сопоставлять покрытие и набор границ; подсчитать число соответствий с каждой стороны, учитывая ограниченную кратность."
+  },
+  "R-2026-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "projection",
+      "bounds"
+    ],
+    "summary": "Периметр пятиугольника из середин отрезков к центрам окружностей.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Проекция каждой новой стороны на соответствующую старую сторону не меньше половины длины старой стороны; сложить оценки."
+  },
+  "R-2026-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "gcd",
+      "bounds",
+      "extremal"
+    ],
+    "summary": "Может ли (a-1)*(b-1)*(c-1) для делителей n делиться на n^2.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "При a<=b<=c число c^2 делит (a-1)*(b-1), поскольку оно взаимно просто с c-1. Но (a-1)*(b-1)<c^2."
+  },
+  "R-2026-10.5": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "information",
+      "strategy",
+      "induction"
+    ],
+    "summary": "Поиск кольца с ответами, среди которых не бывает двух лжей подряд.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ k=2. Нижняя оценка через неразличимость двух мест; верхняя через последовательность вопросов A,B,B,A и исключение одного кандидата."
+  },
+  "R-2026-10.6": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "modular"
+    ],
+    "summary": "Восемь последовательных сумм противоположных пар из 16 последовательных чисел.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2026-10.7": {
+    "topics": [
+      "geometry",
+      "algebra"
+    ],
+    "methods": [
+      "coordinates"
+    ],
+    "summary": "Касательная к единичной окружности и прямоугольный треугольник из коэффициентов.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "R-2026-10.8": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Максимум рёбер графа, где степени соседей отличаются на один.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "R-2026-10.9": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "angles",
+      "power"
+    ],
+    "summary": "Отражения центра окружности и касание двух новых окружностей.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "R-2026-10.10": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "factorization",
+      "construction"
+    ],
+    "summary": "Кубический целый многочлен с корнями-квадратами принимает по модулю квадрат.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction"
+    ],
+    "summary": "Прогрессия с возрастающим числом кратных 8, 9 и 10.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "invariant"
+    ],
+    "summary": "Чётность длины границы горизонтальных и вертикальных доминошек.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Угол треугольника по расположению центра окружности через биссектрисы.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.4": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds"
+    ],
+    "summary": "Обмен палочками двух треугольников одинакового периметра.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.5": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "projection",
+      "graphs"
+    ],
+    "summary": "Перекрытия проекций частей куба на его грани.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2011-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "graphs",
+      "construction"
+    ],
+    "summary": "Последовательный найм знакомых программистов и четырёх гениев.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2012-10.1": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "vieta"
+    ],
+    "summary": "Восстановление стёртого коэффициента или корня трёхчлена.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2012-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Переключение знаков целых строк и столбцов не более чем за n ходов.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Операции коммутируют и повторное переключение сокращается. Набор из x строк и y столбцов дает тот же результат, что дополнение из остальных строк и столбцов; выбрать меньший набор."
+  },
+  "MOSH-2012-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "construction",
+      "similarity"
+    ],
+    "summary": "Замощение плоскости без треугольника подобными негомотетичными треугольниками.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2012-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "order",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Перепаривание груш на круге с близкими массами соседних пар.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2012-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "angles"
+    ],
+    "summary": "Геометрическое место центров окружностей трёх отражённых прямых.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2012-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Хроматическое число графа трёхэлементных подмножеств.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2013-10.1": {
+    "topics": [
+      "algebra",
+      "geometry"
+    ],
+    "methods": [
+      "vieta",
+      "similarity"
+    ],
+    "summary": "Подобие треугольников из пересечений двух парабол с осями.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2013-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "double_counting"
+    ],
+    "summary": "Число отважных детей при вставках в ряд до чередования полов.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Разнополых соседств сначала 1, в конце 21. Только отважный ребенок увеличивает их число на 2. Ответ 10."
+  },
+  "MOSH-2013-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "angles"
+    ],
+    "summary": "Площадь четырёхугольника из вершин правильного 4n-угольника.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2013-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "recurrence"
+    ],
+    "summary": "Турнир с общей очередью двух команд разной численности.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2013-10.5": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "modular",
+      "polynomials"
+    ],
+    "summary": "Функция, совпадающая по модулю каждого простого с многочленом ограниченной степени.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2013-10.6": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "power",
+      "projection"
+    ],
+    "summary": "Коллинеарность трёх построенных точек и перпендикуляр к OI.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2014-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "factorization",
+      "vieta"
+    ],
+    "summary": "Знаки корней трёхчлена по значениям в 1/a и c.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2014-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Снять минимум рубашек двух цветов, чтобы каждый цвет висел подряд.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Граница между половинами из 21 рубашки дает удаление не более десяти каждого цвета. Для нижней оценки взять 10 белых,21 фиолетовую,11 белых. Ответ 10."
+  },
+  "MOSH-2014-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Середина и четверть стороны в конфигурации с описанной окружностью.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2014-10.4": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "gcd",
+      "valuations"
+    ],
+    "summary": "Разложение весов двудольного графа в произведения весов концов.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2014-10.5": {
+    "topics": [
+      "combinatorics",
+      "geometry"
+    ],
+    "methods": [
+      "strategy",
+      "construction"
+    ],
+    "summary": "Игра с одноцветным треугольником, подобным данному.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2014-10.6": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials"
+    ],
+    "summary": "Нулевой коэффициент в степени P+1 по условию на P^2.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2015-10.1": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "recurrence",
+      "factorization"
+    ],
+    "summary": "Квадраты разностей в последовательности произведение плюс один.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Из a_n=1+произведение предыдущих следует a_(n+1)-a_n=1-a_n+(a_n-1)*a_n=(a_n-1)^2."
+  },
+  "MOSH-2015-10.2": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "double_counting",
+      "gcd"
+    ],
+    "summary": "Неизменность средних очков команд после последнего тура.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2015-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "construction",
+      "areas"
+    ],
+    "summary": "Подобный решётчатый треугольник с равными чёрной и белой площадями.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2015-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "information",
+      "strategy"
+    ],
+    "summary": "Император изгоняет злых волшебников с не более чем одной ошибкой.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2015-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "coordinates",
+      "projection"
+    ],
+    "summary": "Высоты и медиана дают перпендикулярность двух прямых.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2015-10.6": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "construction"
+    ],
+    "summary": "Произведение многочленов с большими коэффициентами имеет малые коэффициенты.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.1": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "construction",
+      "factorization"
+    ],
+    "summary": "Представление 1/10 произведением десяти правильных дробей.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "similarity"
+    ],
+    "summary": "Отражения точки с двумя равносторонними треугольниками.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.3": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "vieta",
+      "bounds"
+    ],
+    "summary": "Минимум коэффициента четвёртой степени с четырьмя положительными корнями.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.4": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "descent"
+    ],
+    "summary": "Целые числа на белых клетках и разности произведений, равные единице.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "construction",
+      "bounds"
+    ],
+    "summary": "Восемь шаров в единичном кубе и сумма диаметров.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2016-10.6": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "double_counting",
+      "bounds"
+    ],
+    "summary": "Число хоккейных матчей с дополнительным временем по итоговым очкам.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "vieta"
+    ],
+    "summary": "Прибавление единицы ко всем коэффициентам и обоим корням.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.2": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "modular",
+      "construction"
+    ],
+    "summary": "Два цвета натуральных чисел с замкнутостью суммы и произведения.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "areas"
+    ],
+    "summary": "Окружность AOC и прямая, делящая площадь треугольника пополам.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.4": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant"
+    ],
+    "summary": "Можно ли из двух частей многогранника сложить куб.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.5": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "gcd",
+      "construction"
+    ],
+    "summary": "Числа с любой достаточно большой суммой цифр, кратные n.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2017-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "induction",
+      "bounds"
+    ],
+    "summary": "Максимум различных наборов невраждующих банд.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2018-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "construction",
+      "bounds"
+    ],
+    "summary": "Квадрат числа с последовательностью цифр 2018.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2018-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Промежуточный квадрат 10x10 между белым и чёрным.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Двигать рамку от чёрного квадрата к белому: число чёрных клеток меняется не более чем на 10. Оценка d=10 достигается диагональной раскраской."
+  },
+  "MOSH-2018-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "coordinates"
+    ],
+    "summary": "Прямая через основания двух перпендикуляров и середину стороны.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2018-10.4": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "gcd",
+      "construction"
+    ],
+    "summary": "Обмен соседних 0 и 1 равносилен повороту круговой последовательности.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2018-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "bounds",
+      "monovariant"
+    ],
+    "summary": "Последовательное поедание частей торта после разреза по биссектрисе.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2018-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "symmetry",
+      "bijection",
+      "modular"
+    ],
+    "summary": "Число разрезаний квадрата на трёхклеточные уголки кратно 27.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2019-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "construction",
+      "modular"
+    ],
+    "summary": "Девятизначное число с делимостью после вычёркивания каждой цифры.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2019-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "coordinates"
+    ],
+    "summary": "Равные расстояния от оснований высот до прямых через центр окружности.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2019-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "symmetry",
+      "construction"
+    ],
+    "summary": "Прыжки кузнечиков вправо и влево с одинаковой достижимостью расстояния.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Все кузнечики, кроме крайнего левого, перепрыгивают через него влево. Получается зеркальная конфигурация; затем выполнять зеркальные исходным правым ходам прыжки."
+  },
+  "MOSH-2019-10.4": {
+    "topics": [
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "construction",
+      "pigeonhole"
+    ],
+    "summary": "Одноцветный треугольник площади 1 в трёхцветной плоскости.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2019-10.5": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "bijection",
+      "bounds"
+    ],
+    "summary": "Игра выбора произведений пяти из десяти упорядоченных переменных.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2019-10.6": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "bijection",
+      "gcd",
+      "recurrence"
+    ],
+    "summary": "Доминошечные червяки и числа, взаимно простые с n.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2020-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "construction"
+    ],
+    "summary": "Трёхчлен с суммой одиннадцати сдвигов, равной x^2.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2020-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "double_counting",
+      "bounds"
+    ],
+    "summary": "Доля фильмов с не менее чем двумя зрителями-мужчинами.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Считать билеты: мужчинам и женщинам по 4n. Фильмов с не менее семью зрителями-женщинами не больше 4n/7, остальных хотя бы 3n/7."
+  },
+  "MOSH-2020-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Вписанный 19-угольник с разными сторонами и целыми углами.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2020-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "power",
+      "angles"
+    ],
+    "summary": "Общая хорда двух окружностей и новая касательная.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2020-10.5": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "modular"
+    ],
+    "summary": "Замена пар целых чисел на сумму и разность.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Сумма квадратов удваивается. У 1000 последовательных чисел она равна 4 по модулю 8, а после первого хода делится на 8 навсегда."
+  },
+  "MOSH-2020-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Ровно k чёрных клеток на каждой непустой вертикали, горизонтали и диагонали.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Минимум числа с делимостью после удаления первой и последней цифр.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "bounds"
+    ],
+    "summary": "Острый угол между диагоналями равнобокой трапеции.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "recurrence",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Десять камней и достижимость клетки 1000.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "similarity"
+    ],
+    "summary": "Внешняя биссектриса и коллинеарность X,Y,Z.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.5": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "modular",
+      "gcd"
+    ],
+    "summary": "Прыжки на p вправо и q влево с возвращением в нуль.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2021-10.6": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "recurrence",
+      "construction"
+    ],
+    "summary": "Число A, степени которого округляются на расстоянии 2 от квадратов.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2022-10.1": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "bounds"
+    ],
+    "summary": "Максимум n, для которого n-p просто для каждого нечётного простого p<n.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Ответ 10. При n>10 среди n-3,n-5,n-7 одно кратно 3 и больше 3. Для n=10 проверить простые 3,5,7."
+  },
+  "MOSH-2022-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "similarity",
+      "angles"
+    ],
+    "summary": "Касательная к окружности треугольника и окружность через середины сторон.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Треугольники BAK и ACK подобны, поэтому соответствующие медианы KM,KN дают равенство углов AKM и CKN. С учётом MN параллельно BC это критерий касания."
+  },
+  "MOSH-2022-10.3": {
+    "topics": [
+      "number_theory",
+      "geometry",
+      "combinatorics"
+    ],
+    "methods": [
+      "pigeonhole",
+      "modular",
+      "construction"
+    ],
+    "summary": "Середина пары узлов квадратной и шестиугольной сетки.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Треугольная сетка имеет четыре класса чётности двух координат. Шестиугольная сетка - объединение двух треугольных: среди девяти узлов пять в одной. Пример восьми узлов сверить с рисунком."
+  },
+  "MOSH-2022-10.4": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "polynomials",
+      "bounds"
+    ],
+    "summary": "Максимум корней целого унитарного многочлена в (0,1).",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2022-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "angles"
+    ],
+    "summary": "Равные радиусы шести отсечённых треугольников.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2022-10.6": {
+    "topics": [
+      "combinatorics",
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "graphs"
+    ],
+    "summary": "Разбиение двоичных последовательностей на двадцать групп.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2023-10.1": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "factorization"
+    ],
+    "summary": "Четыре целых числа с равенством суммы и циклических произведений плюс один.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Положить x=a+c,y=b+d и получить (x-1)*(y-1)=0. Два целых с суммой 1 имеют модули, отличающиеся на 1."
+  },
+  "MOSH-2023-10.2": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction"
+    ],
+    "summary": "Максимум обгонов в эстафете двух команд по двадцать человек.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2023-10.3": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "power",
+      "similarity"
+    ],
+    "summary": "Хорда на средней линии и окружность через точки касания вневписанной окружности.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Обозначить AB=2c,AC=2b,BC=2a. Степени середин M,N дают XM*(a+NY)=c*(a+b) и NY*(a+XM)=b*(a+c). Отсюда XM=c,NY=b и XY=a+b+c=1/2."
+  },
+  "MOSH-2023-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "invariant"
+    ],
+    "summary": "Числовой процесс AB -> 2A+8B и возможность остановки.",
+    "difficulty": 3,
+    "review_status": "solution_reviewed",
+    "solution_key": "Исходное число кратно 3,7,19; после хода оно четно. Преобразование сохраняет соответствующие делимости, поэтому все последующие числа кратны 798 и не могут стать меньше 100."
+  },
+  "MOSH-2023-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "power"
+    ],
+    "summary": "Геометрическое место центра вписанной окружности между двумя касающимися окружностями.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2023-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "bounds",
+      "construction",
+      "strategy"
+    ],
+    "summary": "Минимум хамелеонов для гарантированного перехода из красного в синий.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2024-10.1": {
+    "topics": [
+      "combinatorics",
+      "geometry"
+    ],
+    "methods": [
+      "strategy",
+      "bounds"
+    ],
+    "summary": "Игра на отрезке с треугольником из трёх соседних промежутков.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Петя отмечает середину. После ответа слева отмечает середину правой половины; три соседних отрезка имеют длины u,1/4,1/4 с 0<u<1/2 и образуют треугольник."
+  },
+  "MOSH-2024-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "pigeonhole"
+    ],
+    "summary": "Тупоугольный треугольник из несоседних вершин девятиугольника.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2024-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "extremal",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Минимум членов клуба при сравнении знакомств и посещений.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Для наиболее активного школьника с k посещениями nk>=100 и n>=k+1, откуда n>=11. Общая первая встреча и по девять личных встреч каждого дают пример."
+  },
+  "MOSH-2024-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "bounds",
+      "similarity"
+    ],
+    "summary": "Разность радиусов вписанных окружностей в описанном четырёхугольнике.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2024-10.5": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "polynomials",
+      "construction"
+    ],
+    "summary": "Три итерации целого кубического многочлена до нуля.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2024-10.6": {
+    "topics": [
+      "algebra",
+      "combinatorics"
+    ],
+    "methods": [
+      "bijection",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Стопки карточек со всеми иррациональными частичными суммами.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2025-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "construction"
+    ],
+    "summary": "Два множества вещественных чисел, замкнутые по сумме и разности.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2025-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "similarity"
+    ],
+    "summary": "Сравнение трёх площадей в конфигурации с высотой и окружностью.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2025-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "pigeonhole",
+      "construction"
+    ],
+    "summary": "Переключение дружбы рыцаря и две враждующие пятёрки.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Зафиксировать пятёрку. Переключениями остальных обеспечить каждому не менее трёх друзей в ней. Из 95 рыцарей хотя бы шесть имеют одинаковый набор из 16 возможных; переключить этих общих друзей в пятёрке."
+  },
+  "MOSH-2025-10.4": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "polynomials"
+    ],
+    "summary": "Делимость f(p^k) для всех простых p без делимости f(m).",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2025-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Сумма трёх углов из биссектрис и оснований высот.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2025-10.6": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "modular",
+      "double_counting"
+    ],
+    "summary": "Циклическая смена эльфов, гномов и орков в таверне.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.1": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Диаметр и две равноудалённые точки на стороне треугольника.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.2": {
+    "topics": [
+      "algebra",
+      "number_theory"
+    ],
+    "methods": [
+      "vieta",
+      "modular"
+    ],
+    "summary": "Целые корни после увеличения каждого коэффициента на один.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.3": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "strategy",
+      "invariant"
+    ],
+    "summary": "Гарантия разноцветных пар шариков при скрытых обменах.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles",
+      "bounds"
+    ],
+    "summary": "Трисекция стороны и неравенство длин при пяти равных углах.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.5": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "matching",
+      "modular",
+      "construction"
+    ],
+    "summary": "Различные простые делители для последовательных чисел.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "MOSH-2026-10.6": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Минимальная степень симметрического многочлена с конечным набором решений.",
+    "difficulty": 3,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-perm-10.1": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "bounds"
+    ],
+    "summary": "Сравнение двух выражений с радикалами.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-perm-10.2": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "invariant",
+      "parity"
+    ],
+    "summary": "Цвет исходной амёбы по итоговым численностям двух цветов.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Число изумрудных амёб при делении сохраняет чётность. В конце оно чётно, значит, изначально их было ноль, исходная амёба рубиновая."
+  },
+  "M-2025-2026-perm-10.3": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "recurrence",
+      "bounds"
+    ],
+    "summary": "Время подъёма по этажам при росте каждого промежутка на 10 процентов.",
+    "difficulty": 1,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-perm-10.4": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "symmetry",
+      "angles"
+    ],
+    "summary": "Биссектриса в квадрате и угол PAQ.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Опустить AH перпендикулярно PQ. Равенства двух пар прямоугольных треугольников показывают, что AP и AQ делят прямой угол между двумя равными углами; ответ 45 градусов."
+  },
+  "M-2025-2026-perm-10.5": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "factorization",
+      "bounds"
+    ],
+    "summary": "Четырёхзначный квадрат с корнем, равным сумме двух двузначных блоков.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-tat-10.1": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "modular",
+      "bounds"
+    ],
+    "summary": "Десятизначные числа из 0 и 7, кратные 9.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Число семёрок кратно 9, поэтому их ровно девять. Единственный ноль занимает одну из девяти позиций после первой. Ответ 9."
+  },
+  "M-2025-2026-tat-10.2": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "polynomials",
+      "bounds"
+    ],
+    "summary": "Минимум параметра трёхчлена с условием f(x)=f(y)+y.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-tat-10.3": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "recurrence",
+      "bounds"
+    ],
+    "summary": "Семь натуральных чисел со средним трёх предыдущих.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-tat-10.4": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "double_counting",
+      "bounds",
+      "construction"
+    ],
+    "summary": "Минимум однородных троек в компании из девяти человек.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Считать смешанные тройки через степени: их число равно половине суммы d_i*(8-d_i), не больше 72. Из 84 троек остаётся хотя бы 12 однородных. Регулярная раскраска на девяти вершинах достигает оценки."
+  },
+  "M-2025-2026-tat-10.5": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "power",
+      "angles"
+    ],
+    "summary": "Две окружности через точки касания и равные отрезки OM,ON.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-novosb-10.1": {
+    "topics": [
+      "number_theory",
+      "algebra"
+    ],
+    "methods": [
+      "factorization"
+    ],
+    "summary": "Когда 2*x^2-x-36 является квадратом простого.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Разложить в (x+4)*(2x-9). Перебрать допустимые пары целых делителей p^2, включая обе отрицательные. Ответ x=5 или x=13."
+  },
+  "M-2025-2026-novosb-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "angles"
+    ],
+    "summary": "Углы 60 и 45 градусов при центре описанной окружности.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Угол ABO=BAO=15 градусов, внешний угол AOP=30 градусов. Центральный угол AOC=120 градусов, поэтому OAP=30 градусов. Треугольник AOP равнобедренный."
+  },
+  "M-2025-2026-novosb-10.3": {
+    "topics": [
+      "algebra"
+    ],
+    "methods": [
+      "factorization"
+    ],
+    "summary": "Циклическая система из четырёх уравнений с произведениями соседей.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-novosb-10.4": {
+    "topics": [
+      "number_theory",
+      "combinatorics"
+    ],
+    "methods": [
+      "parity",
+      "modular",
+      "construction"
+    ],
+    "summary": "Перестановка 1..n с делимостью каждой частичной суммы на ее длину.",
+    "difficulty": 2,
+    "review_status": "statement_reviewed"
+  },
+  "M-2025-2026-novosb-10.5": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "parity",
+      "construction"
+    ],
+    "summary": "Паросочетание в трёхрегулярном графе на 16 школьниках.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Контрпример: три нечётных блока по пять вершин связаны через шестнадцатую вершину. После выбора ее пары две пятёрки остаются замкнутыми и не разбиваются на пары."
+  },
+  "M-2024-2025-perm-10.1": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas"
+    ],
+    "summary": "Одна большая пицца или 25 маленьких из одного квадратного листа.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Площади равны: pi*25^2=25*pi*5^2."
+  },
+  "M-2024-2025-perm-10.2": {
+    "topics": [
+      "geometry"
+    ],
+    "methods": [
+      "areas",
+      "contradiction"
+    ],
+    "summary": "Может ли треугольник иметь высоты 1,2,3.",
+    "difficulty": 1,
+    "review_status": "solution_reviewed",
+    "solution_key": "Через площадь стороны обратно пропорциональны высотам. Большая сторона превышает сумму двух других."
+  },
+  "M-2024-2025-perm-10.3": {
+    "topics": [
+      "algebra",
+      "geometry"
+    ],
+    "methods": [
+      "coordinates",
+      "symmetry"
+    ],
+    "summary": "Два прямолинейных движения с равным расстоянием в моменты 0,T.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Квадрат относительного расстояния - квадратный трёхчлен с равными значениями при 0,T. Минимум в T/2; геометрически это середина хорды в относительном движении."
+  },
+  "M-2024-2025-perm-10.4": {
+    "topics": [
+      "number_theory"
+    ],
+    "methods": [
+      "modular",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Кратное 2024 с наименьшей суммой цифр.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "2024=8*11*23. Подходит 10^14+10^3; сумма цифр 2. Сумма 1 невозможна, поскольку степень десяти не делится на 11."
+  },
+  "M-2024-2025-perm-10.5": {
+    "topics": [
+      "combinatorics"
+    ],
+    "methods": [
+      "graphs",
+      "construction",
+      "bounds"
+    ],
+    "summary": "Открыть трёхзначный замок из цифр 1,2,3 меньше чем за 30 секунд.",
+    "difficulty": 2,
+    "review_status": "solution_reviewed",
+    "solution_key": "Строка из 29 цифр содержит все 27 тройки. Объяснить построение через обход рёбер графа двухзначных состояний; официальное решение предъявляет строку 33311121131221231321332223233."
+  }
+}

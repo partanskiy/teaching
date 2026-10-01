@@ -1,0 +1,30 @@
+MOSH-2011-10.1|number_theory|modular,construction|Прогрессия с возрастающим числом кратных 8, 9 и 10.|2
+MOSH-2011-10.2|combinatorics|parity,invariant|Чётность длины границы горизонтальных и вертикальных доминошек.|2
+MOSH-2011-10.3|geometry|angles|Угол треугольника по расположению центра окружности через биссектрисы.|2
+MOSH-2011-10.4|geometry,combinatorics|bounds|Обмен палочками двух треугольников одинакового периметра.|1
+MOSH-2011-10.5|geometry,combinatorics|projection,graphs|Перекрытия проекций частей куба на его грани.|3
+MOSH-2011-10.6|combinatorics|strategy,graphs,construction|Последовательный найм знакомых программистов и четырёх гениев.|3
+MOSH-2012-10.1|algebra,number_theory|vieta|Восстановление стёртого коэффициента или корня трёхчлена.|1
+MOSH-2012-10.2|combinatorics|parity,construction,bounds|Переключение знаков целых строк и столбцов не более чем за n ходов.|2
+MOSH-2012-10.3|geometry|construction,similarity|Замощение плоскости без треугольника подобными негомотетичными треугольниками.|2
+MOSH-2012-10.4|combinatorics|order,construction,bounds|Перепаривание груш на круге с близкими массами соседних пар.|2
+MOSH-2012-10.5|geometry|symmetry,angles|Геометрическое место центров окружностей трёх отражённых прямых.|3
+MOSH-2012-10.6|combinatorics|graphs,bounds,construction|Хроматическое число графа трёхэлементных подмножеств.|3
+MOSH-2013-10.1|algebra,geometry|vieta,similarity|Подобие треугольников из пересечений двух парабол с осями.|1
+MOSH-2013-10.2|combinatorics|invariant,double_counting|Число отважных детей при вставках в ряд до чередования полов.|1
+MOSH-2013-10.3|geometry|areas,angles|Площадь четырёхугольника из вершин правильного 4n-угольника.|2
+MOSH-2013-10.4|combinatorics|invariant,recurrence|Турнир с общей очередью двух команд разной численности.|3
+MOSH-2013-10.5|number_theory,algebra|modular,polynomials|Функция, совпадающая по модулю каждого простого с многочленом ограниченной степени.|3
+MOSH-2013-10.6|geometry|power,projection|Коллинеарность трёх построенных точек и перпендикуляр к OI.|3
+MOSH-2014-10.1|algebra|factorization,vieta|Знаки корней трёхчлена по значениям в 1/a и c.|1
+MOSH-2014-10.2|combinatorics|bounds,construction|Снять минимум рубашек двух цветов, чтобы каждый цвет висел подряд.|2
+MOSH-2014-10.3|geometry|angles,similarity|Середина и четверть стороны в конфигурации с описанной окружностью.|2
+MOSH-2014-10.4|number_theory,combinatorics|graphs,gcd,valuations|Разложение весов двудольного графа в произведения весов концов.|3
+MOSH-2014-10.5|combinatorics,geometry|strategy,construction|Игра с одноцветным треугольником, подобным данному.|3
+MOSH-2014-10.6|algebra|polynomials|Нулевой коэффициент в степени P+1 по условию на P^2.|3
+MOSH-2015-10.1|algebra,number_theory|recurrence,factorization|Квадраты разностей в последовательности произведение плюс один.|1
+MOSH-2015-10.2|combinatorics,number_theory|double_counting,gcd|Неизменность средних очков команд после последнего тура.|2
+MOSH-2015-10.3|geometry|symmetry,construction,areas|Подобный решётчатый треугольник с равными чёрной и белой площадями.|2
+MOSH-2015-10.4|combinatorics|information,strategy|Император изгоняет злых волшебников с не более чем одной ошибкой.|3
+MOSH-2015-10.5|geometry|coordinates,projection|Высоты и медиана дают перпендикулярность двух прямых.|2
+MOSH-2015-10.6|algebra|polynomials,construction|Произведение многочленов с большими коэффициентами имеет малые коэффициенты.|3

@@ -1,0 +1,36 @@
+MOSH-2021-10.1|number_theory|modular,bounds,construction|Минимум числа с делимостью после удаления первой и последней цифр.|1
+MOSH-2021-10.2|geometry|angles,bounds|Острый угол между диагоналями равнобокой трапеции.|2
+MOSH-2021-10.3|combinatorics|recurrence,bounds,construction|Десять камней и достижимость клетки 1000.|2
+MOSH-2021-10.4|geometry|angles,similarity|Внешняя биссектриса и коллинеарность X,Y,Z.|3
+MOSH-2021-10.5|number_theory,combinatorics|modular,gcd|Прыжки на p вправо и q влево с возвращением в нуль.|3
+MOSH-2021-10.6|number_theory,algebra|recurrence,construction|Число A, степени которого округляются на расстоянии 2 от квадратов.|3
+MOSH-2022-10.1|number_theory|parity,modular,bounds|Максимум n, для которого n-p просто для каждого нечётного простого p<n.|1
+MOSH-2022-10.2|geometry|similarity,angles|Касательная к окружности треугольника и окружность через середины сторон.|2
+MOSH-2022-10.3|number_theory,geometry,combinatorics|pigeonhole,modular,construction|Середина пары узлов квадратной и шестиугольной сетки.|2
+MOSH-2022-10.4|algebra,number_theory|polynomials,bounds|Максимум корней целого унитарного многочлена в (0,1).|3
+MOSH-2022-10.5|geometry|areas,angles|Равные радиусы шести отсечённых треугольников.|3
+MOSH-2022-10.6|combinatorics,number_theory|modular,graphs|Разбиение двоичных последовательностей на двадцать групп.|3
+MOSH-2023-10.1|number_theory,algebra|factorization|Четыре целых числа с равенством суммы и циклических произведений плюс один.|1
+MOSH-2023-10.2|algebra,combinatorics|bounds,construction|Максимум обгонов в эстафете двух команд по двадцать человек.|2
+MOSH-2023-10.3|geometry|power,similarity|Хорда на средней линии и окружность через точки касания вневписанной окружности.|2
+MOSH-2023-10.4|number_theory|monovariant,invariant,modular|Числовой процесс AB -> 2A+8B и возможность остановки.|3
+MOSH-2023-10.5|geometry|angles,power|Геометрическое место центра вписанной окружности между двумя касающимися окружностями.|3
+MOSH-2023-10.6|combinatorics|bounds,construction,strategy|Минимум хамелеонов для гарантированного перехода из красного в синий.|3
+MOSH-2024-10.1|combinatorics,geometry|strategy,bounds|Игра на отрезке с треугольником из трёх соседних промежутков.|1
+MOSH-2024-10.2|geometry|angles,pigeonhole|Тупоугольный треугольник из несоседних вершин девятиугольника.|2
+MOSH-2024-10.3|combinatorics|graphs,double_counting,bounds,construction|Минимум членов клуба при сравнении знакомств и посещений.|2
+MOSH-2024-10.4|geometry|bounds,similarity|Разность радиусов вписанных окружностей в описанном четырёхугольнике.|3
+MOSH-2024-10.5|algebra,number_theory|polynomials,construction|Три итерации целого кубического многочлена до нуля.|3
+MOSH-2024-10.6|algebra,combinatorics|bijection,bounds,construction|Стопки карточек со всеми иррациональными частичными суммами.|3
+MOSH-2025-10.1|algebra|construction|Два множества вещественных чисел, замкнутые по сумме и разности.|1
+MOSH-2025-10.2|geometry|areas,similarity|Сравнение трёх площадей в конфигурации с высотой и окружностью.|2
+MOSH-2025-10.3|combinatorics|graphs,pigeonhole,construction|Переключение дружбы рыцаря и две враждующие пятёрки.|2
+MOSH-2025-10.4|algebra,number_theory|modular,polynomials|Делимость f(p^k) для всех простых p без делимости f(m).|3
+MOSH-2025-10.5|geometry|angles|Сумма трёх углов из биссектрис и оснований высот.|3
+MOSH-2025-10.6|combinatorics|invariant,modular,double_counting|Циклическая смена эльфов, гномов и орков в таверне.|3
+MOSH-2026-10.1|geometry|angles|Диаметр и две равноудалённые точки на стороне треугольника.|1
+MOSH-2026-10.2|algebra,number_theory|vieta,modular|Целые корни после увеличения каждого коэффициента на один.|2
+MOSH-2026-10.3|combinatorics|strategy,invariant|Гарантия разноцветных пар шариков при скрытых обменах.|2
+MOSH-2026-10.4|geometry|angles,bounds|Трисекция стороны и неравенство длин при пяти равных углах.|3
+MOSH-2026-10.5|number_theory,combinatorics|matching,modular,construction|Различные простые делители для последовательных чисел.|3
+MOSH-2026-10.6|algebra|polynomials,bounds,construction|Минимальная степень симметрического многочлена с конечным набором решений.|3

@@ -1,0 +1,24 @@
+R-2015-10.1|number_theory,algebra|parity,extremal|Равенство произведений (1+x_i) и (1-x_i) для 13 целых.|2
+R-2015-10.2|combinatorics|information,parity,construction|Восстановление чисел в вершинах по неупорядоченным тройкам.|3
+R-2015-10.3|geometry|angles,power|Биссектриса, серединный перпендикуляр и касание окружности.|2
+R-2015-10.4|algebra|bounds|Неравенство с радикалами при ab+bc+ca=1.|3
+R-2015-10.5|algebra,number_theory|bounds,construction|Целый рейтинг фильма, убывающий на единицу с каждым голосом.|2
+R-2015-10.6|geometry|angles,similarity|Биссектриса прямоугольного треугольника и сумма двух отрезков.|2
+R-2015-10.7|algebra,number_theory|construction,bounds,polynomials|Изменение целых коэффициентов трёхчлена с ограниченной стоимостью.|3
+R-2015-10.8|combinatorics|bounds,construction,graphs|Четыре разных цвета в пересечении двух строк и столбцов.|3
+R-2016-10.1|algebra|polynomials|Циклическая сумма значений трёхчленов на чужих корнях.|1
+R-2016-10.2|number_theory|modular,valuations|Сумма НОК двух цветов среди десяти последовательных чисел.|2
+R-2016-10.3|geometry|angles|Перенос свойства вписанности при равных отрезках.|2
+R-2016-10.4|combinatorics|bounds,construction,double_counting|Максимум разноцветных соседств при ограничениях на строки и столбцы.|3
+R-2016-10.5|algebra|extremal,construction,bounds|Классификация множеств с условием a+b в A -> ab в A.|2
+R-2016-10.6|geometry|angles|Окружность в равнобокой трапеции и новая касательная.|2
+R-2016-10.7|combinatorics|bijection,graphs|Хорошие пары мальчик-девочка на круге.|3
+R-2016-10.8|algebra|factorization,bounds|Система разностей степеней 100 и 200.|3
+R-2017-10.1|algebra|construction|Пять натуральных сомножителей уменьшают на три.|1|Четыре сомножителя 1, пятый 48. Новое произведение 16*45=15*48; отрицательные множители допустимы после изменения.
+R-2017-10.2|geometry|angles|Две точки пересечения сторон описанного четырёхугольника.|2
+R-2017-10.3|number_theory,combinatorics|modular,construction|Уравнивание 2017 коробок за минимальное число ходов.|2
+R-2017-10.4|algebra,number_theory|polynomials,construction,bounds|Определение целого унитарного многочлена по произведению значений.|3
+R-2017-10.5|algebra,combinatorics|bounds,construction|Рациональные произведения в таблице из рациональных и иррациональных чисел.|2
+R-2017-10.6|number_theory|recurrence,gcd,induction|Суммы квадратов и рост числа различных простых делителей.|3
+R-2017-10.7|geometry,combinatorics|graphs,extremal|Разбиение многоугольника на равнобедренные треугольники.|2
+R-2017-10.8|geometry|angles,similarity|Две параллельности в конфигурации с описанной окружностью.|3

@@ -1,0 +1,41 @@
+# id|topics|methods|summary|teacher difficulty 1..3|verified solution key when available
+R-2010-10.1|combinatorics|extremal,contradiction|Девять лыжников и ровно четыре обгона для каждого.|1|Первый и последний стартовавшие должны оба финишировать пятыми. Разобрать, почему постоянство скоростей исключает повторные обгоны.
+R-2010-10.2|number_theory,combinatorics|extremal,contradiction|Разбиение чисел от 1 до k с одинаковыми конкатенациями.|2
+R-2010-10.3|geometry|angles,power|Биссектрисы и серединный перпендикуляр дают четыре точки на окружности.|2
+R-2010-10.4|number_theory|valuations,bounds|Числа b с импликацией b^2 делит a^5 -> b делит a^2.|2
+R-2010-10.5|algebra|bounds,polynomials|Положительность одного квадратного трёхчлена влечет другую.|2
+R-2010-10.6|geometry|similarity,angles|Касательные и параллельная хорде прямая делят две ломаные пропорционально.|3
+R-2010-10.7|number_theory,algebra|construction,factorization|Три целых с нулевой суммой и квадратом суммы тринадцатых степеней.|3
+R-2010-10.8|combinatorics|bounds,construction,recurrence|Разбиение клетчатой лестницы на прямоугольники разных площадей.|3
+R-2011-10.1|algebra|bounds|Два обгона при трёх кругах и отношение скоростей.|1|Первый обгон не мог произойти на первом круге быстрого бегуна. За два следующих круга он выигрывает хотя бы круг.
+R-2011-10.2|geometry|angles|Четыре центра окружностей при равенстве двух углов.|2
+R-2011-10.3|number_theory,combinatorics|modular,double_counting|Могут ли суммы 14 чисел покрыть все двузначные окончания.|2
+R-2011-10.4|algebra|polynomials|Попарно общий корень у трёх разреженных многочленов.|3
+R-2011-10.5|number_theory|gcd,modular|Параметр a и целочисленность a*n*(n+2)*(n+3)*(n+4).|2
+R-2011-10.6|algebra,combinatorics|extremal,contradiction|Конечный набор, замкнутый относительно суммы трёх чисел.|2
+R-2011-10.7|geometry|angles,coordinates|Ромб из центра окружности и ортоцентра.|3
+R-2011-10.8|combinatorics,number_theory|pigeonhole,bounds,construction|Из целочисленных частей двухметровой палки сложить прямоугольник.|3
+R-2012-10.1|algebra|order,bounds|Сравнение произведений выбранных положительных чисел.|1
+R-2012-10.2|geometry|angles|Два вписанных четырёхугольника в шестиугольнике.|2
+R-2012-10.3|algebra,number_theory|recurrence,induction|Целочисленность рекуррентной последовательности через среднее.|2
+R-2012-10.4|combinatorics|parity,matching,bijection|Разность числа чётных и нечётных паросочетаний на окружности.|3
+R-2012-10.5|geometry,algebra|angles,construction|Совпадения синусов и косинусов углов пятиугольника.|2
+R-2012-10.6|number_theory|gcd,factorization,bounds|Максимум попарно взаимно простых чисел 1+a^j.|3
+R-2012-10.7|combinatorics|invariant,modular,construction|Перекрашивание квадратов 2x2 в цикле из трёх цветов.|3
+R-2012-10.8|geometry|angles,similarity|Окружность в прямоугольной трапеции и равенство углов.|2
+R-2013-10.1|number_theory|modular,construction|Последняя цифра N при M=3N и заданных изменениях цифр.|1
+R-2013-10.2|geometry|angles,symmetry|Хорда через основания высот и две касательные.|2
+R-2013-10.3|algebra|vieta,polynomials|Равенство сумм корней трёх квадратных трёхчленов.|2
+R-2013-10.4|number_theory,combinatorics|bounds,construction|Разбиение натуральных чисел на конечные блоки с заданными суммами.|3
+R-2013-10.5|combinatorics|double_counting|Правдивые ответы соседок в двухцветном хороводе.|2
+R-2013-10.6|number_theory|gcd,contradiction|Из 1/a+1/b=1/c следует составность a+c или b+c.|1|Из c*(a+b)=a*b следует, что a и b не могут оба быть взаимно просты с c>1. Общий делитель дает составность соответствующей суммы.
+R-2013-10.7|geometry|similarity,power,projection|Площади треугольников из точек общих касательных двух окружностей.|3
+R-2013-10.8|combinatorics|bounds,construction|Перестановка фишек по окружности с увеличением малых расстояний.|3
+R-2014-10.1|number_theory,combinatorics|contradiction,bounds,modular|17 школьных оценок и целое среднее арифметическое.|1|Если каждого вида оценок хотя бы три, сумма всех оценок лежит от 52 до 67. В этом интервале нет кратных 17.
+R-2014-10.2|number_theory|modular,construction,factorization|Стозначные числа с заданными окончаниями квадрата и куба.|2
+R-2014-10.3|combinatorics|bounds,construction,bijection|Максимум слов длины до 13 без слова-конкатенации.|3
+R-2014-10.4|geometry|areas,similarity|Три равных конкурентных отрезка под углами 60 градусов.|3
+R-2014-10.5|algebra,combinatorics|strategy,vieta|Игра с коэффициентами кубического уравнения и разностью корней.|2
+R-2014-10.6|geometry|power,angles|Касательные и окружность на диаметре AO.|3
+R-2014-10.7|number_theory|valuations,extremal|Могут ли НОК соседей на круге стать последовательными числами.|3
+R-2014-10.8|combinatorics|parity,graphs,construction|Дополнение фишек до чётности каждой строки и столбца.|2
