@@ -1,0 +1,28 @@
+{
+  "repository": "partanskiy/olympiad-math",
+  "tag": "2026.10.01",
+  "materials": {
+    "asset": "olympiad-math-materials.zip",
+    "url": "https://github.com/partanskiy/olympiad-math/releases/download/2026.10.01/olympiad-math-materials.zip",
+    "sha256": "a5e4d8d2188a12ef1c1bf79c5c0bcf523e4943626718c2b738ea0cb58932dac4",
+    "bytes": 156442161
+  },
+  "plans": {
+    "submission-plan.docx": {
+      "url": "https://github.com/partanskiy/olympiad-math/releases/download/2026.10.01/submission-plan.docx",
+      "sha256": "8b2ca852e6ae20b3aeb7fbeea03d517cf361d8a74a0b6a648020d05949a6a342"
+    },
+    "submission-plan.pdf": {
+      "url": "https://github.com/partanskiy/olympiad-math/releases/download/2026.10.01/submission-plan.pdf",
+      "sha256": "2df538b0bb889c572d42f9e3f1a148bac46ce9b600e10ae7f6d51b63717ceda5"
+    },
+    "working-plan.docx": {
+      "url": "https://github.com/partanskiy/olympiad-math/releases/download/2026.10.01/working-plan.docx",
+      "sha256": "eae5aac37488ae4003a0ceb2120448e59d81000fd54dcbac2e438d692cc5485f"
+    },
+    "working-plan.pdf": {
+      "url": "https://github.com/partanskiy/olympiad-math/releases/download/2026.10.01/working-plan.pdf",
+      "sha256": "a10b2a37778a286e9fa0ade6cbbea7264a2edf8abe57bd47c0933fcbe95fe5c3"
+    }
+  }
+}
