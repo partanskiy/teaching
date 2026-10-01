@@ -1,0 +1,49 @@
+{
+  "verified_on": "2026-10-01",
+  "academic_year": "2026/2027",
+  "events": [
+    {
+      "event": "vsosh_municipal_math",
+      "region": "Москва",
+      "status": "date_not_found_in_checked_sources",
+      "date": null,
+      "sources": ["https://vos.olimpiada.ru/2026/okrug", "https://vos.olimpiada.ru/2026/subject/math", "https://vos.olimpiada.ru/docs"]
+    },
+    {
+      "event": "vsosh_municipal_math",
+      "region": "Московская область",
+      "status": "published",
+      "date": "2026-11-07",
+      "source": "https://www.olympmo.ru/vos-timetable-2026-2027.html",
+      "verification_method": "web_page_read",
+      "local_html_saved": false,
+      "note": "Отдельный регион; дата не относится к городу Москве."
+    },
+    {
+      "event": "vsosh_regional_math",
+      "region": "Россия",
+      "status": "date_not_found_in_checked_sources",
+      "date": null,
+      "sources": ["https://vserosolimp.edsoo.ru/region_way", "https://olympiads.mccme.ru/vmo/"],
+      "latest_checked_published_season": "2025/2026"
+    },
+    {
+      "event": "mosh_math",
+      "region": "Москва",
+      "status": "date_not_found_in_checked_sources",
+      "date": null,
+      "sources": ["https://mmo.mccme.ru/", "https://mmo.mccme.ru/2027/"]
+    }
+  ],
+  "methodology": {
+    "status": "published",
+    "approved_on": "2026-05-25",
+    "protocol": "2",
+    "document_id": "83815d8fdd11f4",
+    "source": "https://vserosolimp.edsoo.ru/school_way",
+    "municipal_recommendations_pdf_page": 19,
+    "recommended_minimum_tasks": 4,
+    "recommended_maximum_total_minutes": 235,
+    "note": "Рекомендации не являются расписанием или демовариантом."
+  }
+}

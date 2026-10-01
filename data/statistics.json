@@ -1,0 +1,51 @@
+{
+  "date": "01.10.2026",
+  "documents": 422,
+  "unique_files": 407,
+  "bytes": 167354808,
+  "municipal_regions": 50,
+  "municipal_sets": 147,
+  "municipal_seasons": [
+    "2009/2010",
+    "2010/2011",
+    "2011/2012",
+    "2012/2013",
+    "2014/2015",
+    "2015/2016",
+    "2017/2018",
+    "2018/2019",
+    "2019/2020",
+    "2020/2021",
+    "2021/2022",
+    "2022/2023",
+    "2023/2024",
+    "2024/2025",
+    "2025/2026"
+  ],
+  "task_cards": 1045,
+  "reviewed_statements": 270,
+  "reviewed_solutions": 83,
+  "regional_tasks": 154,
+  "mosh_tasks": 96,
+  "unclassified_tasks": 68,
+  "course_tasks": 101,
+  "lessons": 34,
+  "minutes": 3060,
+  "document_roles": {
+    "combined": 69,
+    "tasks": 197,
+    "regulations": 5,
+    "requirements": 2,
+    "solutions": 133,
+    "criteria": 15,
+    "methodology": 1
+  },
+  "lesson_blocks": {
+    "assessment": 6,
+    "number_theory": 6,
+    "combinatorics": 11,
+    "geometry": 6,
+    "algebra": 2,
+    "proof": 3
+  }
+}
