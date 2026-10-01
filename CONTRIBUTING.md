@@ -32,9 +32,10 @@ Releases are tag-driven and do not require special release commits. Before mergi
 
 ## Local hooks
 
-A `commit-msg` hook in `.githooks/` checks the format, ASCII commit text and subject length. Opt in once per clone:
+A `commit-msg` hook in `.githooks/` checks the format, ASCII commit text and subject length. Git LFS hooks upload objects before pushing and maintain files after checkout or merge. Install Git LFS through the system package manager, then initialize and opt in once per clone:
 
 ```sh
+git lfs install
 git config core.hooksPath .githooks
 ```
 
@@ -49,12 +50,12 @@ python tools/check_commit_messages.py
 cd courses/olympiad-math-10
 python scripts/make_course.py
 python scripts/publish.py
-python scripts/build_submission.py
-python scripts/check_plans.py --submission-only
+python scripts/build_submission.py --output /tmp/teaching-submission.docx
+python scripts/check_plans.py --rebuilt-submission /tmp/teaching-submission.docx
 node scripts/check_catalog.js
 ```
 
-These source checks must pass, and generated tracked files must have no uncommitted changes. When changing rendered plans, also restore the official archive, export both documents, and run the full checks:
+These checks must pass, and generated tracked files must have no uncommitted changes. The temporary submission output avoids unnecessary LFS versions from creation timestamps. When changing rendered plans, prepare the text index, export both documents, and run the full checks:
 
 ```sh
 python scripts/restore_materials.py
@@ -71,8 +72,8 @@ Keep each course under `courses/`. Update the submission programme and working p
 
 Record the original publisher, URL, class, stage, season and checksum for every source document. Distinguish manually reviewed task labels from provisional automatic labels. New downloads and changed originals must pass archive integrity checks before publication.
 
-Keep large originals, rendered documents and download caches outside Git. Small optimized illustrations and editable vector sources may be tracked; explain substantial additions in the pull request.
+Track official originals, rendered documents and raster images with Git LFS through .gitattributes. Editable vector sources use ordinary Git. Keep download caches, private reference documents and release ZIPs outside Git. Explain substantial additions in the pull request. Run git lfs fsck before pushing and do not bypass the pre-push hook.
 
 ## Releasing
 
-See [BINARY_FLOW.md](BINARY_FLOW.md) and the [course release workflow](courses/olympiad-math-10/BINARY_FLOW.md). Ready-to-use files live in Releases; the Pages site is built from the source catalogue and verified release assets.
+See [BINARY_FLOW.md](BINARY_FLOW.md) and the [course release workflow](courses/olympiad-math-10/BINARY_FLOW.md). Ready-to-use files are versioned through Git LFS. Releases provide optional downloadable snapshots; the existing Pages site is built from verified release assets without downloading the full LFS bank.
