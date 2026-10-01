@@ -1,0 +1,22 @@
+[
+  {
+    "competition": "vsosh",
+    "stage": "municipal",
+    "year": 2009,
+    "region_slug": "moscow",
+    "reason": "Numbering not recognized",
+    "document_ids": [
+      "75edb205cbc8f4"
+    ]
+  },
+  {
+    "competition": "vsosh",
+    "stage": "municipal",
+    "year": 2020,
+    "region_slug": "moscow",
+    "reason": "Numbering not recognized",
+    "document_ids": [
+      "004500fb756cec"
+    ]
+  }
+]
