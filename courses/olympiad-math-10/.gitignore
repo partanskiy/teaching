@@ -1,11 +1,8 @@
-# Official materials and rendered documents are GitHub Release assets.
-/archive/
+# Official originals and rendered plans use Git LFS; caches stay local.
 /sources/pages/
 /sources/*.docx
 /extracted/
 /dist/
-/course/*.docx
-/course/*.pdf
 /data/*.log
 /data/collect.lock
 __pycache__/
