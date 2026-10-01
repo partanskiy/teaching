@@ -1,0 +1,24 @@
+name: Check commit messages
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  commit_messages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+      - name: Check every commit
+        env:
+          TASK_COMMIT_BASE: ${{ github.event.pull_request.base.sha }}
+          TASK_COMMIT_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ -n "$TASK_COMMIT_BASE" ]; then
+            python3 tools/check_commit_messages.py --range "$TASK_COMMIT_BASE..$TASK_COMMIT_HEAD"
+          else
+            python3 tools/check_commit_messages.py --range HEAD
+          fi

@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -eu
+task_repo_root=$(git rev-parse --show-toplevel)
+exec python3 "$task_repo_root/tools/check_commit_messages.py" --message-file "$1"
