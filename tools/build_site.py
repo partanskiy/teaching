@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public catalogue with verified PDFs outside Git history."""
+"""Build the optional public catalogue from verified originals and plans."""
 import argparse
 import hashlib
 import html
@@ -118,7 +118,7 @@ def main():
         for module in modules:
             release = load(module / 'data/release.json')
             if not args.local_assets:
-                subprocess.run([sys.executable, str(module / 'scripts/restore_materials.py')], check=True, cwd=module)
+                subprocess.run([sys.executable, str(module / 'scripts/restore_materials.py'), '--release'], check=True, cwd=module)
             documents = load(module / 'data/documents.json')
             for document in documents:
                 path = safe_path(module, document['path'])
