@@ -30,6 +30,7 @@ def main():
     parser.add_argument('--source-only',action='store_true')
     parser.add_argument('--submission-only',action='store_true')
     parser.add_argument('--without-pdf',action='store_true')
+    parser.add_argument('--rebuilt-submission',type=Path,help='Compare checked-out submission contents with a fresh build, ignoring creation timestamps')
     args=parser.parse_args()
     program=json.loads((ROOT/'data/program.json').read_text());lessons=json.loads((ROOT/'data/lessons.json').read_text())
     require(len(lessons)==program['expected_lessons']==34,'Programme must contain 34 lessons')
@@ -64,6 +65,12 @@ def main():
         require(not formal_root.findall('.//w:hyperlink',NS),'Submission contains a hyperlink')
         with zipfile.ZipFile(ROOT/'course/План_для_сдачи_2026-2027.docx')as z:
             styles=E.fromstring(z.read('word/styles.xml'))
+            if args.rebuilt_submission:
+                with zipfile.ZipFile(args.rebuilt_submission)as rebuilt:
+                    require(set(z.namelist())==set(rebuilt.namelist()),'Rebuilt submission package differs')
+                    for name in z.namelist():
+                        if name!='docProps/core.xml':
+                            require(z.read(name)==rebuilt.read(name),'Stale submission contents: '+name)
         fonts=styles.findall('.//w:rFonts',NS)
         require(any(x.get('{'+NS['w']+'}ascii')=='Times New Roman'for x in fonts),'Submission font differs')
         mapping=json.loads((ROOT/'data/submission-map.json').read_text())

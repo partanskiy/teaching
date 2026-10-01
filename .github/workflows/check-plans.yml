@@ -12,16 +12,20 @@ jobs:
         working-directory: courses/olympiad-math-10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
-      - name: Install system XML library
+        with:
+          lfs: false
+      - name: Fetch only the four rendered plans
+        run: git lfs pull --include="courses/olympiad-math-10/course/*.docx,courses/olympiad-math-10/course/*.pdf" --exclude=""
+      - name: Install system document libraries
         run: |
           sudo apt-get update
-          sudo apt-get install -y python3-lxml
+          sudo apt-get install -y python3-lxml poppler-utils
       - name: Build both plan sources and submission document
         run: |
           python3 scripts/make_course.py
           python3 scripts/publish.py
-          python3 scripts/build_submission.py
-          python3 scripts/check_plans.py --submission-only
+          python3 scripts/build_submission.py --output "$RUNNER_TEMP/submission-plan.docx"
+          python3 scripts/check_plans.py --rebuilt-submission "$RUNNER_TEMP/submission-plan.docx"
           node scripts/check_catalog.js
       - name: Check generated text is committed
         run: git diff --exit-code -- README.md data/lessons.json data/submission-map.json course research site
