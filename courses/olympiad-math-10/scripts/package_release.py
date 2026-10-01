@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package binary Release assets without putting them into Git history."""
+"""Package optional downloadable snapshots from verified Git LFS originals."""
 import argparse
 import hashlib
 import json
@@ -47,7 +47,7 @@ def main():
     (ROOT/'data/release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')
     subprocess.run([sys.executable,str(ROOT/'scripts/publish.py')],check=True)
     selected=[]
-    for directory in ['archive','data','course','research','scripts','site','.github','extracted/full']:
+    for directory in ['archive','data','course','research','scripts','site','media','.github','extracted/full']:
         for file in (ROOT/directory).rglob('*'):
             if file.is_file() and '__pycache__'not in file.parts and file.suffix not in ['.log','.pyc'] and file.name!='collect.lock':selected.append(file)
     selected.extend(ROOT/name for name in ['README.md','index.html','BINARY_FLOW.md','NOTICE.md','AGENTS.md','.gitignore','.gitattributes'] if (ROOT/name).is_file())
@@ -61,7 +61,7 @@ def main():
 
 Сохранено {stats['documents']} документов: региональный этап ВсОШ 2010-2026, МОШ 2011-2026, муниципальные комплекты из {stats['municipal_regions']} регионов. Все 250 задач основного ядра размечены после чтения; муниципальная разметка вне проверенной выборки предварительная.
 
-Для готовой локальной работы распаковать olympiad-math-offline.zip и открыть index.html. Для Git-клона восстановить оригиналы командой python scripts/restore_materials.py. Архивные PDF и готовые документы хранятся во вложениях релиза, вне истории Git. SHA256SUMS.txt содержит суммы вложений.
+Для готовой локальной работы распаковать olympiad-math-offline.zip и открыть index.html. Git-клон с установленным Git LFS автоматически получает оригинальные PDF и готовые документы. Команда python scripts/restore_materials.py сверяет оригиналы и подготавливает текстовый индекс без сетевой загрузки. SHA256SUMS.txt содержит суммы вложений.
 ''')
     print(json.dumps({p.name:round(p.stat().st_size/1024/1024,2)for p in assets},ensure_ascii=False))
 
