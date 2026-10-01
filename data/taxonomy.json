@@ -1,0 +1,42 @@
+{
+  "topics": {
+    "geometry": "Геометрия",
+    "number_theory": "Теория чисел",
+    "combinatorics": "Комбинаторика",
+    "algebra": "Алгебра"
+  },
+  "methods": {
+    "parity": "Чётность",
+    "invariant": "Инвариант",
+    "monovariant": "Моновариант",
+    "pigeonhole": "Принцип Дирихле",
+    "extremal": "Крайний элемент",
+    "double_counting": "Двойной подсчёт",
+    "induction": "Индукция",
+    "construction": "Конструкция",
+    "contradiction": "От противного",
+    "bounds": "Оценка",
+    "modular": "Остатки",
+    "factorization": "Разложение на множители",
+    "gcd": "НОД и взаимная простота",
+    "valuations": "Показатели простых",
+    "graphs": "Графовая модель",
+    "strategy": "Стратегия",
+    "angles": "Углы и окружности",
+    "similarity": "Подобие",
+    "areas": "Площади",
+    "coordinates": "Координаты и векторы",
+    "vieta": "Теорема Виета",
+    "substitution": "Подстановка",
+    "symmetry": "Симметрия",
+    "bijection": "Соответствие и инъекция",
+    "descent": "Спуск",
+    "recurrence": "Рекурсия",
+    "matching": "Паросочетания",
+    "polynomials": "Многочлены",
+    "order": "Упорядочивание",
+    "projection": "Проекции",
+    "information": "Информация и различимость",
+    "power": "Степень точки"
+  }
+}
