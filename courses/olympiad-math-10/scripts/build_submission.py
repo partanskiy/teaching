@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate the submission programme from the same lessons as the working plan."""
+import argparse
 import json
 from collections import Counter
 from pathlib import Path
@@ -137,7 +138,9 @@ for n,text in enumerate(['Официальные задания и решени�
                         'Дидактические материалы составителя: тематические подборки, диагностические работы, тренировочные туры и рекомендации по оформлению решений.'],1):
     p(f'{n}. {text}',style='Reference')
 
-OUT=ROOT/'course/План_для_сдачи_2026-2027.docx'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output',type=Path,default=ROOT/'course/План_для_сдачи_2026-2027.docx',help='Write DOCX to this path without overwriting the checked-out plan')
+OUT=parser.parse_args().output
 save(OUT,title=PROGRAM['title'],author=AUTHOR,lessons=LESSONS,sections=sections)
 (ROOT/'course/submission.md').write_text('\n'.join(MD))
 snapshot={'author':AUTHOR,'academic_year':YEAR,'lessons':[{k:l[k]for k in ['number','month','title','minutes','academic_hours','goal','block']}for l in LESSONS],
