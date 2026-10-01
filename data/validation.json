@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "date": "2026-10-01",
+  "documents_checked": 422,
+  "unique_sha256": 407,
+  "task_links_checked": 2231,
+  "regional_tasks": 154,
+  "mosh_tasks": 96,
+  "reviewed_statements": 270,
+  "reviewed_solutions": 83,
+  "lessons": 34,
+  "academic_hours": 68,
+  "clock_hours": 51,
+  "reserve_tasks": 25,
+  "download_failures": 3,
+  "extraction_gaps": 2,
+  "note": "Integrity and coverage checks; automatic municipal topic labels remain provisional."
+}
