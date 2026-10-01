@@ -1,13 +1,3 @@
-# Official materials and rendered documents are GitHub Release assets.
-/archive/
-/sources/pages/
-/sources/*.docx
-/extracted/
-/dist/
-/course/*.docx
-/course/*.pdf
-/data/*.log
-/data/collect.lock
 __pycache__/
 *.pyc
 *.tmp

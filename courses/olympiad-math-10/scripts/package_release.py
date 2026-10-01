@@ -49,7 +49,7 @@ def main():
     for directory in ['archive','data','course','research','scripts','site','.github','extracted/full']:
         for file in (ROOT/directory).rglob('*'):
             if file.is_file() and '__pycache__'not in file.parts and file.suffix not in ['.log','.pyc'] and file.name!='collect.lock':selected.append(file)
-    selected.extend(ROOT/name for name in ['README.md','index.html','BINARY_FLOW.md','NOTICE.md','AGENTS.md','.gitignore','.gitattributes'])
+    selected.extend(ROOT/name for name in ['README.md','index.html','BINARY_FLOW.md','NOTICE.md','AGENTS.md','.gitignore','.gitattributes'] if (ROOT/name).is_file())
     offline=DIST/'olympiad-math-offline.zip';archive(offline,selected)
     assets=[materials,offline,*[DIST/name for name in files]]
     (DIST/'SHA256SUMS.txt').write_text(''.join(digest(p)+'  '+p.name+'\n'for p in assets))
