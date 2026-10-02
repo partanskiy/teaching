@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Verify that submission and working plans share metadata and all 34 lessons."""
+"""Verify shared metadata and hours across the summary and detailed working plan."""
 import argparse
 import json
 import re
 import subprocess
 import xml.etree.ElementTree as E
 import zipfile
+from collections import Counter
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -52,14 +53,21 @@ def main():
     if not args.source_only:
         formal_root,formal_text=doc(ROOT/'course/План_для_сдачи_2026-2027.docx')
         require(program['author']in formal_text and program['academic_year']in formal_text,'Submission metadata differs')
-        rows=[]
-        for row in formal_root.findall('.//w:tbl/w:tr',NS):
-            cells=[''.join(c.itertext())for c in row.findall('w:tc',NS)]
-            if cells and cells[0].isdigit():rows.append(cells)
-        require(len(rows)==34,'Submission must contain 34 calendar rows')
-        for row,l in zip(rows,lessons):
-            require(row==[str(l['number']),l['month'],l['title'],str(l['academic_hours']),l['goal']],
-                    'Submission row differs: '+str(l['number']))
+        tables=formal_root.findall('.//w:tbl',NS)
+        require(len(tables)==1,'Submission must contain only the thematic summary table')
+        rows=[[''.join(c.itertext())for c in row.findall('w:tc',NS)]for row in tables[0].findall('w:tr',NS)]
+        counts=Counter(l['block']for l in lessons)
+        section_hours={k:counts[k]*2 for k in program['blocks']}
+        expected=[['Название раздела','Кол-во часов']]
+        expected.extend([v['title'],str(section_hours[k])]for k,v in program['blocks'].items())
+        expected.append(['Итого','68'])
+        require(rows==expected,'Submission section hours differ from the working plan')
+        require('КАЛЕНДАРНО-ТЕМАТИЧЕСКИЙ ПЛАН'not in formal_text.upper(),'Submission contains a lesson calendar')
+        headings=[normal(''.join(p.itertext()))for p in formal_root.findall('w:body/w:p',NS)
+                  if p.find('w:pPr/w:pStyle',NS)is not None and p.find('w:pPr/w:pStyle',NS).get('{'+NS['w']+'}val')=='Heading1']
+        require(headings==['ПОЯСНИТЕЛЬНАЯ ЗАПИСКА','ЦЕЛИ ИЗУЧЕНИЯ КУРСА','МЕСТО КРУЖКА В УЧЕБНОМ ПЛАНЕ',
+                          'ТЕМАТИЧЕСКОЕ ПЛАНИРОВАНИЕ','ПЛАНИРУЕМЫЕ РЕЗУЛЬТАТЫ ОСВОЕНИЯ ПРОГРАММЫ',
+                          'МЕТАПРЕДМЕТНЫЕ РЕЗУЛЬТАТЫ','ПРЕДМЕТНЫЕ РЕЗУЛЬТАТЫ'],'Submission structure differs from the supplied reference')
         for text in ['/home/','file://','olympiad-math','репозитор','локальн','R-20','MOSH-20','.docx','.pdf']:
             require(text not in formal_text,'Internal reference in submission: '+text)
         require(not formal_root.findall('.//w:hyperlink',NS),'Submission contains a hyperlink')
@@ -74,7 +82,9 @@ def main():
         fonts=styles.findall('.//w:rFonts',NS)
         require(any(x.get('{'+NS['w']+'}ascii')=='Times New Roman'for x in fonts),'Submission font differs')
         mapping=json.loads((ROOT/'data/submission-map.json').read_text())
+        require(mapping['author']==program['author']and mapping['academic_year']==program['academic_year'],'Submission mapping metadata differs')
         require(mapping['academic_hours']==68 and mapping['clock_minutes']==3060,'Submission hours differ')
+        require(mapping['section_hours']==section_hours,'Submission section mapping differs')
         require(mapping['lessons']==[{k:l[k]for k in ['number','month','title','minutes','academic_hours','goal','block']}for l in lessons],
                 'Submission mapping differs')
         if not args.submission_only:
@@ -86,8 +96,12 @@ def main():
                     result=subprocess.run(['pdftotext','-raw',str(ROOT/'course'/(name+'.pdf')),'-'],text=True,capture_output=True,check=True)
                     text=normal(result.stdout)
                     require(program['author']in text and program['academic_year']in text,'PDF metadata differs')
-                    for l in lessons:require(l['title']in text,'PDF lesson differs: '+str(l['number']))
-    print('Plans synchronized: 34 lessons, identical order, topics, goals, author, year and 68 academic hours.')
+                    if name=='План_для_сдачи_2026-2027':
+                        for block in program['blocks'].values():require(block['title']in text,'Submission PDF section differs: '+block['title'])
+                        require('КАЛЕНДАРНО-ТЕМАТИЧЕСКИЙ ПЛАН'not in text.upper(),'Submission PDF contains a lesson calendar')
+                    else:
+                        for l in lessons:require(l['title']in text,'PDF lesson differs: '+str(l['number']))
+    print('Plans synchronized: 34 working lessons, matching summary sections, author, year and 68 academic hours.')
 
 
 if __name__=='__main__':main()
