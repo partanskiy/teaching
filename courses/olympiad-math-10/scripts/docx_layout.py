@@ -51,7 +51,7 @@ def run(parent, text, bold=False, size=None, underline=False):
 
 
 def paragraph(text='', style='Normal', align=None, bold=False, size=None,
-              before=None, after=None, indent=None, line=None, parent=None,
+              before=None, after=None, indent=None, left=None, line=None, parent=None,
               keep=False):
     parent = body if parent is None else parent
     p = el('p', parent)
@@ -69,8 +69,13 @@ def paragraph(text='', style='Normal', align=None, bold=False, size=None,
         if line is not None:
             args.update(line=line, lineRule='auto')
         el('spacing', pp, **args)
-    if indent is not None:
-        el('ind', pp, firstLine=indent)
+    if indent is not None or left is not None:
+        ind = {}
+        if indent is not None:
+            ind['firstLine'] = indent
+        if left is not None:
+            ind['left'] = left
+        el('ind', pp, **ind)
     if align:
         el('jc', pp, val=align)
     if text:
@@ -100,7 +105,7 @@ def pagebreak():
     el('br', r, type='page')
 
 
-def table(rows, widths, size=11, header=True, total=False):
+def table(rows, widths, size=11, header=True, total=False, shaded=True):
     t = el('tbl', body)
     props = el('tblPr', t)
     el('tblW', props, w=sum(widths), type='dxa')
@@ -126,9 +131,9 @@ def table(rows, widths, size=11, header=True, total=False):
             cp = el('tcPr', cell)
             el('tcW', cp, w=width, type='dxa')
             el('vAlign', cp, val='center')
-            if is_bold:
+            if is_bold and shaded:
                 el('shd', cp, fill='EFEFEF', val='clear')
-            numeric = ci == 0 or str(value).isdigit()
+            numeric = str(value).isdigit() or (header and ri == 0)
             paragraph(str(value), style='TableText', align='center' if numeric else 'left',
                       size=size, bold=is_bold, after=0, indent=0, line=240, parent=cell)
     paragraph('', style='TableText', after=30, line=120)
@@ -148,12 +153,13 @@ def reference(number, description, url=None):
 
 
 
-def save(out, *, title, author, lessons, sections):
+def save(out, *, title, author, lessons, sections, page_numbers=True):
     sect = el('sectPr', body)
-    footer_ref = el('footerReference', sect, type='default')
-    footer_ref.set(f'{{{R}}}id', 'rIdFooter')
+    if page_numbers:
+        footer_ref = el('footerReference', sect, type='default')
+        footer_ref.set(f'{{{R}}}id', 'rIdFooter')
     el('pgSz', sect, w=11906, h=16838)
-    el('pgMar', sect, top=1134, right=850, bottom=1134, left=1701, header=500, footer=550, gutter=0)
+    el('pgMar', sect, top=1134, right=850, bottom=1134, left=1701, header=708, footer=708, gutter=0)
     el('titlePg', sect)
 
 
@@ -170,7 +176,7 @@ def save(out, *, title, author, lessons, sections):
     el('spacing', pp, after=80, line=360, lineRule='auto')
 
 
-    def style(sid, name, *, align='both', indent=709, line=360, after=80,
+    def style(sid, name, *, align='both', indent=570, line=360, after=80,
               before=0, bold=False, size=12, keep=False, outline=None):
         st = el('style', styles, type='paragraph', styleId=sid)
         if sid == 'Normal':
