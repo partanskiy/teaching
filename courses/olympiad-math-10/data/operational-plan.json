@@ -28,7 +28,7 @@
     {"event": "mosh_math", "region": "Москва", "modules": [22, 23, 24, 25, 26]}
   ],
   "slots": [
-    {"date": "2026-10-03", "module": 3, "priority": "core", "status": "ready"},
+    {"date": "2026-10-03", "module": 3, "priority": "core", "status": "ready", "session_file": "course/sessions/2026-10-03/session.json"},
     {"date": "2026-10-17", "module": 2, "priority": "core", "status": "proposed"},
     {"date": "2026-10-24", "module": 4, "priority": "core", "status": "proposed"},
     {"date": "2026-10-31", "module": 5, "priority": "core", "status": "proposed"},
