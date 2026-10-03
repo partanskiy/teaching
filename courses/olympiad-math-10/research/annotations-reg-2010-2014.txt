@@ -23,7 +23,7 @@ R-2012-10.5|geometry,algebra|angles,construction|Совпадения синус
 R-2012-10.6|number_theory|gcd,factorization,bounds|Максимум попарно взаимно простых чисел 1+a^j.|3
 R-2012-10.7|combinatorics|invariant,modular,construction|Перекрашивание квадратов 2x2 в цикле из трёх цветов.|3
 R-2012-10.8|geometry|angles,similarity|Окружность в прямоугольной трапеции и равенство углов.|2
-R-2013-10.1|number_theory|modular,construction|Последняя цифра N при M=3N и заданных изменениях цифр.|1
+R-2013-10.1|number_theory|parity,modular,construction|Последняя цифра N при M=3N и заданных изменениях цифр.|1|Разность M-N=2N имеет одну цифру 2 и остальные нечётные. Последняя цифра N равна 1 или 6; единица исключается по чётности цифры десятков 2N без переноса из единиц. Пример N=16, M=48.
 R-2013-10.2|geometry|angles,symmetry|Хорда через основания высот и две касательные.|2
 R-2013-10.3|algebra|vieta,polynomials|Равенство сумм корней трёх квадратных трёхчленов.|2
 R-2013-10.4|number_theory,combinatorics|bounds,construction|Разбиение натуральных чисел на конечные блоки с заданными суммами.|3
