@@ -309,12 +309,14 @@
       "number_theory"
     ],
     "methods": [
+      "parity",
       "modular",
       "construction"
     ],
     "summary": "Последняя цифра N при M=3N и заданных изменениях цифр.",
     "difficulty": 1,
-    "review_status": "statement_reviewed"
+    "review_status": "solution_reviewed",
+    "solution_key": "Разность M-N=2N имеет одну цифру 2 и остальные нечётные. Последняя цифра N равна 1 или 6; единица исключается по чётности цифры десятков 2N без переноса из единиц. Пример N=16, M=48."
   },
   "R-2013-10.2": {
     "topics": [
