@@ -42,6 +42,25 @@ def main():
         raise ValueError('Unknown programme module')
     if any(s['priority'] not in ['core', 'milestone', 'buffer'] for s in slots):
         raise ValueError('Unknown session priority')
+    prepared_sessions = {}
+    for slot in slots:
+        if not slot.get('session_file'):
+            continue
+        session = json.loads((ROOT / slot['session_file']).read_text())
+        if session['date'] != slot['date'] or session['minutes'] != lessons[slot['module']]['minutes']:
+            raise ValueError('Prepared session date or duration differs from the calendar')
+        selected = session['tasks']
+        if len({item['id'] for item in selected}) != len(selected):
+            raise ValueError('Prepared session tasks must be distinct')
+        if [item['number'] for item in selected] != list(range(1, len(selected) + 1)):
+            raise ValueError('Prepared session task numbers must be consecutive')
+        if set(session['programme_modules']) != {item['programme_module'] for item in selected}:
+            raise ValueError('Prepared session module list differs from its tasks')
+        for item in selected:
+            lesson = lessons[item['programme_module']]
+            if tasks[item['id']]['reserve'] or item['id'] not in lesson['classroom'] + lesson['homework']:
+                raise ValueError('Prepared session task must belong to its module and not be reserved')
+        prepared_sessions[slot['date']] = session
     core = [s for s in slots if s['priority'] != 'buffer']
     remaining_battles = max(plan['mathematical_battle_saturdays_estimate']
                             - len(battles & set(saturdays)), 0)
@@ -112,12 +131,21 @@ def main():
     labels = {'core': 'Основа', 'milestone': 'Тур или разбор', 'buffer': 'Резерв'}
     for slot in slots:
         lesson = lessons[slot['module']]
-        material = '; '.join(problem(t) for t in lesson['classroom'])
-        text += f"| {display(slot['date'])} | {lesson['number']}. {lesson['title']} | {labels[slot['priority']]} | {material} |\n"
+        title = f"{lesson['number']}. {lesson['title']}"
+        if slot['date'] in prepared_sessions:
+            session = prepared_sessions[slot['date']]
+            directory = Path(slot['session_file']).parent.relative_to('course').as_posix()
+            title = session['title'] + ' (части тем ' + ', '.join(map(str, session['programme_modules'])) + ')'
+            material = f"[{len(session['tasks'])} задач на отдельном листке]({directory}/student.pdf); [решения и сценарий]({directory}/teacher.md)"
+        else:
+            material = '; '.join(problem(t) for t in lesson['classroom'])
+        text += f"| {display(slot['date'])} | {title} | {labels[slot['priority']]} | {material} |\n"
     text += '\nКаникулы, исключённые из этой таблицы: ' + ', '.join(display(str(d)) for d in blocked) + '.\n\n'
     text += '''## Что рассказывать на ближайших парах
 
-Сегодня инвариант возникает из трёх видов деления амёб, затем из переходов между двумя классами чисел. Полный сценарий с доказательствами и подсказками находится в папке сегодняшнего занятия.
+Сегодня подготовлены 10 задач из годовой программы. Первые пять: амёбы, числа из нулей и семёрок, табло, остатки трёх нечётных чисел и последняя цифра. Здесь чётность и инварианты переходят в остатки и десятичную запись. Следующие пять продолжают работу по делимости, раскраскам и конструкциям. Полные решения, подсказки и сценарий на 90 минут находятся в папке сегодняшнего занятия.
+
+Отдельные задачи из тем 2, 3, 6 и 20 не означают четыре проведённые пары. На 17 октября сначала проверяем сегодняшнее продвижение: задачи 2, 4 и 5 с листка не выдаём снова как новые, если они уверенно разобраны. Тогда используем разбор школьного этапа и углубление метода остатков; темы делимости и раскрасок пока не считаем завершёнными.
 
 '''
     for number in [2, 4, 5, 6, 11]:
