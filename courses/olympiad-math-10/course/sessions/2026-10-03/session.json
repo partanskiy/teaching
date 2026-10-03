@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-03",
+  "title": "Чётность, инварианты и остатки",
+  "minutes": 90,
+  "programme_modules": [3, 2, 6, 20],
+  "coverage": "Selected tasks; does not mark all four programme modules as completed",
+  "page_break_before": [6],
+  "tasks": [
+    {"number": 1, "id": "M-2025-2026-perm-10.2", "title": "Амёбы двух цветов", "programme_module": 3},
+    {"number": 2, "id": "M-2025-2026-tat-10.1", "title": "Числа из нулей и семёрок", "programme_module": 2},
+    {"number": 3, "id": "R-2025-10.6", "title": "Табло", "programme_module": 3},
+    {"number": 4, "id": "R-2022-10.6", "title": "Остатки трёх нечётных чисел", "programme_module": 2},
+    {"number": 5, "id": "R-2013-10.1", "title": "Последняя цифра", "programme_module": 2},
+    {"number": 6, "id": "M-2025-2026-novosb-10.1", "title": "Квадрат простого числа", "programme_module": 6},
+    {"number": 7, "id": "R-2013-10.6", "title": "Дроби и общий делитель", "programme_module": 6},
+    {"number": 8, "id": "R-2021-10.7", "title": "Таблица 9 на 9", "programme_module": 3},
+    {"number": 9, "id": "MOSH-2012-10.2", "title": "Переключение строк и столбцов", "programme_module": 20},
+    {"number": 10, "id": "R-2014-10.2", "title": "Необычные стозначные числа", "programme_module": 6}
+  ]
+}
