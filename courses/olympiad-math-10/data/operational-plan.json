@@ -1,0 +1,60 @@
+{
+  "updated_on": "2026-10-03",
+  "first_regular_session": "2026-10-03",
+  "last_regular_saturday": "2027-05-22",
+  "school_year_ends_on": "2027-05-28",
+  "school_calendar_source": "https://www.1511.ru/info/study/161",
+  "school_calendar_pdf_source": "https://mephi.ru/content/public/uploads/files/pre/kalendarnyi_uchebnyi_grafik.pdf",
+  "holiday_sessions_assumption": "No regular sessions during school holidays unless separately confirmed",
+  "holiday_periods": [
+    {"start": "2026-10-04", "end": "2026-10-11"},
+    {"start": "2026-11-15", "end": "2026-11-22"},
+    {"start": "2026-12-30", "end": "2027-01-10"},
+    {"start": "2027-02-14", "end": "2027-02-21"},
+    {"start": "2027-04-04", "end": "2027-04-11"}
+  ],
+  "mathematical_battle_saturdays_estimate": 5,
+  "mathematical_battle_dates": [],
+  "other_cancelled_dates": [],
+  "completed_regular_sessions": [],
+  "prior_events": [
+    {"event": "entrance_contest", "date": null, "duration_minutes": null, "completed": true},
+    {"event": "entrance_contest_review", "date": null, "duration_minutes": null, "completed": true}
+  ],
+  "preparation_constraints": [
+    {"event": "vsosh_school_math", "region": "Москва", "modules": [3]},
+    {"event": "vsosh_municipal_math", "region": "Москва", "modules": [2, 3, 4, 5, 6, 11]},
+    {"event": "vsosh_regional_math", "region": "Россия", "modules": [2, 3, 4, 5, 6, 8, 9, 10, 17, 18, 19]},
+    {"event": "mosh_math", "region": "Москва", "modules": [22, 23, 24, 25, 26]}
+  ],
+  "slots": [
+    {"date": "2026-10-03", "module": 3, "priority": "core", "status": "ready"},
+    {"date": "2026-10-17", "module": 2, "priority": "core", "status": "proposed"},
+    {"date": "2026-10-24", "module": 4, "priority": "core", "status": "proposed"},
+    {"date": "2026-10-31", "module": 5, "priority": "core", "status": "proposed"},
+    {"date": "2026-11-07", "module": 6, "priority": "core", "status": "proposed"},
+    {"date": "2026-11-14", "module": 11, "priority": "milestone", "status": "proposed"},
+    {"date": "2026-11-28", "module": 9, "priority": "core", "status": "proposed"},
+    {"date": "2026-12-05", "module": 10, "priority": "core", "status": "proposed"},
+    {"date": "2026-12-12", "module": 8, "priority": "core", "status": "proposed"},
+    {"date": "2026-12-19", "module": 13, "priority": "buffer", "status": "proposed"},
+    {"date": "2026-12-26", "module": 15, "priority": "buffer", "status": "proposed"},
+    {"date": "2027-01-16", "module": 17, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-01-23", "module": 18, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-01-30", "module": 19, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-02-06", "module": 22, "priority": "core", "status": "proposed"},
+    {"date": "2027-02-13", "module": 23, "priority": "core", "status": "proposed"},
+    {"date": "2027-02-27", "module": 24, "priority": "core", "status": "proposed"},
+    {"date": "2027-03-06", "module": 25, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-03-13", "module": 26, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-03-20", "module": 20, "priority": "core", "status": "proposed"},
+    {"date": "2027-03-27", "module": 21, "priority": "core", "status": "proposed"},
+    {"date": "2027-04-03", "module": 14, "priority": "core", "status": "proposed"},
+    {"date": "2027-04-17", "module": 16, "priority": "buffer", "status": "proposed"},
+    {"date": "2027-04-24", "module": 29, "priority": "core", "status": "proposed"},
+    {"date": "2027-05-01", "module": 7, "priority": "buffer", "status": "proposed"},
+    {"date": "2027-05-08", "module": 12, "priority": "buffer", "status": "proposed"},
+    {"date": "2027-05-15", "module": 33, "priority": "milestone", "status": "proposed"},
+    {"date": "2027-05-22", "module": 34, "priority": "milestone", "status": "proposed"}
+  ]
+}
