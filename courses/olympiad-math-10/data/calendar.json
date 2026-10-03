@@ -1,13 +1,40 @@
 {
-  "verified_on": "2026-10-01",
+  "verified_on": "2026-10-03",
   "academic_year": "2026/2027",
   "events": [
+    {
+      "event": "vsosh_school_math",
+      "region": "Москва",
+      "status": "published",
+      "date": "2026-10-13",
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "access_start": "09:00",
+      "access_end": "21:00",
+      "timezone": "Europe/Moscow",
+      "grade_10_duration_minutes": 120,
+      "registration_starts_on": "2026-10-05",
+      "source": "https://vos.olimpiada.ru/subject/math",
+      "verification_method": "official_page_public_api",
+      "snapshot": "research/sources/moscow-math-schedule-2026-10-03.json"
+    },
     {
       "event": "vsosh_municipal_math",
       "region": "Москва",
       "status": "date_not_found_in_checked_sources",
       "date": null,
-      "sources": ["https://vos.olimpiada.ru/2026/okrug", "https://vos.olimpiada.ru/2026/subject/math", "https://vos.olimpiada.ru/docs"]
+      "sources": [
+        "https://vos.olimpiada.ru/2026/okrug",
+        "https://vos.olimpiada.ru/2026/subject/math",
+        "https://vos.olimpiada.ru/docs",
+        "https://vos.olimpiada.ru/subject/math"
+      ],
+      "moscow_page_api_observation": "Only invitational and school stages were present in the returned schedule on 2026-10-03"
     },
     {
       "event": "vsosh_municipal_math",
@@ -24,15 +51,33 @@
       "region": "Россия",
       "status": "date_not_found_in_checked_sources",
       "date": null,
-      "sources": ["https://vserosolimp.edsoo.ru/region_way", "https://olympiads.mccme.ru/vmo/"],
-      "latest_checked_published_season": "2025/2026"
+      "sources": [
+        "https://vserosolimp.edsoo.ru/region_way",
+        "https://olympiads.mccme.ru/vmo/",
+        "https://vos.olimpiada.ru/subject/math"
+      ],
+      "latest_checked_published_season": "2025/2026",
+      "moscow_page_api_observation": "Only invitational and school stages were present in the returned schedule on 2026-10-03"
     },
     {
       "event": "mosh_math",
       "region": "Москва",
       "status": "date_not_found_in_checked_sources",
       "date": null,
-      "sources": ["https://mmo.mccme.ru/", "https://mmo.mccme.ru/2027/"]
+      "sources": [
+        "https://mmo.mccme.ru/",
+        "https://mmo.mccme.ru/2027/"
+      ]
+    },
+    {
+      "event": "vsosh_final_math",
+      "region": "Россия",
+      "status": "date_not_found_in_checked_sources",
+      "date": null,
+      "sources": [
+        "https://vserosolimp.edsoo.ru/zakluchit_way",
+        "https://vos.olimpiada.ru/docs"
+      ]
     }
   ],
   "methodology": {
@@ -45,5 +90,14 @@
     "recommended_minimum_tasks": 4,
     "recommended_maximum_total_minutes": 235,
     "note": "Рекомендации не являются расписанием или демовариантом."
+  },
+  "school_calendar": {
+    "source": "https://www.1511.ru/info/study/161",
+    "pdf_source": "https://mephi.ru/content/public/uploads/files/pre/kalendarnyi_uchebnyi_grafik.pdf",
+    "local_path": "research/sources/lyceum-1511-calendar-2026-2027.pdf",
+    "sha256": "27581ef9d5836b0886e1f8d5d1e6fd1aef4cdf0ad426deef3a50ba1598c7f0b6",
+    "school_year_ends_on": "2027-05-28",
+    "grade": 10,
+    "verification_method": "official_page_and_visual_review_of_signed_pdf_page_1"
   }
 }
