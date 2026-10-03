@@ -23,6 +23,21 @@ def main():
     if not source.is_file():
         parser.error('Student handout does not exist: ' + str(source))
     program = json.loads((ROOT / 'data/program.json').read_text())
+    manifest_path = session / 'session.json'
+    manifest = json.loads(manifest_path.read_text()) if manifest_path.is_file() else {}
+    if manifest:
+        tasks = {t['id']: t for t in json.loads((ROOT / 'data/tasks.json').read_text())}
+        lessons = {l['number']: l for l in json.loads((ROOT / 'data/lessons.json').read_text())}
+        selected = manifest['tasks']
+        if len({item['id'] for item in selected}) != len(selected):
+            raise ValueError('Session tasks must be distinct')
+        if [item['number'] for item in selected] != list(range(1, len(selected) + 1)):
+            raise ValueError('Session task numbers must be consecutive')
+        for item in selected:
+            task = tasks[item['id']]
+            lesson = lessons[item['programme_module']]
+            if task['reserve'] or item['id'] not in lesson['classroom'] + lesson['homework']:
+                raise ValueError('Session task must belong to the stated module and not be reserved')
     output = session / 'student.docx'
     subprocess.run([
         'pandoc', str(source), '--from=markdown', '--to=docx',
@@ -46,6 +61,13 @@ def main():
             if indent is not None:
                 indent.set('{' + W + '}firstLine', '0')
     document = etree.fromstring(parts['word/document.xml'])
+    for paragraph in document.findall('.//w:body/w:p', NS):
+        text = ''.join(paragraph.itertext())
+        if any(text == 'Задача ' + str(n) for n in manifest.get('page_break_before', [])):
+            properties = paragraph.find('w:pPr', NS)
+            if properties is None:
+                properties = etree.SubElement(paragraph, '{' + W + '}pPr')
+            etree.SubElement(properties, '{' + W + '}pageBreakBefore')
     core = etree.fromstring(parts['docProps/core.xml'])
     dc = 'http://purl.org/dc/elements/1.1/'
     creator = core.find('{' + dc + '}creator')
