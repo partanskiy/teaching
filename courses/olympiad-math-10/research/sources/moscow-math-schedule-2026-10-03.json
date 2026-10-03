@@ -1,0 +1,148 @@
+{
+  "retrieved_on": "2026-10-03",
+  "source_page": "https://vos.olimpiada.ru/subject/math",
+  "endpoint": "https://vos.olimpiada.ru/api/getSubject",
+  "request_method": "POST",
+  "request_parameters": {
+    "profile": "math"
+  },
+  "verification_method": "public page JavaScript request; stage and tour fields read directly",
+  "stages": [
+    {
+      "stageName": "Пригласительный этап",
+      "stage": "1",
+      "year": "22",
+      "start": "2026-05-05",
+      "end": "2026-05-13",
+      "tours": [
+        {
+          "id": "717",
+          "system_date_edit": "2026-05-22 17:41:54",
+          "subject": "342",
+          "stage": "1",
+          "start": "2026-05-12",
+          "end": "2026-05-13",
+          "note": "Тур",
+          "time_start": "10:00:00",
+          "time_finish": "21:00:00",
+          "type": "2",
+          "project": "0"
+        },
+        {
+          "id": "745",
+          "system_date_edit": "2026-05-22 17:41:54",
+          "subject": "342",
+          "stage": "1",
+          "start": "2026-05-20",
+          "end": "0000-00-00",
+          "note": "Результаты",
+          "time_start": "00:00:00",
+          "time_finish": "00:00:00",
+          "type": "3",
+          "project": "0"
+        },
+        {
+          "id": "780",
+          "system_date_edit": "2026-05-22 17:41:54",
+          "subject": "342",
+          "stage": "1",
+          "start": "0000-00-00",
+          "end": "2026-05-14",
+          "note": "Регистрация для 3-4 классов",
+          "time_start": "00:00:00",
+          "time_finish": "20:00:00",
+          "type": "1",
+          "project": "0"
+        },
+        {
+          "id": "781",
+          "system_date_edit": "2026-05-22 17:41:54",
+          "subject": "342",
+          "stage": "1",
+          "start": "0000-00-00",
+          "end": "2026-05-14",
+          "note": "Регистрация для 5-7 классов",
+          "time_start": "00:00:00",
+          "time_finish": "19:30:00",
+          "type": "1",
+          "project": "0"
+        },
+        {
+          "id": "782",
+          "system_date_edit": "2026-05-22 17:41:54",
+          "subject": "342",
+          "stage": "1",
+          "start": "0000-00-00",
+          "end": "2026-05-14",
+          "note": "Регистрация для 8-10 классов",
+          "time_start": "00:00:00",
+          "time_finish": "19:00:00",
+          "type": "1",
+          "project": "0"
+        }
+      ]
+    },
+    {
+      "stageName": "Школьный этап",
+      "stage": "2",
+      "year": "22",
+      "start": "2026-10-05",
+      "end": "2026-10-26",
+      "tours": [
+        {
+          "id": "917",
+          "system_date_edit": "2026-10-01 15:58:49",
+          "subject": "342",
+          "stage": "2",
+          "start": "2026-10-05",
+          "end": "0000-00-00",
+          "note": "Начало регистрации",
+          "time_start": "00:00:00",
+          "time_finish": "00:00:00",
+          "type": "1",
+          "project": "0"
+        },
+        {
+          "id": "920",
+          "system_date_edit": "2026-10-01 15:58:49",
+          "subject": "342",
+          "stage": "2",
+          "start": "2026-10-19",
+          "end": "0000-00-00",
+          "note": "Предварительные результаты",
+          "time_start": "00:00:00",
+          "time_finish": "00:00:00",
+          "type": "3",
+          "project": "0"
+        },
+        {
+          "id": "923",
+          "system_date_edit": "2026-10-01 15:58:49",
+          "subject": "342",
+          "stage": "2",
+          "start": "2026-10-12",
+          "end": "2026-10-15",
+          "note": "Тур для 4-6 классов",
+          "time_start": "09:00:00",
+          "time_finish": "21:00:00",
+          "type": "2",
+          "project": "0"
+        },
+        {
+          "id": "926",
+          "system_date_edit": "2026-10-01 15:58:49",
+          "subject": "342",
+          "stage": "2",
+          "start": "2026-10-13",
+          "end": "2026-10-13",
+          "note": "Тур для 7-11 классов",
+          "time_start": "09:00:00",
+          "time_finish": "21:00:00",
+          "type": "2",
+          "project": "0"
+        }
+      ]
+    }
+  ],
+  "school_duration_description": "<p>На туре потребуется:</p>\r\n<ul>\r\n<li>устройство со стабильным интернетом;</li>\r\n<li>60 минут для выполнения заданий для 4 класса, 90 минут &ndash; для 5-8 классов, 120 минут &ndash; для 9-11 классов.</li>\r\n</ul>\r\n<p>С подробной информацией о проведении олимпиады можно ознакомиться по ссылкам:</p>\r\n<ul>\r\n<li><a href=\"/2026/school\">таблица с графиком по всем предметам</a>;</li>\r\n<li><a href=\"/2026/school/conf\">порядок выполнения заданий</a>;</li>\r\n<li><a href=\"/2026/school/memo\">памятка участнику</a>;</li>\r\n<li><a href=\"/2026/school/faq\">ответы на частые вопросы</a>;</li>\r\n<li><a href=\"/2026/school/technical_appeal\">порядок просмотра результатов</a>.</li>\r\n</ul>"
+}
