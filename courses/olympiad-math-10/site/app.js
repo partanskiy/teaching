@@ -41,7 +41,7 @@
   $('tasks').querySelector('.filters').append(dayLabel);
   options('day', [['1','Первый день'],['2','Второй день']], 'Все дни');
   const stats = bank.statistics;
-  [[stats.documents,'документов'],[stats.regional_tasks+stats.mosh_tasks,'задач исследованного ядра'],[stats.municipal_regions,'регионов муниципального банка'],[stats.lessons,'занятия по 90 минут']].forEach(([value,label]) => {
+  [[stats.documents,'документов'],[stats.regional_tasks+stats.mosh_tasks,'задач исследованного ядра'],[stats.municipal_regions,'регионов муниципального банка'],[stats.lessons,'тем годовой программы']].forEach(([value,label]) => {
     const item = el('div','stat'); item.append(el('strong','',String(value)),el('span','',label)); $('stats').append(item);
   });
   let limit = 100;
