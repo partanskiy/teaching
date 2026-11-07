@@ -1,8 +1,33 @@
 # Воспроизведение и обновление
 
-Команды выполняются из папки courses/olympiad-math-10 репозитория teaching. Скрипты используют только стандартную библиотеку Python и уже установленный lxml. Для файлов нужны Poppler и 7z; для документов - Pandoc и LibreOffice. Установка через pip не используется.
+Команды выполняются из папки courses/olympiad-math-10 репозитория teaching. Перед продолжением прочитать [передачу курса](../HANDOFF.md). Скрипты используют стандартную библиотеку Python и установленный lxml. Для актуальных листков нужен Typst 0.15.1; для оригиналов - Poppler и 7z; для индивидуального комплекта - Ghostscript; для программ DOCX/PDF и старого формата - Pandoc и LibreOffice. Установка через pip/pipx не используется.
+
+## Точечная работа с текущими материалами
+
+Для нового листка или изменения инструкции не требуется пересобирать архив и общую программу. Выполнять только нужную команду:
+
+```sh
+python scripts/check_plans.py
+node scripts/check_catalog.js
+python scripts/build_operational_plan.py
+python scripts/export_documents.py --working-only
+python scripts/build_session_handout.py 2026-10-24
+python scripts/build_session_handout.py 2026-10-17 --variant advanced
+typst compile --root . course/sessions/2026-10-17/advanced-solutions.typ course/sessions/2026-10-17/advanced-solutions.pdf
+python course/sessions/2026-10-24/build_figures.py
+typst compile --root . course/sessions/2026-10-24/solutions.typ course/sessions/2026-10-24/solutions.pdf
+python scripts/build_individual_pack.py
+```
+
+При наличии student.typ или advanced.typ сборщик компилирует Typst вместо старого Markdown/DOCX. Шаблон - course/templates/handout.typ. На 31 октября используются два прежних листка, отдельного student.typ нет.
+
+export_documents.py --working-only сохраняет оба официальных файла для сдачи, обновляет рабочий DOCX через Pandoc и рабочий PDF через Typst. Это доступно без LibreOffice, который сейчас на ноутбуке не установлен. Полный экспорт и --submission-only требуют LibreOffice для официального PDF; --skip-pdf оставляет только DOCX. При отсутствии нужного конвертера команда останавливается до изменения файлов.
+
+build_individual_pack.py создаёт ровно четыре файла в course/individual/municipal-10-2026/: tasks.typ, tasks.pdf, solutions.typ, solutions.pdf. Входы - data/individual-municipal-10-2026.json, оригиналы archive/ и research/municipal-pack-2026-moscow-2025.typ. PDF-страницы встроены в два самодостаточных Typst. ZIP создаётся в ~/Downloads и не нужен для воспроизводимости исходников. Старый build_pack.py в research/build/municipal-10-2026-legacy/ не запускать.
 
 ## Локальная сборка
+
+Ниже описан полный конвейер обновления банка и общей программы. Он не является обязательным первым шагом нового агента: make_course.py перезаписывает lessons.json, а publish.py генерирует несколько представлений. Перед полным запуском проверить исходные изменения и назначение сборки.
 
 Git-клон с установленным Git LFS автоматически скачивает оригиналы и планы. Команда python scripts/restore_materials.py сверяет эти файлы и извлекает текст без сетевой загрузки. Если в рабочей папке остались указатели, выполнить git lfs pull. Для пересборки планов исходные страницы публикаций не нужны. Команды выполнять из папки курса по порядку:
 
@@ -17,7 +42,7 @@ python scripts/publish.py
 
 build_operational_plan.py читает data/operational-plan.json, общий банк тем и задач и проверенные даты из data/calendar.json. Он проверяет доступные субботы и запрещает назначать подготовку к опубликованному этапу на дату этого этапа или позже. Фактическое проведение пары отдельно отмечается в данных; предполагаемая суббота не означает проведённого занятия. Сайты организаторов скрипт не проверяет автоматически.
 
-Для отдельной пересборки рабочего календаря выполнить python scripts/build_operational_plan.py. Для печатного листка конкретного занятия выполнить python scripts/build_session_handout.py 2026-10-03: источник course/sessions/2026-10-03/student.md, результаты student.docx и student.pdf через системные Pandoc и LibreOffice. teacher.md хранит сценарий и решения отдельно от ученического листка. Эти бинарные результаты отслеживаются через Git LFS.
+Для отдельной пересборки рабочего календаря выполнить python scripts/build_operational_plan.py. Только старый листок 3 октября использует student.md и сборку DOCX/PDF через Pandoc и LibreOffice. Новые листки используют Typst, как описано выше. teacher.md хранит сценарий отдельно от ученического листка; полные решения могут иметь отдельный Typst и PDF. Бинарные результаты отслеживаются через Git LFS.
 
 Ручные исследовательские записи хранятся в research/annotations-*.txt и не генерируются по ключевым словам. Ключи решения записаны после сверки с опубликованным решением. Остальные метки приемов у прочитанных условий являются педагогическими кандидатами.
 
