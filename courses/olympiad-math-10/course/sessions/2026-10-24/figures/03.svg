@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="808.588" viewBox="0 0 800 808.588">
+<rect width="100%" height="100%" fill="white"/>
+<circle cx="400.000" cy="400.000" r="355.000" fill="none" stroke="#929292" stroke-width="1.4"/>
+<polygon points="60.232,297.127 625.640,674.065 60.232,674.065" fill="none" fill-opacity="1" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="625.640" y1="674.065" x2="60.232" y2="502.873" stroke="#255a86" stroke-width="1.8"/>
+<line x1="60.232" y1="502.873" x2="155.192" y2="360.433" stroke="#a43a30" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="60.232" y1="502.873" x2="174.360" y2="674.065" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<polyline points="60.232,664.065 70.232,664.065 70.232,674.065" fill="none" fill-opacity="1" stroke="#929292" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="149.645,368.754 141.325,363.207 146.872,354.886" fill="none" fill-opacity="1" stroke="#929292" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="342.936" y1="669.065" x2="342.936" y2="679.065" stroke="#255a86" stroke-width="1.8"/>
+<line x1="393.190" y1="513.089" x2="387.643" y2="521.409" stroke="#255a86" stroke-width="1.8"/>
+<line x1="102.443" y1="331.276" x2="107.990" y2="322.956" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="107.435" y1="334.604" x2="112.982" y2="326.284" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="114.296" y1="679.065" x2="114.296" y2="669.065" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="120.296" y1="679.065" x2="120.296" y2="669.065" stroke="#a43a30" stroke-width="1.8"/>
+<circle cx="60.232" cy="297.127" r="2.8" fill="#222222"/>
+<text x="48.232" y="297.127" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">A</text>
+<circle cx="625.640" cy="674.065" r="2.8" fill="#222222"/>
+<text x="637.640" y="689.065" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">B</text>
+<circle cx="60.232" cy="674.065" r="2.8" fill="#222222"/>
+<text x="48.232" y="701.065" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">C</text>
+<circle cx="60.232" cy="502.873" r="2.8" fill="#222222"/>
+<text x="48.232" y="498.873" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">K</text>
+<circle cx="174.360" cy="674.065" r="2.8" fill="#222222"/>
+<text x="174.360" y="704.065" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">L</text>
+<circle cx="155.192" cy="360.433" r="2.8" fill="#222222"/>
+<text x="167.192" y="352.433" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">H</text>
+</svg>

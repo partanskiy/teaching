@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800.000" viewBox="0 0 800 800.000">
+<rect width="100%" height="100%" fill="white"/>
+<circle cx="400.000" cy="400.000" r="342.348" fill="none" stroke="#929292" stroke-width="1.4"/>
+<polyline points="175.693,658.628 177.367,653.764 179.137,648.933 181.002,644.138 182.960,639.381 185.011,634.663 187.155,629.986 189.390,625.352 191.715,620.763 194.130,616.220 196.634,611.726 199.226,607.282 201.904,602.889 204.668,598.550 207.517,594.266 210.449,590.039 213.464,585.870 216.560,581.761 219.736,577.713 222.991,573.729 226.323,569.810 229.732,565.956 233.216,562.171 236.773,558.454 240.403,554.808 244.104,551.234 247.874,547.734 251.712,544.308 255.616,540.958 259.586,537.685 263.619,534.491 267.714,531.377 271.870,528.344 276.084,525.393 280.355,522.525 284.682,519.742 289.062,517.044 293.495,514.432 297.978,511.909 302.510,509.473 307.089,507.127 311.713,504.872 316.380,502.708 321.089,500.635 325.838,498.656 330.624,496.770 335.447,494.979 340.304,493.283 345.193,491.682 350.113,490.177 355.062,488.770 360.037,487.460 365.037,486.248 370.059,485.134 375.103,484.119 380.166,483.203 385.245,482.387 390.340,481.671 395.448,481.055 400.566,480.539 405.694,480.124 410.829,479.810 415.970,479.596 421.113,479.484 426.258,479.473 431.402,479.562 436.543,479.753 441.679,480.044 446.809,480.436 451.930,480.929 457.041,481.523 462.138,482.216 467.221,483.010 472.288,483.903 477.336,484.895 482.364,485.987 487.369,487.176 492.350,488.464 497.304,489.850 502.231,491.332 507.127,492.911 511.992,494.586 516.823,496.356 521.618,498.220 526.375,500.178 531.093,502.230 535.770,504.373 540.404,506.608 544.993,508.933 549.536,511.349 554.030,513.852 558.474,516.444 562.867,519.122 567.206,521.886 571.490,524.735 575.717,527.667 579.886,530.682 583.995,533.778 588.042,536.954 592.027,540.209 595.946,543.541 599.799,546.950 603.585,550.434 607.302,553.992 610.948,557.621 614.522,561.322 618.022,565.092 621.448,568.930 624.798,572.835 628.071,576.804 631.265,580.838 634.379,584.933 637.412,589.088 640.363,593.302 643.231,597.574 646.014,601.900 648.712,606.281 651.324,610.714 653.847,615.197 656.283,619.729 658.628,624.307" fill="none" stroke="#255a86" stroke-width="1.8"/>
+<polygon points="375.731,58.513 235.414,479.465 586.207,479.465" fill="none" fill-opacity="1" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="235.414" y1="479.465" x2="175.693" y2="658.628" stroke="#929292" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="586.207" y1="479.465" x2="658.628" y2="624.307" stroke="#929292" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="83.711" y1="268.989" x2="716.289" y2="268.989" stroke="#a43a30" stroke-width="2.6"/>
+<circle cx="375.731" cy="58.513" r="2.8" fill="#222222"/>
+<text x="375.731" y="45.513" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">A</text>
+<circle cx="235.414" cy="479.465" r="2.8" fill="#222222"/>
+<text x="225.414" y="508.465" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">B</text>
+<circle cx="586.207" cy="479.465" r="2.8" fill="#222222"/>
+<text x="596.207" y="508.465" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">C</text>
+<circle cx="175.693" cy="658.628" r="2.8" fill="#222222"/>
+<text x="165.693" y="687.628" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">P</text>
+<circle cx="658.628" cy="624.307" r="2.8" fill="#222222"/>
+<text x="668.628" y="653.307" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">Q</text>
+<circle cx="305.573" cy="268.989" r="2.8" fill="#222222"/>
+<text x="295.573" y="256.989" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">M</text>
+<circle cx="480.969" cy="268.989" r="2.8" fill="#222222"/>
+<text x="490.969" y="256.989" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">N</text>
+<circle cx="83.711" cy="268.989" r="2.8" fill="#222222"/>
+<text x="73.711" y="261.989" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">X</text>
+<circle cx="716.289" cy="268.989" r="2.8" fill="#222222"/>
+<text x="726.289" y="261.989" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">Y</text>
+<circle cx="424.269" cy="479.465" r="2.8" fill="#222222"/>
+<text x="424.269" y="509.465" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">T</text>
+<text x="194.642" y="299.989" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="25" fill="#a43a30" stroke="white" stroke-width="4" paint-order="stroke">x</text>
+<text x="393.271" y="299.989" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="25" fill="#a43a30" stroke="white" stroke-width="4" paint-order="stroke">a</text>
+<text x="598.629" y="299.989" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="25" fill="#a43a30" stroke="white" stroke-width="4" paint-order="stroke">y</text>
+<text x="439.269" y="536.397" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#255a86" stroke="white" stroke-width="4" paint-order="stroke">ω</text>
+</svg>
