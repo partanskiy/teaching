@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="563.333" viewBox="0 0 800 563.333">
+<rect width="100%" height="100%" fill="white"/>
+<circle cx="525.294" cy="281.667" r="208.824" fill="none" stroke="#929292" stroke-width="1.4"/>
+<circle cx="257.091" cy="293.377" r="245.194" fill="none" stroke="#a43a30" stroke-width="1.4" stroke-dasharray="7 5"/>
+<polygon points="696.352,401.443 696.352,161.890 457.028,151.441" fill="#cbdfee" fill-opacity="0.36" stroke="#255a86" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="365.326,147.437 391.065,441.635 98.270,480.182" fill="#cbdfee" fill-opacity="0.36" stroke="#255a86" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="98.270,480.182 696.352,401.443 696.352,161.890 70.286,134.556" fill="none" fill-opacity="1" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="391.065" y1="441.635" x2="365.326" y2="147.437" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="696.352" y1="401.443" x2="457.028" y2="151.441" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="98.270" y1="480.182" x2="365.326" y2="147.437" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="696.352" y1="161.890" x2="458.849" y2="432.711" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="391.065" y1="441.635" x2="70.286" y2="134.556" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="245.320" y1="465.866" x2="244.015" y2="455.951" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="383.176" y1="294.100" x2="373.215" y2="294.972" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="217.588" y1="145.992" x2="218.024" y2="136.001" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="579.922" y1="411.728" x2="581.228" y2="421.643" stroke="#255a86" stroke-width="1.8"/>
+<line x1="573.974" y1="412.511" x2="575.279" y2="422.426" stroke="#255a86" stroke-width="1.8"/>
+<line x1="701.352" y1="284.667" x2="691.352" y2="284.667" stroke="#255a86" stroke-width="1.8"/>
+<line x1="701.352" y1="278.667" x2="691.352" y2="278.667" stroke="#255a86" stroke-width="1.8"/>
+<line x1="579.905" y1="151.801" x2="579.469" y2="161.792" stroke="#255a86" stroke-width="1.8"/>
+<line x1="573.911" y1="151.540" x2="573.475" y2="161.530" stroke="#255a86" stroke-width="1.8"/>
+<circle cx="98.270" cy="480.182" r="2.8" fill="#222222"/>
+<text x="88.270" y="507.182" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">A</text>
+<circle cx="696.352" cy="401.443" r="2.8" fill="#222222"/>
+<text x="706.352" y="416.443" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">B</text>
+<circle cx="696.352" cy="161.890" r="2.8" fill="#222222"/>
+<text x="708.352" y="156.890" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">C</text>
+<circle cx="70.286" cy="134.556" r="2.8" fill="#222222"/>
+<text x="60.286" y="124.556" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">D</text>
+<circle cx="391.065" cy="441.635" r="2.8" fill="#222222"/>
+<text x="384.065" y="472.635" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">K</text>
+<circle cx="458.849" cy="432.711" r="2.8" fill="#222222"/>
+<text x="468.849" y="463.711" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">L</text>
+<circle cx="457.028" cy="151.441" r="2.8" fill="#222222"/>
+<text x="465.028" y="139.441" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">M</text>
+<circle cx="365.326" cy="147.437" r="2.8" fill="#222222"/>
+<text x="356.326" y="135.437" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">N</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="629.600" viewBox="0 0 800 629.600">
+<rect width="100%" height="100%" fill="white"/>
+<circle cx="310.067" cy="314.982" r="255.994" fill="none" stroke="#929292" stroke-width="1.4"/>
+<polyline points="736.067,192.007 731.177,187.423 726.169,182.970 721.047,178.649 715.813,174.463 710.471,170.416 705.025,166.510 699.479,162.749 693.836,159.133 688.100,155.667 682.276,152.352 676.367,149.190 670.377,146.184 664.310,143.336 658.171,140.648 651.964,138.122 645.693,135.758 639.362,133.560 632.976,131.529 626.538,129.665 620.054,127.970 613.528,126.446 606.965,125.092 600.368,123.912 593.742,122.904 587.093,122.070 580.423,121.411 573.739,120.926 567.045,120.616 560.344,120.482 553.643,120.523 546.945,120.740 540.254,121.132 533.577,121.698 526.916,122.440 520.277,123.355 513.665,124.445 507.083,125.706 500.536,127.140 494.029,128.744 487.567,130.519 481.153,132.462 474.792,134.572 468.488,136.847 462.247,139.288 456.071,141.890 449.966,144.654 443.935,147.576 437.982,150.655 432.112,153.889 426.329,157.275 420.637,160.812 415.039,164.497 409.539,168.326 404.141,172.299 398.850,176.411 393.668,180.661 388.598,185.044 383.646,189.559 378.813,194.202 374.103,198.970 369.520,203.859 365.066,208.867 360.745,213.990 356.560,219.224 352.513,224.566 348.607,230.012 344.845,235.558 341.230,241.201 337.763,246.936 334.448,252.761 331.287,258.670 328.281,264.660 325.433,270.726 322.745,276.865 320.218,283.072 317.855,289.344 315.657,295.675 313.625,302.061 311.761,308.498 310.067,314.982 308.542,321.508 307.189,328.072 306.008,334.669 305.001,341.294 304.167,347.944 303.507,354.613 303.023,361.297 302.713,367.992 302.579,374.692 302.620,381.394 302.836,388.092 303.228,394.782 303.795,401.460 304.537,408.121 305.452,414.759 306.541,421.372 307.803,427.954 309.237,434.501 310.841,441.007 312.615,447.470 314.558,453.884 316.668,460.245 318.944,466.548 321.384,472.790 323.987,478.966 326.750,485.071 329.673,491.102 332.752,497.055 335.986,502.924 339.372,508.708 342.909,514.400 346.593,519.998 350.423,525.498 354.396,530.895 358.508,536.187 362.757,541.369 367.141,546.438 371.656,551.391 376.299,556.224 381.067,560.933" fill="none" stroke="#a43a30" stroke-width="1.8" stroke-dasharray="7 5"/>
+<polygon points="239.067,560.933 523.067,560.933 736.067,192.007 452.067,192.007" fill="none" fill-opacity="1" stroke="#222222" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="452.067" y1="192.007" x2="487.567" y2="130.519" stroke="#929292" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="239.067" y1="560.933" x2="665.067" y2="314.982" stroke="#255a86" stroke-width="1.8"/>
+<line x1="736.067" y1="192.007" x2="381.067" y2="560.933" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="381.067" y1="560.933" x2="594.067" y2="437.958" stroke="#255a86" stroke-width="1.8" stroke-dasharray="7 5"/>
+<line x1="558.567" y1="376.470" x2="487.567" y2="130.519" stroke="#a43a30" stroke-width="1.8" stroke-dasharray="7 5"/>
+<polyline points="501.157,133.881 497.794,147.472 484.204,144.109" fill="none" fill-opacity="1" stroke="#a43a30" stroke-width="1.8" stroke-linejoin="round"/>
+<line x1="696.237" y1="250.994" x2="704.897" y2="255.994" stroke="#255a86" stroke-width="1.8"/>
+<line x1="625.237" y1="373.970" x2="633.897" y2="378.970" stroke="#255a86" stroke-width="1.8"/>
+<line x1="645.794" y1="278.610" x2="653.000" y2="285.543" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="641.634" y1="282.933" x2="648.839" y2="289.867" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="468.294" y1="463.073" x2="475.500" y2="470.007" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="464.134" y1="467.396" x2="471.339" y2="474.330" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="528.703" y1="254.990" x2="519.095" y2="257.763" stroke="#a43a30" stroke-width="1.8"/>
+<line x1="527.038" y1="249.225" x2="517.431" y2="251.999" stroke="#a43a30" stroke-width="1.8"/>
+<circle cx="239.067" cy="560.933" r="2.8" fill="#222222"/>
+<text x="231.067" y="591.933" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">A</text>
+<circle cx="523.067" cy="560.933" r="2.8" fill="#222222"/>
+<text x="533.067" y="589.933" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">B</text>
+<circle cx="736.067" cy="192.007" r="2.8" fill="#222222"/>
+<text x="750.067" y="190.007" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">C</text>
+<circle cx="452.067" cy="192.007" r="2.8" fill="#222222"/>
+<text x="438.067" y="189.007" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">D</text>
+<circle cx="665.067" cy="314.982" r="2.8" fill="#222222"/>
+<text x="678.067" y="309.982" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">K</text>
+<circle cx="381.067" cy="560.933" r="2.8" fill="#222222"/>
+<text x="381.067" y="593.933" text-anchor="middle" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">L</text>
+<circle cx="558.567" cy="376.470" r="2.8" fill="#222222"/>
+<text x="544.567" y="370.470" text-anchor="end" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">M</text>
+<circle cx="487.567" cy="130.519" r="2.8" fill="#222222"/>
+<text x="495.567" y="118.519" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">N</text>
+<circle cx="594.067" cy="437.958" r="2.8" fill="#222222"/>
+<text x="608.067" y="449.958" text-anchor="start" font-family="Times New Roman" font-style="italic" font-size="28" fill="#222222" stroke="white" stroke-width="4" paint-order="stroke">X</text>
+</svg>

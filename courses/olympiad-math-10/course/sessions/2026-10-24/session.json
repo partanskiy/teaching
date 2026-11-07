@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "title": "Углы, окружности и дополнительные построения",
+  "minutes": 90,
+  "programme_modules": [4, 8, 15, 21, 24],
+  "coverage": "Selected geometry tasks; this session does not complete all five programme modules",
+  "outcome": {
+    "status": "held",
+    "reported_on": "2026-10-31",
+    "solved_numbers": [1, 2, 3, 4],
+    "remaining_numbers": [5, 6, 7, 8, 9, 10],
+    "individual_vs_class_solutions": "Not specified by the teacher"
+  },
+  "pace": "Aim to work through most of the ten-task handout, combining independent attempts and class discussion; record actual progress afterwards",
+  "tasks": [
+    {"number": 1, "id": "M-2025-2026-novosb-10.2", "title": "Центр описанной окружности", "programme_module": 4},
+    {"number": 2, "id": "R-2012-10.2", "title": "Две окружности в шестиугольнике", "programme_module": 4},
+    {"number": 3, "id": "R-2015-10.6", "title": "Биссектриса прямоугольного треугольника", "programme_module": 8},
+    {"number": 4, "id": "R-2019-10.8", "title": "Диаметр и середины", "programme_module": 21},
+    {"number": 5, "id": "R-2016-10.3", "title": "Перенос вписанности", "programme_module": 4},
+    {"number": 6, "id": "R-2015-10.3", "title": "Отражение окружности", "programme_module": 15},
+    {"number": 7, "id": "R-2022-10.7", "title": "Сумма отрезков", "programme_module": 8},
+    {"number": 8, "id": "MOSH-2022-10.2", "title": "Касательная и средняя линия", "programme_module": 24},
+    {"number": 9, "id": "R-2023-10.8", "title": "Скрытая середина", "programme_module": 8},
+    {"number": 10, "id": "MOSH-2023-10.3", "title": "Вневписанная окружность и хорда", "programme_module": 24}
+  ]
+}
