@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Render a dated student handout using system Pandoc and LibreOffice."""
+"""Render a dated Typst handout, with legacy Markdown/DOCX support."""
 import argparse
 import json
 import subprocess
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -17,13 +18,16 @@ NS = {'w': W}
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('session', help='Session directory name, for example 2026-10-03')
+    parser.add_argument('--variant', choices=['student', 'advanced'], default='student',
+                        help='Main handout or an additional advanced selection')
     args = parser.parse_args()
     session = ROOT / 'course/sessions' / args.session
-    source = session / 'student.md'
-    if not source.is_file():
+    source = session / (args.variant + '.md')
+    typst_source = session / (args.variant + '.typ')
+    if not source.is_file() and not typst_source.is_file():
         parser.error('Student handout does not exist: ' + str(source))
     program = json.loads((ROOT / 'data/program.json').read_text())
-    manifest_path = session / 'session.json'
+    manifest_path = session / ('session.json' if args.variant == 'student' else 'advanced.json')
     manifest = json.loads(manifest_path.read_text()) if manifest_path.is_file() else {}
     if manifest:
         tasks = {t['id']: t for t in json.loads((ROOT / 'data/tasks.json').read_text())}
@@ -36,9 +40,28 @@ def main():
         for item in selected:
             task = tasks[item['id']]
             lesson = lessons[item['programme_module']]
-            if task['reserve'] or item['id'] not in lesson['classroom'] + lesson['homework']:
+            supplemental = args.variant == 'advanced' and manifest.get('kind') == 'supplemental'
+            if supplemental and (
+                task['grade'] != manifest['grade']
+                or (task['competition'], task['stage']) not in [('vsosh', 'regional'), ('mosh', 'main')]
+            ):
+                raise ValueError('Advanced selection must use official regional or MOSH tasks of its grade')
+            if task['reserve'] or (
+                item['id'] not in lesson['classroom'] + lesson['homework'] and not supplemental
+            ):
                 raise ValueError('Session task must belong to the stated module and not be reserved')
-    output = session / 'student.docx'
+    if typst_source.is_file():
+        pdf = session / (args.variant + '.pdf')
+        timestamp = []
+        if manifest.get('date'):
+            epoch = int(datetime.fromisoformat(manifest['date']).replace(tzinfo=timezone.utc).timestamp())
+            timestamp = ['--creation-timestamp', str(epoch)]
+        subprocess.run([
+            'typst', 'compile', *timestamp, '--root', str(ROOT), str(typst_source), str(pdf),
+        ], check=True)
+        print(pdf)
+        return
+    output = session / (args.variant + '.docx')
     subprocess.run([
         'pandoc', str(source), '--from=markdown', '--to=docx',
         '--reference-doc=' + str(ROOT / 'course/План_для_сдачи_2026-2027.docx'),
