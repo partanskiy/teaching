@@ -14,21 +14,41 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--skip-pdf',action='store_true')
-    parser.add_argument('--submission-only',action='store_true',help='Rebuild only the submission files, preserving the detailed working plan')
+    scope=parser.add_mutually_exclusive_group()
+    scope.add_argument('--submission-only',action='store_true',help='Rebuild only the submission files, preserving the detailed working plan')
+    scope.add_argument('--working-only',action='store_true',help='Preserve submission files and render the working PDF with Typst')
     args=parser.parse_args()
-    subprocess.run([sys.executable,str(ROOT/'scripts/build_submission.py')],cwd=ROOT,check=True)
+    if not args.skip_pdf:
+        required='typst' if args.working_only else 'libreoffice'
+        if shutil.which(required) is None:
+            parser.error(required+' is required for this PDF export; use --working-only for Typst, or --skip-pdf for DOCX only')
+    if not args.working_only:
+        subprocess.run([sys.executable,str(ROOT/'scripts/build_submission.py')],cwd=ROOT,check=True)
     formal=ROOT/'course/План_для_сдачи_2026-2027.docx'
     working=ROOT/'course/План_34_занятия_2026-2027.docx'
     if not args.submission_only:
         subprocess.run(['pandoc',str(ROOT/'course/print-plan.md'),'--from=markdown','--to=docx',
                         '--reference-doc='+str(formal),'--output='+str(working)],cwd=ROOT,check=True)
-    documents=[formal]if args.submission_only else [formal,working]
+    documents=[working]if args.working_only else [formal]if args.submission_only else [formal,working]
     if not args.skip_pdf:
         profile=Path(tempfile.mkdtemp(prefix='olympiad-math-export-'))
         try:
-            subprocess.run(['libreoffice','--headless','--nologo','--nodefault','--nofirststartwizard',
-                            '-env:UserInstallation='+profile.as_uri(),'--convert-to','pdf',
-                            '--outdir',str(ROOT/'course'),*[str(path)for path in documents]],check=True)
+            if args.working_only:
+                program=json.loads((ROOT/'data/program.json').read_text())
+                body=subprocess.check_output(['pandoc',str(ROOT/'course/print-plan.md'),
+                    '--from=markdown','--to=typst'],text=True,cwd=ROOT)
+                source=profile/'working.typ'
+                source.write_text('#set page(paper: "a4", margin: 17mm, numbering: "1")\n'
+                    '#set text(font: "Times New Roman", size: 11pt, lang: "ru")\n'
+                    '#set par(justify: true, leading: 0.45em)\n'
+                    '#set heading(numbering: none)\n'
+                    '#set document(title: '+json.dumps(program['title'],ensure_ascii=False)+', author: '
+                    +json.dumps(program['author'],ensure_ascii=False)+')\n'+body)
+                subprocess.run(['typst','compile','--root',str(profile),str(source),str(working.with_suffix('.pdf'))],check=True)
+            else:
+                subprocess.run(['libreoffice','--headless','--nologo','--nodefault','--nofirststartwizard',
+                                '-env:UserInstallation='+profile.as_uri(),'--convert-to','pdf',
+                                '--outdir',str(ROOT/'course'),*[str(path)for path in documents]],check=True)
             for path in [path.with_suffix('.pdf')for path in documents]:
                 if not path.is_file():raise RuntimeError('PDF was not created: '+str(path))
         finally:
