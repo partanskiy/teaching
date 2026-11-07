@@ -263,7 +263,7 @@ def main():
     write_json(ROOT / 'data/extraction-gaps.json', gaps)
     write_json(ROOT / 'data/taxonomy.json', {'topics': {k: v[0] for k, v in TOPICS.items()}, 'methods': {k: v[0] for k, v in METHODS.items()}})
     with (ROOT / 'data/tasks.csv').open('w', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator='\n')
         writer.writerow(['id', 'competition', 'stage', 'academic_year', 'region', 'variant', 'number', 'topics', 'methods', 'review_status', 'summary', 'pdf', 'page', 'source_url'])
         for t in out:
             s = t['sources'][0]

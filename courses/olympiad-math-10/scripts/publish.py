@@ -113,14 +113,14 @@ def catalogue():
     write_json(ROOT / 'data/tasks.json', TASKS)
     fields = ['id','competition','stage','year','academic_year','region','day','variant','number','topics','methods','form','review_status','difficulty','summary','reserve','pdf','page','source_url']
     with (ROOT/'data/tasks.csv').open('w', newline='') as f:
-        w = csv.writer(f); w.writerow(fields)
+        w = csv.writer(f, lineterminator='\n'); w.writerow(fields)
         for t in TASKS:
             s=condition_source(t)
             w.writerow([t['id'],t['competition'],t['stage'],t['year'],t['academic_year'],t['region'],t['day'],t['variant'],t['number'],
                 ';'.join(t['topics']),';'.join(t['methods']),FORMS[t['form']],t['review_status'],t.get('difficulty',''),
                 t.get('summary',''),t['reserve'],s['path'],s['page'],s['url']])
     with (ROOT/'course/task-map.csv').open('w', newline='') as f:
-        w=csv.writer(f);w.writerow(['lesson','month','title','role','task_id','summary','pdf','page','source_url'])
+        w=csv.writer(f,lineterminator='\n');w.writerow(['lesson','month','title','role','task_id','summary','pdf','page','source_url'])
         for l in LESSONS:
             for kind in ['classroom','homework']:
                 for task_id in l[kind]:
@@ -128,7 +128,7 @@ def catalogue():
                     w.writerow([l['number'],l['month'],l['title'],kind,task_id,t.get('summary',''),s['path'],s['page'],s['url']])
     with (ROOT/'data/documents.csv').open('w', newline='') as f:
         fields=['id','competition','stage','year','source_index_year','academic_year','region','days','grade_scope','role','provenance','path','sha256','bytes','retrieved_at','url','download_url','source_page','bundle_member','extraction_status']
-        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(DOCS)
+        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(DOCS)
 
 
 def reports():
