@@ -6,6 +6,7 @@
 *.json text eol=lf
 *.csv text eol=lf
 *.yml text eol=lf
+*.typ text eol=lf
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
@@ -16,3 +17,6 @@
 *.gif filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
+# These generated Typst containers embed complete official PDF documents.
+courses/olympiad-math-10/course/individual/municipal-10-2026/tasks.typ filter=lfs diff=lfs merge=lfs -text
+courses/olympiad-math-10/course/individual/municipal-10-2026/solutions.typ filter=lfs diff=lfs merge=lfs -text
