@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-10-03",
+  "verified_on": "2026-11-07",
   "academic_year": "2026/2027",
   "events": [
     {
@@ -18,23 +18,33 @@
       "access_end": "21:00",
       "timezone": "Europe/Moscow",
       "grade_10_duration_minutes": 120,
-      "registration_starts_on": "2026-10-05",
+      "registration_starts_on": "2026-10-06",
       "source": "https://vos.olimpiada.ru/subject/math",
       "verification_method": "official_page_public_api",
-      "snapshot": "research/sources/moscow-math-schedule-2026-10-03.json"
+      "snapshot": "research/sources/moscow-math-schedule-2026-11-07.json",
+      "previously_announced_registration_starts_on": "2026-10-05",
+      "verified_on": "2026-11-07"
     },
     {
       "event": "vsosh_municipal_math",
       "region": "Москва",
-      "status": "date_not_found_in_checked_sources",
-      "date": null,
+      "status": "published",
+      "date": "2026-12-04",
+      "time_start": "16:00",
+      "grades": [
+        10,
+        11
+      ],
+      "verified_on": "2026-11-07",
+      "project": 0,
+      "snapshot": "research/sources/moscow-math-schedule-2026-11-07.json",
       "sources": [
         "https://vos.olimpiada.ru/2026/okrug",
         "https://vos.olimpiada.ru/2026/subject/math",
         "https://vos.olimpiada.ru/docs",
         "https://vos.olimpiada.ru/subject/math"
       ],
-      "moscow_page_api_observation": "Only invitational and school stages were present in the returned schedule on 2026-10-03"
+      "moscow_page_api_observation": "Tour 994 for grades 10-11 is dated 2026-12-04 16:00, project=0; public data edited 2026-10-27"
     },
     {
       "event": "vsosh_municipal_math",
@@ -44,30 +54,43 @@
       "source": "https://www.olympmo.ru/vos-timetable-2026-2027.html",
       "verification_method": "web_page_read",
       "local_html_saved": false,
-      "note": "Отдельный регион; дата не относится к городу Москве."
+      "note": "Отдельный регион; дата не относится к городу Москве.",
+      "verified_on": "2026-10-03"
     },
     {
       "event": "vsosh_regional_math",
       "region": "Россия",
-      "status": "date_not_found_in_checked_sources",
-      "date": null,
+      "status": "published",
+      "date": "2027-02-02",
+      "second_day": "2027-02-03",
+      "verified_on": "2026-11-07",
+      "snapshot": "research/sources/moscow-math-schedule-2026-11-07.json",
       "sources": [
         "https://vserosolimp.edsoo.ru/region_way",
         "https://olympiads.mccme.ru/vmo/",
         "https://vos.olimpiada.ru/subject/math"
       ],
-      "latest_checked_published_season": "2025/2026",
-      "moscow_page_api_observation": "Only invitational and school stages were present in the returned schedule on 2026-10-03"
+      "latest_checked_published_season": "2026/2027",
+      "order": "Приказ Минпросвещения от 08.10.2026 N 692",
+      "moscow_page_api_observation": "Two regional tours are dated 2027-02-02 and 2027-02-03, project=0"
     },
     {
       "event": "mosh_math",
       "region": "Москва",
-      "status": "date_not_found_in_checked_sources",
-      "date": null,
+      "status": "planned",
+      "date": "2027-03-14",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "verified_on": "2026-11-07",
+      "note": "Оргкомитет пишет, что тур планируется; второй день 27 марта относится только к 11 классу",
       "sources": [
-        "https://mmo.mccme.ru/",
-        "https://mmo.mccme.ru/2027/"
-      ]
+        "https://mmo.mccme.ru/"
+      ],
+      "snapshot": "research/sources/mmo-announcement-2026-11-07.html"
     },
     {
       "event": "vsosh_final_math",
@@ -77,7 +100,11 @@
       "sources": [
         "https://vserosolimp.edsoo.ru/zakluchit_way",
         "https://vos.olimpiada.ru/docs"
-      ]
+      ],
+      "verified_on": "2026-11-07",
+      "snapshot": "research/sources/final-stage-2026-11-07.html",
+      "verification_method": "official_page_read",
+      "note": "В проверенной федеральной странице нет подтверждённого срока математики 2027 года; это не утверждение об отсутствии публикаций где-либо ещё."
     }
   ],
   "methodology": {
