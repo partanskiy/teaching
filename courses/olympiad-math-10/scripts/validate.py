@@ -6,6 +6,7 @@ import re
 import subprocess
 import zipfile
 from collections import Counter
+from datetime import date
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from lxml import etree
@@ -74,7 +75,7 @@ def main():
         for task_id in l['classroom']+l['homework']:
             require(task_id not in controls or l['number']>=controls[task_id],'Reserve issued too early: '+task_id)
     missing_links=[]
-    for p in [ROOT/'README.md',ROOT/'index.html',*(ROOT/'research').glob('*.md'),*(ROOT/'course').glob('*.md')]:
+    for p in [ROOT/'README.md',ROOT/'HANDOFF.md',ROOT/'index.html',*(ROOT/'research').glob('*.md'),*(ROOT/'course').rglob('*.md')]:
         text=p.read_text()
         references=re.findall(r'\]\(([^)]+)\)',text)if p.suffix=='.md'else re.findall(r'(?:href|src)="([^"]+)"',text)
         for ref in references:
@@ -95,7 +96,7 @@ def main():
     pdftext=subprocess.run(['pdftotext','-layout',str(pdf),'-'],capture_output=True,text=True,check=True).stdout
     for task_id in {i for l in lessons for i in l['classroom']+l['homework']}:
         require(task_id in pdftext,'Task missing in printed PDF: '+task_id)
-    result=dict(status='passed',date='2026-10-01',documents_checked=len(docs),
+    result=dict(status='passed',date=date.today().isoformat(),documents_checked=len(docs),
         unique_sha256=len({d['sha256']for d in docs}),task_links_checked=sum(len(t['sources'])for t in tasks),
         regional_tasks=154,mosh_tasks=96,reviewed_statements=sum(t['review_status']!='automatic'for t in tasks),
         reviewed_solutions=sum(t['review_status']=='solution_reviewed'for t in tasks),lessons=34,
