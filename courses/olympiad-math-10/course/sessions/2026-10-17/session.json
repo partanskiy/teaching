@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-17",
+  "title": "Остатки, делимость и конструкции",
+  "minutes": 90,
+  "programme_modules": [
+    23,
+    5,
+    13,
+    14,
+    20
+  ],
+  "coverage": "Selected tasks; the session does not complete all five programme modules",
+  "outcome": {
+    "status": "held",
+    "reported_on": "2026-10-24",
+    "main_handout": "Used in class; exact solved task numbers were not specified",
+    "advanced_handout": "Briefly discussed only; do not mark the selection completed"
+  },
+  "previous_homework": {
+    "session": "2026-10-03",
+    "numbers": [
+      9,
+      10
+    ],
+    "review_in_this_session": false
+  },
+  "tasks": [
+    {
+      "number": 1,
+      "id": "MOSH-2022-10.1",
+      "title": "Разности с простыми",
+      "programme_module": 23
+    },
+    {
+      "number": 2,
+      "id": "MOSH-2023-10.1",
+      "title": "Четыре целых числа",
+      "programme_module": 23
+    },
+    {
+      "number": 3,
+      "id": "MOSH-2021-10.1",
+      "title": "Стирание цифр",
+      "programme_module": 23
+    },
+    {
+      "number": 4,
+      "id": "R-2022-10.1",
+      "title": "Десять чисел",
+      "programme_module": 5
+    },
+    {
+      "number": 5,
+      "id": "R-2023-10.6",
+      "title": "Наименьшее общее кратное",
+      "programme_module": 13
+    },
+    {
+      "number": 6,
+      "id": "MOSH-2015-10.1",
+      "title": "Последовательность",
+      "programme_module": 14
+    },
+    {
+      "number": 7,
+      "id": "R-2017-10.6",
+      "title": "Новые простые делители",
+      "programme_module": 14
+    },
+    {
+      "number": 8,
+      "id": "R-2021-10.3",
+      "title": "Бесконечное множество",
+      "programme_module": 13
+    },
+    {
+      "number": 9,
+      "id": "MOSH-2020-10.5",
+      "title": "Суммы и разности",
+      "programme_module": 20
+    },
+    {
+      "number": 10,
+      "id": "R-2012-10.3",
+      "title": "Целые члены последовательности",
+      "programme_module": 14
+    }
+  ],
+  "supplemental_handouts": [
+    {
+      "name": "advanced",
+      "manifest": "advanced.json",
+      "student_pdf": "advanced.pdf",
+      "teacher_notes": "advanced-teacher.md"
+    }
+  ]
+}

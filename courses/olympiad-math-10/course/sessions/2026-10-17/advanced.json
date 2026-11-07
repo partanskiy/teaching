@@ -1,0 +1,190 @@
+{
+  "kind": "supplemental",
+  "date": "2026-10-17",
+  "grade": 10,
+  "title": "Остатки, делимость и конструкции. Углубление",
+  "programme_modules": [
+    6,
+    13,
+    20,
+    2
+  ],
+  "purpose": "Additional regional preparation; not ten mandatory solutions in one 90-minute lesson",
+  "suggested_classroom": [
+    1,
+    2,
+    3
+  ],
+  "tasks": [
+    {
+      "number": 1,
+      "id": "R-2023-10.4",
+      "title": "Делимость и оценка частного",
+      "programme_module": 6,
+      "level": "regional_core",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "1891ffad846647",
+        "path": "archive/vsosh/regional/2022-2023/sverdlovsk/1891ffad846647_resheniya-i-tur-10-klass.pdf",
+        "page": 3,
+        "url": "https://zsfond.ru/wp-content/uploads/2023/02/resheniya-i-tur-10-klass.pdf",
+        "role": "solutions",
+        "region": "Свердловская область",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 2,
+      "id": "R-2012-10.6",
+      "title": "Попарная взаимная простота",
+      "programme_module": 6,
+      "level": "regional_core",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "ca7c31756fdaa9",
+        "path": "archive/vsosh/regional/2011-2012/moscow/ca7c31756fdaa9_iii-2.pdf",
+        "page": 4,
+        "url": "https://olympiads.mccme.ru/vmo/2012/iii-2.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 3,
+      "id": "R-2014-10.7",
+      "title": "НОК на окружности",
+      "programme_module": 13,
+      "level": "regional_core",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "f63fae05373ec5",
+        "path": "archive/vsosh/regional/2013-2014/moscow/f63fae05373ec5_iii-2.pdf",
+        "page": 10,
+        "url": "https://olympiads.mccme.ru/vmo/2014/iii-2.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 4,
+      "id": "MOSH-2023-10.4",
+      "title": "Процесс на компьютере",
+      "programme_module": 20,
+      "level": "regional_core",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "0a5f683b66f8e0",
+        "path": "archive/mosh/main/2022-2023/moscow/0a5f683b66f8e0_10-sol.pdf",
+        "page": 5,
+        "url": "https://mmo.mccme.ru/2023/10-sol.pdf",
+        "role": "solutions",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 5,
+      "id": "R-2020-10.4",
+      "title": "Делители и принцип Дирихле",
+      "programme_module": 6,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "b5a8551a0dc061",
+        "path": "archive/vsosh/regional/2019-2020/moscow/b5a8551a0dc061_iii-1.pdf",
+        "page": 13,
+        "url": "https://olympiads.mccme.ru/vmo/2020/iii-1.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 6,
+      "id": "R-2010-10.4",
+      "title": "Удачные числа",
+      "programme_module": 13,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "cc1f9847c963ac",
+        "path": "archive/vsosh/regional/2009-2010/moscow/cc1f9847c963ac_resh1.pdf",
+        "page": 5,
+        "url": "https://olympiads.mccme.ru/vmo/2010/resh1.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 7,
+      "id": "R-2025-10.9",
+      "title": "Однобокая прогрессия",
+      "programme_module": 6,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "cf7fe34b6e6b42",
+        "path": "archive/vsosh/regional/2024-2025/moscow/cf7fe34b6e6b42_iii-2.pdf",
+        "page": 14,
+        "url": "https://olympiads.mccme.ru/vmo/2025/iii-2.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 8,
+      "id": "R-2021-10.10",
+      "title": "НОК и арифметическая прогрессия",
+      "programme_module": 13,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "4610608a0e95fa",
+        "path": "archive/vsosh/regional/2020-2021/moscow/4610608a0e95fa_iii-2.pdf",
+        "page": 17,
+        "url": "https://olympiads.mccme.ru/vmo/2021/iii-2.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 9,
+      "id": "R-2022-10.10",
+      "title": "Сумма цифр факториала",
+      "programme_module": 2,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "22e5e7e62e828e",
+        "path": "archive/vsosh/regional/2021-2022/moscow/22e5e7e62e828e_iii-2.pdf",
+        "page": 19,
+        "url": "https://olympiads.mccme.ru/vmo/2022/iii-2.pdf",
+        "role": "combined",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    },
+    {
+      "number": 10,
+      "id": "MOSH-2017-10.5",
+      "title": "Кратные с заданной суммой цифр",
+      "programme_module": 2,
+      "level": "regional_advanced",
+      "verification": "statement_and_solution_checked",
+      "official_solution": {
+        "document_id": "7b31306712e89c",
+        "path": "archive/mosh/main/2016-2017/moscow/7b31306712e89c_80mmo.pdf",
+        "page": 26,
+        "url": "https://mmo.mccme.ru/2017/80mmo.pdf",
+        "role": "solutions",
+        "region": "Москва",
+        "bundle_member": null
+      }
+    }
+  ]
+}
