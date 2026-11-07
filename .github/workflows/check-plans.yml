@@ -15,7 +15,7 @@ jobs:
         with:
           lfs: false
       - name: Fetch only the four rendered plans
-        run: git lfs pull --include="courses/olympiad-math-10/course/*.docx,courses/olympiad-math-10/course/*.pdf" --exclude=""
+        run: git lfs pull --include="courses/olympiad-math-10/course/План_для_сдачи_2026-2027.docx,courses/olympiad-math-10/course/План_для_сдачи_2026-2027.pdf,courses/olympiad-math-10/course/План_34_занятия_2026-2027.docx,courses/olympiad-math-10/course/План_34_занятия_2026-2027.pdf" --exclude=""
       - name: Install system document libraries
         run: |
           sudo apt-get update
