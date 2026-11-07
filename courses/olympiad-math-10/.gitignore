@@ -2,6 +2,7 @@
 /sources/pages/
 /sources/*.docx
 /extracted/
+/research/build/
 /dist/
 /data/*.log
 /data/collect.lock
