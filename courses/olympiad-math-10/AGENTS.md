@@ -1,7 +1,7 @@
 # Project instructions
 
 - Read HANDOFF.md before continuing this course. Use session outcomes for actual progress, data/calendar.json for dated calendar evidence, and data/operational-plan.json for proposed dates. Never infer that a prepared or issued task was solved.
-- Before preparing the next lesson, account for course/sessions/2026-10-31/plan.json. The teacher has not yet reported solved numbers from that session. A new clone or worktree does not include this working directory's uncommitted materials.
+- Before preparing the next lesson, account for course/sessions/2026-10-31/plan.json. The teacher has not yet reported solved numbers from that session. Obtain the current publication branch and its LFS objects; future uncommitted materials do not transfer to another clone or worktree.
 - Write all commit messages in English using Conventional Commits: type(scope): short imperative description.
 - Keep commits small and focused on one logical change. Generated datasets and reports may be large, but must be committed separately from unrelated implementation changes.
 - Update both the submission programme and working plan through their shared data. Run scripts/check_plans.py after building documents.
