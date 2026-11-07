@@ -1,0 +1,566 @@
+{
+  "created_on": "2026-10-31",
+  "target_grade": 10,
+  "target_region": "Москва",
+  "target_date": "2026-12-04",
+  "target_time": "16:00",
+  "target_date_status": "published",
+  "calendar_source": "https://vos.olimpiada.ru/subject/math",
+  "calendar_snapshot": "research/sources/moscow-math-schedule-2026-10-31.json",
+  "mock_task_count": 44,
+  "thematic_task_count": 20,
+  "mocks": [
+    {
+      "code": "01-moscow-2024",
+      "title": "Москва, 2024/2025",
+      "tasks": 8,
+      "task_ids": [
+        "M-2024-2025-moscow-10.1",
+        "M-2024-2025-moscow-10.2",
+        "M-2024-2025-moscow-10.3",
+        "M-2024-2025-moscow-10.4",
+        "M-2024-2025-moscow-10.5",
+        "M-2024-2025-moscow-10.6",
+        "M-2024-2025-moscow-10.7",
+        "M-2024-2025-moscow-10.8"
+      ],
+      "conditions": "variants/01-moscow-2024.pdf",
+      "solutions": "solutions/01-moscow-2024.pdf",
+      "kind": "official_complete_set",
+      "note": ""
+    },
+    {
+      "code": "02-moscow-2017",
+      "title": "Москва, 2017/2018",
+      "tasks": 6,
+      "task_ids": [
+        "M-2017-2018-moscow-10.1",
+        "M-2017-2018-moscow-10.2",
+        "M-2017-2018-moscow-10.3",
+        "M-2017-2018-moscow-10.4",
+        "M-2017-2018-moscow-10.5",
+        "M-2017-2018-moscow-10.6"
+      ],
+      "conditions": "variants/02-moscow-2017.pdf",
+      "solutions": "solutions/02-moscow-2017.pdf",
+      "kind": "official_complete_set",
+      "note": "Сохранена официальная компоновка с двумя копиями для разрезания"
+    },
+    {
+      "code": "03-moscow-2018",
+      "title": "Москва, 2018/2019",
+      "tasks": 6,
+      "task_ids": [
+        "M-2018-2019-moscow-10.1",
+        "M-2018-2019-moscow-10.2",
+        "M-2018-2019-moscow-10.3",
+        "M-2018-2019-moscow-10.4",
+        "M-2018-2019-moscow-10.5",
+        "M-2018-2019-moscow-10.6"
+      ],
+      "conditions": "variants/03-moscow-2018.pdf",
+      "solutions": "solutions/03-moscow-2018.pdf",
+      "kind": "official_complete_set",
+      "note": "Сохранена официальная компоновка с двумя копиями для разрезания"
+    },
+    {
+      "code": "04-moscow-2019",
+      "title": "Москва, 2019/2020",
+      "tasks": 6,
+      "task_ids": [
+        "M-2019-2020-moscow-10.1",
+        "M-2019-2020-moscow-10.2",
+        "M-2019-2020-moscow-10.3",
+        "M-2019-2020-moscow-10.4",
+        "M-2019-2020-moscow-10.5",
+        "M-2019-2020-moscow-10.6"
+      ],
+      "conditions": "variants/04-moscow-2019.pdf",
+      "solutions": "solutions/04-moscow-2019.pdf",
+      "kind": "official_complete_set",
+      "note": ""
+    },
+    {
+      "code": "05-moscow-2025",
+      "title": "Москва, 2025/2026, основные версии",
+      "tasks": 8,
+      "task_ids": [
+        "M-2025-2026-moscow-10.1-v1",
+        "M-2025-2026-moscow-10.2-v1",
+        "M-2025-2026-moscow-10.3-v1",
+        "M-2025-2026-moscow-10.4-v1",
+        "M-2025-2026-moscow-10.5-v1",
+        "M-2025-2026-moscow-10.6-v1",
+        "M-2025-2026-moscow-10.7-v1",
+        "M-2025-2026-moscow-10.8-v1"
+      ],
+      "conditions": "variants/05-moscow-2025.pdf",
+      "solutions": "solutions/05-moscow-2025.pdf",
+      "kind": "training_assembly_of_official_base_versions",
+      "note": ""
+    },
+    {
+      "code": "06-novosibirsk-2024",
+      "title": "Новосибирская область, 2024/2025",
+      "tasks": 5,
+      "task_ids": [
+        "M-2024-2025-novosb-10.1",
+        "M-2024-2025-novosb-10.2",
+        "M-2024-2025-novosb-10.3",
+        "M-2024-2025-novosb-10.4",
+        "M-2024-2025-novosb-10.5"
+      ],
+      "conditions": "variants/06-novosibirsk-2024.pdf",
+      "solutions": "solutions/06-novosibirsk-2024.pdf",
+      "kind": "official_complete_set",
+      "note": ""
+    },
+    {
+      "code": "07-moscow-region-2024",
+      "title": "Московская область, 2024/2025",
+      "tasks": 5,
+      "task_ids": [
+        "M-2024-2025-mosobl-10.1",
+        "M-2024-2025-mosobl-10.2",
+        "M-2024-2025-mosobl-10.3",
+        "M-2024-2025-mosobl-10.4",
+        "M-2024-2025-mosobl-10.5"
+      ],
+      "conditions": "variants/07-moscow-region-2024.pdf",
+      "solutions": "solutions/07-moscow-region-2024.pdf",
+      "kind": "official_complete_set",
+      "note": ""
+    }
+  ],
+  "thematic": [
+    {
+      "code": "N25.1",
+      "set": "N25",
+      "number": 1,
+      "task_id": "M-2025-2026-novosb-10.1",
+      "topic": "Теория чисел",
+      "focus": "Разложение на множители, квадрат простого",
+      "conditions": "thematic/N25-tasks.pdf",
+      "solutions": "solutions/N25-solutions.pdf"
+    },
+    {
+      "code": "N25.4",
+      "set": "N25",
+      "number": 4,
+      "task_id": "M-2025-2026-novosb-10.4",
+      "topic": "Теория чисел",
+      "focus": "Делимость частичных сумм, оценка и пример",
+      "conditions": "thematic/N25-tasks.pdf",
+      "solutions": "solutions/N25-solutions.pdf"
+    },
+    {
+      "code": "T24.1",
+      "set": "T24",
+      "number": 1,
+      "task_id": "M-2024-2025-tat-10.1",
+      "topic": "Теория чисел",
+      "focus": "Десятичная запись, удаление цифры",
+      "conditions": "thematic/T24-tasks.pdf",
+      "solutions": "solutions/T24-solutions.pdf"
+    },
+    {
+      "code": "T25.1",
+      "set": "T25",
+      "number": 1,
+      "task_id": "M-2025-2026-tat-10.1",
+      "topic": "Теория чисел",
+      "focus": "Делимость на 9, подсчёт по числу семёрок",
+      "conditions": "thematic/T25-tasks.pdf",
+      "solutions": "solutions/T25-solutions.pdf"
+    },
+    {
+      "code": "M25.1",
+      "set": "M25",
+      "number": 1,
+      "task_id": "M-2025-2026-mosobl-10.1",
+      "topic": "Теория чисел",
+      "focus": "Цифровые блоки, сумма длин и границы",
+      "conditions": "thematic/M25-tasks.pdf",
+      "solutions": "solutions/M25-solutions.pdf"
+    },
+    {
+      "code": "N25.3",
+      "set": "N25",
+      "number": 3,
+      "task_id": "M-2025-2026-novosb-10.3",
+      "topic": "Алгебра",
+      "focus": "Вычитание уравнений, факторизация",
+      "conditions": "thematic/N25-tasks.pdf",
+      "solutions": "solutions/N25-solutions.pdf"
+    },
+    {
+      "code": "T24.2",
+      "set": "T24",
+      "number": 2,
+      "task_id": "M-2024-2025-tat-10.2",
+      "topic": "Алгебра",
+      "focus": "Симметричные условия для пар чисел",
+      "conditions": "thematic/T24-tasks.pdf",
+      "solutions": "solutions/T24-solutions.pdf"
+    },
+    {
+      "code": "T24.4",
+      "set": "T24",
+      "number": 4,
+      "task_id": "M-2024-2025-tat-10.4",
+      "topic": "Алгебра",
+      "focus": "Оценка квадратичного трёхчлена на отрезке",
+      "conditions": "thematic/T24-tasks.pdf",
+      "solutions": "solutions/T24-solutions.pdf"
+    },
+    {
+      "code": "M25.2",
+      "set": "M25",
+      "number": 2,
+      "task_id": "M-2025-2026-mosobl-10.2",
+      "topic": "Алгебра",
+      "focus": "Составление уравнений движения",
+      "conditions": "thematic/M25-tasks.pdf",
+      "solutions": "solutions/M25-solutions.pdf"
+    },
+    {
+      "code": "M25.3",
+      "set": "M25",
+      "number": 3,
+      "task_id": "M-2025-2026-mosobl-10.3",
+      "topic": "Алгебра",
+      "focus": "Корни произведения, арифметическая прогрессия",
+      "conditions": "thematic/M25-tasks.pdf",
+      "solutions": "solutions/M25-solutions.pdf"
+    },
+    {
+      "code": "T25.2",
+      "set": "T25",
+      "number": 2,
+      "task_id": "M-2025-2026-tat-10.2",
+      "topic": "Алгебра",
+      "focus": "Множества значений квадратных функций",
+      "conditions": "thematic/T25-tasks.pdf",
+      "solutions": "solutions/T25-solutions.pdf"
+    },
+    {
+      "code": "T25.3",
+      "set": "T25",
+      "number": 3,
+      "task_id": "M-2025-2026-tat-10.3",
+      "topic": "Алгебра",
+      "focus": "Рекуррентное среднее, натуральность",
+      "conditions": "thematic/T25-tasks.pdf",
+      "solutions": "solutions/T25-solutions.pdf"
+    },
+    {
+      "code": "N25.5",
+      "set": "N25",
+      "number": 5,
+      "task_id": "M-2025-2026-novosb-10.5",
+      "topic": "Комбинаторика",
+      "focus": "Граф дружбы, поиск контрпримера",
+      "conditions": "thematic/N25-tasks.pdf",
+      "solutions": "solutions/N25-solutions.pdf"
+    },
+    {
+      "code": "T24.3",
+      "set": "T24",
+      "number": 3,
+      "task_id": "M-2024-2025-tat-10.3",
+      "topic": "Комбинаторика",
+      "focus": "Связность графов с рёбрами трёх цветов",
+      "conditions": "thematic/T24-tasks.pdf",
+      "solutions": "solutions/T24-solutions.pdf"
+    },
+    {
+      "code": "T25.4",
+      "set": "T25",
+      "number": 4,
+      "task_id": "M-2025-2026-tat-10.4",
+      "topic": "Комбинаторика",
+      "focus": "Двойной подсчёт одноцветных троек",
+      "conditions": "thematic/T25-tasks.pdf",
+      "solutions": "solutions/T25-solutions.pdf"
+    },
+    {
+      "code": "M25.5",
+      "set": "M25",
+      "number": 5,
+      "task_id": "M-2025-2026-mosobl-10.5",
+      "topic": "Комбинаторика",
+      "focus": "Циклические произведения и нечётность",
+      "conditions": "thematic/M25-tasks.pdf",
+      "solutions": "solutions/M25-solutions.pdf"
+    },
+    {
+      "code": "N25.2",
+      "set": "N25",
+      "number": 2,
+      "task_id": "M-2025-2026-novosb-10.2",
+      "topic": "Геометрия",
+      "focus": "Радиусы и углы; уже была в классе 24 октября",
+      "conditions": "thematic/N25-tasks.pdf",
+      "solutions": "solutions/N25-solutions.pdf"
+    },
+    {
+      "code": "T24.5",
+      "set": "T24",
+      "number": 5,
+      "task_id": "M-2024-2025-tat-10.5",
+      "topic": "Геометрия",
+      "focus": "Касание окружностей и углы",
+      "conditions": "thematic/T24-tasks.pdf",
+      "solutions": "solutions/T24-solutions.pdf"
+    },
+    {
+      "code": "T25.5",
+      "set": "T25",
+      "number": 5,
+      "task_id": "M-2025-2026-tat-10.5",
+      "topic": "Геометрия",
+      "focus": "Секущие и степень точки",
+      "conditions": "thematic/T25-tasks.pdf",
+      "solutions": "solutions/T25-solutions.pdf"
+    },
+    {
+      "code": "M25.4",
+      "set": "M25",
+      "number": 4,
+      "task_id": "M-2025-2026-mosobl-10.4",
+      "topic": "Геометрия",
+      "focus": "Вписанный четырёхугольник, сумма углов",
+      "conditions": "thematic/M25-tasks.pdf",
+      "solutions": "solutions/M25-solutions.pdf"
+    }
+  ],
+  "files": [
+    {
+      "file": "variants/01-moscow-2024.pdf",
+      "document_id": "eb9c61b35c453e",
+      "original_sha256": "14c9aebf436d3303d0f1a47a685497d4f41703880aaf3219619fc9075bef1693",
+      "sha256": "14c9aebf436d3303d0f1a47a685497d4f41703880aaf3219619fc9075bef1693",
+      "pages_selected": "all",
+      "source_url": "https://всош.цпм.рф/upload/files/Arhive_tasks/2024-25/mun/math/tasks-math-10-mun-msk-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/moscow/eb9c61b35c453e_tasks-math-10-mun-msk-24-25.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/01-moscow-2024.pdf",
+      "document_id": "49846121226ccf",
+      "original_sha256": "3ebfe0d3270d0e95d634555851e9de12073b710c9467a7304dfed258bfc76ca3",
+      "sha256": "3ebfe0d3270d0e95d634555851e9de12073b710c9467a7304dfed258bfc76ca3",
+      "pages_selected": "all",
+      "source_url": "https://всош.цпм.рф/upload/files/Arhive_tasks/2024-25/mun/math/sol-math-10-mun-msk-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/moscow/49846121226ccf_sol-math-10-mun-msk-24-25.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "variants/02-moscow-2017.pdf",
+      "document_id": "3a73566fcceb20",
+      "original_sha256": "9a6dcca82485de882f302469bc3cfb57eb041b93f5f10af0cf7dff79a9e92f84",
+      "sha256": "e0ca918aa843841eac71423b1bb67fac2681bc26ec6f6f7392362774f35fa01d",
+      "pages_selected": [
+        4
+      ],
+      "source_url": "https://mmo.mccme.ru/2018/okrug/usl_7-11.pdf",
+      "original_path": "archive/vsosh/municipal/2017-2018/moscow/3a73566fcceb20_usl_7-11.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/02-moscow-2017.pdf",
+      "document_id": "d0e44aa3b38b1f",
+      "original_sha256": "a19b8bd40fcfe43e8ca14e754a393566c31387c84f5c02252e9cba117c395b4f",
+      "sha256": "a19b8bd40fcfe43e8ca14e754a393566c31387c84f5c02252e9cba117c395b4f",
+      "pages_selected": "all",
+      "source_url": "https://mmo.mccme.ru/2018/okrug/Resh_10.pdf",
+      "original_path": "archive/vsosh/municipal/2017-2018/moscow/d0e44aa3b38b1f_Resh_10.pdf",
+      "role": "combined"
+    },
+    {
+      "file": "variants/03-moscow-2018.pdf",
+      "document_id": "beb463a8e308ee",
+      "original_sha256": "3c2a381c422937508cdfe9e234d8c145008ed55a35e4bde411bc905a1382e0b7",
+      "sha256": "f07a6fe163e522670149fd306ab30c5dc87741d643607c4464c47ff8e51be287",
+      "pages_selected": [
+        4
+      ],
+      "source_url": "https://mmo.mccme.ru/2019/okrug/usl_7-11.pdf",
+      "original_path": "archive/vsosh/municipal/2018-2019/moscow/beb463a8e308ee_usl_7-11.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/03-moscow-2018.pdf",
+      "document_id": "ab486a73205f6a",
+      "original_sha256": "42677515bea1b5c7c08e2a4910ae1b3f512b9e30e13ef7e0fa43594d77f742f4",
+      "sha256": "42677515bea1b5c7c08e2a4910ae1b3f512b9e30e13ef7e0fa43594d77f742f4",
+      "pages_selected": "all",
+      "source_url": "https://mmo.mccme.ru/2019/okrug/Resh_10.pdf",
+      "original_path": "archive/vsosh/municipal/2018-2019/moscow/ab486a73205f6a_Resh_10.pdf",
+      "role": "combined"
+    },
+    {
+      "file": "variants/04-moscow-2019.pdf",
+      "document_id": "b2a79c7cc7a32a",
+      "original_sha256": "13d0582b9edecad5c25aa4a4a16065186ad56c7f74144079692d6e80cd7bf634",
+      "sha256": "119f87e1b67fb0414a3039e98600c66809ca9f45062f541ca5be343093cb087c",
+      "pages_selected": [
+        4
+      ],
+      "source_url": "https://mmo.mccme.ru/2020/okrug/usl_7-11.pdf",
+      "original_path": "archive/vsosh/municipal/2019-2020/moscow/b2a79c7cc7a32a_usl_7-11.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/04-moscow-2019.pdf",
+      "document_id": "8c54a3d3b31b2f",
+      "original_sha256": "926a5be78f0661097a973619cd8f731ef37e0128c40a7650a70ff26c29c86197",
+      "sha256": "926a5be78f0661097a973619cd8f731ef37e0128c40a7650a70ff26c29c86197",
+      "pages_selected": "all",
+      "source_url": "https://mmo.mccme.ru/2020/okrug/Resh_10.pdf",
+      "original_path": "archive/vsosh/municipal/2019-2020/moscow/8c54a3d3b31b2f_Resh_10.pdf",
+      "role": "combined"
+    },
+    {
+      "file": "extras/moscow-2025-all-versions.pdf",
+      "document_id": "94392112e6cd2e",
+      "original_sha256": "e4f5028668a3cd9d0b363ac4e82ac36132517f7221e2ff20730bee5884efd6f3",
+      "sha256": "e4f5028668a3cd9d0b363ac4e82ac36132517f7221e2ff20730bee5884efd6f3",
+      "pages_selected": "all",
+      "source_url": "https://всош.цпм.рф/upload/files/Arhive_tasks/2025-26/mun/math/tasks-math-10-mun-msk-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/moscow/94392112e6cd2e_tasks-math-10-mun-msk-25-26.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/05-moscow-2025.pdf",
+      "document_id": "c388f0c06d0c45",
+      "original_sha256": "867de9e7241031b654bb48538a9525cceefee87e2d393d5d0a324bc2c95542e5",
+      "sha256": "867de9e7241031b654bb48538a9525cceefee87e2d393d5d0a324bc2c95542e5",
+      "pages_selected": "all",
+      "source_url": "https://всош.цпм.рф/upload/files/Arhive_tasks/2025-26/mun/math/sol-math-10-mun-msk-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/moscow/c388f0c06d0c45_sol-math-10-mun-msk-25-26.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "variants/06-novosibirsk-2024.pdf",
+      "document_id": "d427c04db7f103",
+      "original_sha256": "dca35afbf30d399c73a2e7e4d3cb3d003b51fb7d92f244e23e629d115c338d94",
+      "sha256": "dca35afbf30d399c73a2e7e4d3cb3d003b51fb7d92f244e23e629d115c338d94",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/tasks-math-10-mun-novosb-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/novosb/d427c04db7f103_tasks-math-10-mun-novosb-24-25.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/06-novosibirsk-2024.pdf",
+      "document_id": "8d3efff403d159",
+      "original_sha256": "51cf9ef208b34f46cab045bfd79448f91d0816460cfd754f4b40476a3b95e109",
+      "sha256": "51cf9ef208b34f46cab045bfd79448f91d0816460cfd754f4b40476a3b95e109",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/sol-math-10-mun-novosb-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/novosb/8d3efff403d159_sol-math-10-mun-novosb-24-25.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "variants/07-moscow-region-2024.pdf",
+      "document_id": "ac970f5e81a420",
+      "original_sha256": "67809f72c452125d4662d964918b40be0098cf347afe7bc17d083812f756b01d",
+      "sha256": "67809f72c452125d4662d964918b40be0098cf347afe7bc17d083812f756b01d",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/tasks-math-10-mun-mosobl-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/mosobl/ac970f5e81a420_tasks-math-10-mun-mosobl-24-25.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/07-moscow-region-2024.pdf",
+      "document_id": "02359b3750aa4d",
+      "original_sha256": "b0ae8fc1608937ebb82cc6b93607fe88249032f8bbc67b08dd43bebda7a975ae",
+      "sha256": "b0ae8fc1608937ebb82cc6b93607fe88249032f8bbc67b08dd43bebda7a975ae",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/sol-math-10-mun-mosobl-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/mosobl/02359b3750aa4d_sol-math-10-mun-mosobl-24-25.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "thematic/N25-tasks.pdf",
+      "document_id": "ddb605889fec6c",
+      "original_sha256": "509cf4c742685bcfbd1fd0c1c1cff60e6271834886bf1c7a17154cdb7d0630dd",
+      "sha256": "509cf4c742685bcfbd1fd0c1c1cff60e6271834886bf1c7a17154cdb7d0630dd",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/tasks-math-10-mun-novosb-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/novosb/ddb605889fec6c_tasks-math-10-mun-novosb-25-26.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/N25-solutions.pdf",
+      "document_id": "600740200a1292",
+      "original_sha256": "28818f30ac3aad9805b34f7258fefcb00dddbfc5550900408a469440d6344027",
+      "sha256": "28818f30ac3aad9805b34f7258fefcb00dddbfc5550900408a469440d6344027",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/sol-math-10-mun-novosb-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/novosb/600740200a1292_sol-math-10-mun-novosb-25-26.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "thematic/T24-tasks.pdf",
+      "document_id": "ea0fc8d08667ac",
+      "original_sha256": "c9ca8da9fb049470a57bc609f4c03991dde8cb504d29f64b076d4e75fc22a288",
+      "sha256": "c9ca8da9fb049470a57bc609f4c03991dde8cb504d29f64b076d4e75fc22a288",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/tasks-math-10-mun-tat-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/tat/ea0fc8d08667ac_tasks-math-10-mun-tat-24-25.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/T24-solutions.pdf",
+      "document_id": "959487b69c5dcf",
+      "original_sha256": "1a9accbf6e13e1b35c62b7a96c87a9643d8c0b224198b2266f3f9b501527ab0a",
+      "sha256": "1a9accbf6e13e1b35c62b7a96c87a9643d8c0b224198b2266f3f9b501527ab0a",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2024/sol-math-10-mun-tat-24-25.pdf",
+      "original_path": "archive/vsosh/municipal/2024-2025/tat/959487b69c5dcf_sol-math-10-mun-tat-24-25.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "thematic/M25-tasks.pdf",
+      "document_id": "3328ca6a83c8ba",
+      "original_sha256": "b862896289b703eadfb4d051149b78e2f2c292a673c36ff51e1c3d2d54f9e912",
+      "sha256": "b862896289b703eadfb4d051149b78e2f2c292a673c36ff51e1c3d2d54f9e912",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/tasks-math-10-mun-mosobl-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/mosobl/3328ca6a83c8ba_tasks-math-10-mun-mosobl-25-26.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/M25-solutions.pdf",
+      "document_id": "b23156c65de254",
+      "original_sha256": "6514f19068c88792f8c47e1ae016548c2062865f39125ce9a01a6914b9cb06f9",
+      "sha256": "6514f19068c88792f8c47e1ae016548c2062865f39125ce9a01a6914b9cb06f9",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/sol-math-10-mun-mosobl-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/mosobl/b23156c65de254_sol-math-10-mun-mosobl-25-26.pdf",
+      "role": "solutions"
+    },
+    {
+      "file": "thematic/T25-tasks.pdf",
+      "document_id": "b39da1898b98f5",
+      "original_sha256": "15d86b8761cbfdd3b8de23f99584df027133b8007d4d18155f0d4b2e2ca603e5",
+      "sha256": "15d86b8761cbfdd3b8de23f99584df027133b8007d4d18155f0d4b2e2ca603e5",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/tasks-math-10-mun-tat-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/tat/b39da1898b98f5_tasks-math-10-mun-tat-25-26.pdf",
+      "role": "tasks"
+    },
+    {
+      "file": "solutions/T25-solutions.pdf",
+      "document_id": "2f1f43acea4e78",
+      "original_sha256": "be29b6e7ce26aa256d690efb71e61e0e96033e3d956a072e1714d2da8e766d74",
+      "sha256": "be29b6e7ce26aa256d690efb71e61e0e96033e3d956a072e1714d2da8e766d74",
+      "pages_selected": "all",
+      "source_url": "https://tasks.olimpiada.ru/upload/files/tasks/72/2025/sol-math-10-mun-tat-25-26.pdf",
+      "original_path": "archive/vsosh/municipal/2025-2026/tat/2f1f43acea4e78_sol-math-10-mun-tat-25-26.pdf",
+      "role": "solutions"
+    }
+  ],
+  "versions_note": "The 2025 source contains four versions per task; these are not four independent official full variants."
+}
