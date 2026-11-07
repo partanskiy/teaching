@@ -1,5 +1,6 @@
 {
-  "updated_on": "2026-10-03",
+  "updated_on": "2026-11-07",
+  "latest_prepared_session": "2026-10-31",
   "first_regular_session": "2026-10-03",
   "last_regular_saturday": "2027-05-22",
   "school_year_ends_on": "2027-05-28",
@@ -16,7 +17,7 @@
   "mathematical_battle_saturdays_estimate": 5,
   "mathematical_battle_dates": [],
   "other_cancelled_dates": [],
-  "completed_regular_sessions": [],
+  "completed_regular_sessions": ["2026-10-03", "2026-10-17", "2026-10-24"],
   "prior_events": [
     {"event": "entrance_contest", "date": null, "duration_minutes": null, "completed": true},
     {"event": "entrance_contest_review", "date": null, "duration_minutes": null, "completed": true}
@@ -28,13 +29,13 @@
     {"event": "mosh_math", "region": "Москва", "modules": [22, 23, 24, 25, 26]}
   ],
   "slots": [
-    {"date": "2026-10-03", "module": 3, "priority": "core", "status": "ready", "session_file": "course/sessions/2026-10-03/session.json"},
-    {"date": "2026-10-17", "module": 2, "priority": "core", "status": "proposed"},
-    {"date": "2026-10-24", "module": 4, "priority": "core", "status": "proposed"},
-    {"date": "2026-10-31", "module": 5, "priority": "core", "status": "proposed"},
-    {"date": "2026-11-07", "module": 6, "priority": "core", "status": "proposed"},
-    {"date": "2026-11-14", "module": 11, "priority": "milestone", "status": "proposed"},
-    {"date": "2026-11-28", "module": 9, "priority": "core", "status": "proposed"},
+    {"date": "2026-10-03", "module": 3, "priority": "core", "status": "held", "session_file": "course/sessions/2026-10-03/session.json"},
+    {"date": "2026-10-17", "module": 2, "priority": "core", "status": "held", "session_file": "course/sessions/2026-10-17/session.json"},
+    {"date": "2026-10-24", "module": 4, "priority": "core", "status": "held", "session_file": "course/sessions/2026-10-24/session.json"},
+    {"date": "2026-10-31", "module": 6, "priority": "core", "status": "ready", "route_file": "course/sessions/2026-10-31/plan.json"},
+    {"date": "2026-11-07", "module": 5, "priority": "core", "status": "proposed"},
+    {"date": "2026-11-14", "module": 9, "priority": "core", "status": "proposed"},
+    {"date": "2026-11-28", "module": 11, "priority": "milestone", "status": "proposed"},
     {"date": "2026-12-05", "module": 10, "priority": "core", "status": "proposed"},
     {"date": "2026-12-12", "module": 8, "priority": "core", "status": "proposed"},
     {"date": "2026-12-19", "module": 13, "priority": "buffer", "status": "proposed"},
