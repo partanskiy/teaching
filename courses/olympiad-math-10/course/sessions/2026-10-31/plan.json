@@ -1,0 +1,19 @@
+{
+  "kind": "continuation_of_existing_handouts",
+  "date": "2026-10-31",
+  "title": "Делимость и оценки. Продолжение геометрии",
+  "minutes": 90,
+  "status": "prepared_not_yet_reported_held",
+  "programme_modules": [2, 4, 6, 8, 13, 15, 20, 24],
+  "handouts": [
+    {"code": "A", "manifest": "../2026-10-17/advanced.json", "pdf": "../2026-10-17/advanced.pdf", "available_numbers": [1,2,3,4,5,6,7,8,9,10]},
+    {"code": "G", "manifest": "../2026-10-24/session.json", "pdf": "../2026-10-24/student.pdf", "available_numbers": [5,6,7,8,9,10]}
+  ],
+  "priority_order": ["A1", "G10", "A5", "G7", "A2", "G9", "A4", "G5", "A7", "G6"],
+  "required_challenge_tasks": ["G10", "A5"],
+  "next_if_time": ["G8", "A3"],
+  "longer_follow_up": ["A6", "A8", "A9", "A10"],
+  "time_policy": "A ten-task working queue using the two existing handouts; continue in this order with independent attempts. Do not impose the earlier four-task cap or automatically assign the remaining six as homework.",
+  "time_protection": "G10 and A5 appear early in the full ten-task queue. No new student handout is needed.",
+  "progress_basis": "On 2026-10-24 only geometry problems 1-4 were solved; advanced was previously touched only briefly. Priorities are flexible, not a promise that all selected problems will be solved."
+}
